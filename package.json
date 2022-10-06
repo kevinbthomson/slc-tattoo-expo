@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:eleventy": "npx @11ty/eleventy",
+    "build:sass": "sass src/sass:public/css",
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "sass --watch src/sass:public/css",
-    "start": "npm-run-all --parallel watch:*"
+    "start": "npm-run-all --parallel watch:*",
+    "build": "npm-run-all --parallel build:*"
   },
   "keywords": [],
   "author": "@kevinbthomson",
