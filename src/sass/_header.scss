@@ -1,0 +1,31 @@
+header {
+  align-items: center;
+  border-bottom: 10px solid var(--blue);
+  box-sizing: border-box;
+
+  background-color: var(--primary-color);
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+nav {
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    li {
+      a {
+        color: var(--white);
+      }
+    }
+  }
+}

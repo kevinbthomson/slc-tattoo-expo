@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #51081b;
+  --primary-color-light: #730220;
+  --blue: #3bacf5;
+  --yellow: #f4a708;
+  --white: #ffffff;
+  --black: #000000;
+  --gray-40: rgba(var(--black), 40);
+  --gray-10: rgba(var(--black), 10);
+  --font-body: "Roboto Condensed", sans-serif;
+  --font-logo: "Roboto Slab", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  font-family: var(--font-body);
+}
+
+.site-layout {
+  display: grid;
+  grid-template-rows: 120px 1fr 220px;
+  min-height: 100vh;
+}
+
+.container {
+  margin-inline: auto;
+  width: 90vw;
+}
+
+header {
+  align-items: center;
+  border-bottom: 10px solid var(--blue);
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+header a {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav ul li a {
+  color: var(--white);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+/*# sourceMappingURL=styles.css.map */
