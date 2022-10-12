@@ -1,6 +1,8 @@
 ---
-name: Kevin Thomson
-tags: ['artist', 'featured']
-image: /assets/images/kevin.jpg
+name: Kevin B Thomson
 instagram: https://instagram.com/kevinbthomson
+image: /assets/images/kevin.jpg
+tags:
+  - artist
+  - featured
 ---
