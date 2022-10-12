@@ -5,7 +5,7 @@ media_folder: 'public/assets/images'
 public_folder: '/assets/images'
 collections:
   - name: 'artist'
-    title: 'Artist'
+    label: 'Artist'
     folder: 'src/artists'
     create: true
     slug: '{{slug}}'
