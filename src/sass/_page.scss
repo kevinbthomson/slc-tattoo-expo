@@ -1,0 +1,13 @@
+article {
+  header {
+    background-color: var(--gray-10);
+    display: flex;
+    align-items: center;
+    height: 300px;
+
+    h1 {
+      color: var(--primary-color);
+      // font-size: clamp();
+    }
+  }
+}

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salt Lake City Tattoo Expo - Artists</title>
 
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,13 +32,13 @@
         <a href="/">News</a>
       </li>
       <li>
-        <a href="/pages/artists">Artists</a>
+        <a href="/artists">Artists</a>
       </li>
       <li>
         <a href="/">Vendors</a>
       </li>
       <li>
-        <a href="/pages/what-to-expect">What to Expect</a>
+        <a href="/what-to-expect">What to Expect</a>
       </li>
     </ul>
   </nav>
@@ -55,8 +60,29 @@
       <h1>Artists</h1>
     </div>
   </header>
+
   <div class="container">
     
+<ul class="artists-list"><li>
+  <article class="artist">
+    <img src="/assets/images/kevin.jpg" alt="" class="artist__image" />
+    <h3 class="artist__title">Kevin Thomson</h3>
+    <a class="artist__insta" href="https://instagram.com/kevinbthomson" target="_blank"
+      >Instagram</a
+    >
+  </article>
+</li>
+<li>
+  <article class="artist">
+    <img src="/assets/images/kevin.jpg" alt="" class="artist__image" />
+    <h3 class="artist__title">Thad Robison</h3>
+    <a class="artist__insta" href="https://instagram.com/" target="_blank"
+      >Instagram</a
+    >
+  </article>
+</li>
+</ul>
+
   </div>
 </article>
 
@@ -66,5 +92,17 @@
 </footer>
 
     </div>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

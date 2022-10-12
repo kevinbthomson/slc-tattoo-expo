@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salt Lake City Tattoo Expo - Artists</title>
+    <title>Salt Lake City Tattoo Expo - News</title>
+
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,13 +32,13 @@
         <a href="/">News</a>
       </li>
       <li>
-        <a href="/pages/artists">Artists</a>
+        <a href="/artists">Artists</a>
       </li>
       <li>
         <a href="/">Vendors</a>
       </li>
       <li>
-        <a href="/pages/what-to-expect">What to Expect</a>
+        <a href="/what-to-expect">What to Expect</a>
       </li>
     </ul>
   </nav>
@@ -52,11 +57,14 @@
 <article>
   <header>
     <div class="container">
-      <h1>Artists</h1>
+      <h1>News</h1>
     </div>
   </header>
+
   <div class="container">
     
+<ul class="posts-list"></ul>
+
   </div>
 </article>
 
@@ -66,5 +74,17 @@
 </footer>
 
     </div>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

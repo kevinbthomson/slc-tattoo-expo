@@ -3,5 +3,13 @@ layout: layouts/base.njk
 ---
 
 <article>
-  {{ content | safe }}
+  <header>
+    <div class="container">
+      <h1>{{ title }}</h1>
+    </div>
+  </header>
+
+  <div class="container">
+    {{ content | safe }}
+  </div>
 </article>

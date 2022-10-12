@@ -1,0 +1,22 @@
+.artists-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+  gap: 1rem;
+}
+
+.artist {
+  box-shadow: 1px 3px 10px rgba(black, 0.2);
+
+  text-align: center;
+}
+.artist__image {
+  width: 100%;
+}
+.artist__title {
+  margin: 0;
+}
+.artist__insta {
+  margin-bottom: 0.5rem;
+}

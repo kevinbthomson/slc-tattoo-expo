@@ -1,0 +1,15 @@
+---
+title: News
+layout: 'layouts/page.njk'
+---
+
+<ul class="posts-list">
+  {%- for artist in collections.post -%}
+  <li>
+    <article class="post">
+      <h3 class="artist__title">{{ post.data.title }}</h3>
+      <p class="artist__content">{{ post.data.content }}</p>
+    </article>
+  </li>
+  {%- endfor -%}
+</ul>

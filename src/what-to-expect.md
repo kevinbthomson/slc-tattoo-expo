@@ -1,4 +1,7 @@
-# What to expect
+---
+title: What to expect
+layout: 'layouts/page.njk'
+---
 
 ## How to plan
 
