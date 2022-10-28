@@ -117,7 +117,12 @@ main {
 
 .container {
   margin-inline: auto;
-  width: min(1200px, 86vw);
+  width: min(1200px, 86dvw);
+}
+@media (min-width: 992px) {
+  .container {
+    width: min(1400px, 86vw);
+  }
 }
 
 h1,
@@ -373,6 +378,11 @@ footer .nav-container {
 footer nav ul {
   list-style: none;
   padding: 0;
+}
+
+.page-article .container {
+  margin-inline: auto;
+  width: min(1100px, 86dvw);
 }
 
 .home-grid {
