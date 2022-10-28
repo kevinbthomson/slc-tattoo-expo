@@ -1,7 +1,9 @@
 ---
-name: Kevin Thomson
-tags: ['artist', 'featured']
-image: /assets/images/artists/kevin.jpg
+name: Kevin B Thomson
 instagram: https://instagram.com/kevinbthomson
+image: /assets/images/kevin.jpg
 shop: Lost Art Tattoo
+tags:
+  - artist
+  - featured
 ---
