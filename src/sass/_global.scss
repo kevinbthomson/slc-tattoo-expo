@@ -8,11 +8,20 @@
 
   --gray-10: rgba(0, 0, 0, 0.1);
   --gray-20: rgba(0, 0, 0, 0.2);
+  --gray-30: rgba(0, 0, 0, 0.3);
   --gray-40: rgba(0, 0, 0, 0.4);
+  --gray-50: rgba(0, 0, 0, 0.5);
+  --gray-60: rgba(0, 0, 0, 0.6);
+  --gray-80: rgba(0, 0, 0, 0.8);
 
   --font-body: 'Roboto Condensed', sans-serif;
   --font-heading: 'Roboto Slab', serif;
 }
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 992px;
 
 html {
   font-size: 16px;
@@ -24,18 +33,24 @@ body {
   background-color: var(--white);
   font-family: var(--font-body);
   font-weight: 400;
+  line-height: 1.6;
+
+  &[data-mobile-nav-open='true'] {
+    overflow: hidden;
+  }
 }
 
 .site-layout {
   display: grid;
-  grid-template-rows: 120px 1fr 220px;
+  grid-template-rows: 1fr 240px;
   min-height: 100vh;
 }
 
 main {
+  border-top: 120px solid black;
 }
 
 .container {
   margin-inline: auto;
-  width: min(1000px, 80vw);
+  width: min(1200px, 86vw);
 }

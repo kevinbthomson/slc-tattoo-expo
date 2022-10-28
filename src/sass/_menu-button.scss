@@ -1,0 +1,56 @@
+button[data-toggle='main-nav'] {
+  align-items: center;
+  appearance: none;
+  background-color: rgba(black, 0.5);
+  border-radius: 0;
+  border: none;
+  bottom: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 2.5rem;
+  justify-content: space-around;
+  left: 2rem;
+  position: fixed;
+  transform: scale(1);
+  transition: all 0.4s ease;
+  width: 3rem;
+  z-index: 1000;
+
+  &:hover {
+    background-color: rgba(black, 0.75);
+  }
+
+  &:active {
+    background-color: black;
+    transform: scale(1.125);
+  }
+
+  span,
+  &::before,
+  &::after {
+    display: block;
+    background-color: white;
+    height: 4px;
+    width: 2rem;
+  }
+
+  span {
+    text-indent: -100%;
+    overflow: hidden;
+  }
+
+  &::before {
+    content: '';
+    margin-top: 0.25rem;
+  }
+
+  &::after {
+    content: '';
+    margin-bottom: 0.25rem;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    display: none;
+  }
+}
