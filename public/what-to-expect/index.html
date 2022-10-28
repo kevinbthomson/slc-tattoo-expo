@@ -14,48 +14,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Roboto+Slab:wght@900&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
+  <body data-mobile-nav-open="false">
     <div class="site-layout">
       <header>
-  <nav aria-label="Main">
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/">News</a>
-      </li>
-      <li>
-        <a href="/artists">Artists</a>
-      </li>
-      <li>
-        <a href="/">Vendors</a>
-      </li>
-      <li>
-        <a href="/what-to-expect">What to Expect</a>
-      </li>
-    </ul>
-  </nav>
-  <a href="/">Salt Lake City Tattoo Expo</a>
-  <nav aria-label="Secondary">
-    <ul>
-      <li><a href="#">24tix.com</a></li>
-      <li><a href="#">Email Signup</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <a href="/" title="Home">
+      <img
+        src="/assets/images/header-logo.png"
+        alt="Salt Lake City Tattoo Expo"
+      />
+    </a>
+    <nav aria-label="Main" data-mobile-nav-open="false">
+  <ul>
+    <li>
+      <a href="/news">News</a>
+    </li>
+    <li>
+      <a href="/artists">Artists</a>
+    </li>
+    <li>
+      <a href="/vendors">Vendors</a>
+    </li>
+    <li>
+      <a href="/what-to-expect">What to Expect</a>
+    </li>
+  </ul>
+</nav>
+ <nav aria-label="Secondary">
+  <ul>
+    <li>
+      <a href="#" class="icon-link ticket" title="get Tickets"
+        >Tickets 24tix.com</a
+      >
+    </li>
+    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
+    <li>
+      <a
+        href="https://instagram.com/slctattooexpo"
+        class="icon-link instagram"
+        title="Instagram"
+        target="_blank"
+        >Instagram</a
+      >
+    </li>
+  </ul>
+</nav>
+
+  </div>
+
+  <button type="button" data-toggle="main-nav">
+    <span>Menu</span>
+  </button>
 </header>
 
       <main tabindex="-1" id="main-content">
         
-<article>
-  <header>
+<article class="page-article">
+  <header class="hero-banner">
     <div class="container">
       <h1>What to expect</h1>
     </div>
@@ -65,27 +86,74 @@
     <h2>How to plan</h2>
 <p>It is important for you to plan ahead if you are looking to get a tattoo at the expo. The artist we have invited are highly sought after and their schedules will fill up quickly.</p>
 <p>If you are attending just to look, or are on the fence about getting a tattoo there will be plenty of professionals who can help you in your decision making. If you are not planning on getting a tattoo we have a great line up of art vendors attending as well.</p>
-<h2>FAQ</h2>
-<p>Q -Can I bring my kids?
-A- Yes! We strive to offer a family friendly environment but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth. No Exceptions! We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists.</p>
-<p>Q- How do I set up and appointment with an artist?
-A – Go to our Artists link and find the artists you are looking to schedule with. You can click on their profile to go directly to their website, Instagram or email. From there you can get in contact directly with your artists to schedule your time with them at the Expo.</p>
-<p>Q – Do you accept Credit Cards at the door?
-A – No. Tickets can be purchased in advance (follow link) or cash only at the door.</p>
-<p>Q – Do the tattoo artists accept Credit Cards?
-A – Cash is King, Venmo is Queen.</p>
-<p>Q – Will there be ATM’s at the Expo?
-A – Yes, we will have several ATM’s for you to get cash, but plan ahead. ATM’s have cash withdraw limits. (Typically $300 max) If you’re paying cash to your artist, please be sure you bring what you need in advance. And don’t forget that tip!</p>
-<p>Q – Will food and concessions be available at the Expo?
-A – Yes, there will be multiple food choices as well as Beer Vendors. Valid state ID will be required to purchase Beer. (21+)</p>
-<p>NO MOTORCYCLE CLUBS OR COLORS</p>
+<h2>Frequently Asked Questions</h2>
+<h4>👶 Can I bring my kids?</h4>
+<p>Yes! We strive to offer a family friendly environment, but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth; <em>no exceptions</em>. We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists.</p>
+<h4>⏰ How do I set up and appointment with an artist?</h4>
+<p>Go to our <a href="/artists/">Artists page</a> and find the artists you are looking to schedule with. You can click on their profile to go directly to their website, Instagram or email. From there you can get in contact directly with your artists to schedule your time with them at the Expo.</p>
+<h4>💳 Do you accept Credit Cards at the door?</h4>
+<p><strong>No</strong>. Tickets can be purchased in advance at <a href="http://24tix.com">24tix.com</a> or cash only at the door.</p>
+<h4>Do the tattoo artists accept Credit Cards?</h4>
+<p>💵 Cash is King, 📱 Venmo is Queen.</p>
+<h4>🏧 Will there be ATM’s at the Expo?</h4>
+<p><strong>Yes</strong>, we will have several ATM’s for you to get cash, but plan ahead. ATM’s have cash withdraw limits. (Typically $300 max) If you’re paying cash to your artist, please be sure you bring what you need in advance. <em>And don’t forget that tip!</em></p>
+<h4>🍕 Will food and concessions be available at the Expo?</h4>
+<p><strong>Yes</strong>, there will be multiple food choices as well as Beer Vendors. Valid state ID will be required to purchase Beer. (21+)</p>
+<h4>NO MOTORCYCLE CLUBS OR COLORS</h4>
 
   </div>
 </article>
 
       </main>
       <footer class="site-footer">
-  @copyright 2022 slctattooexpo.com
+  <div class="container nav-container">
+    <p>
+      Salt Palace Convention Center - Hall 5 (West Side) 2023 Get your Ticket
+      @24tix.com
+    </p>
+
+    <p>Friday March 17th,
+  3pm - 11pm<br />Saturday March 18th,
+  12pm - 11pm<br />Sunday March 19th,
+  12pm - 8pm</p>
+ <nav aria-label="Main" data-mobile-nav-open="false">
+  <ul>
+    <li>
+      <a href="/news">News</a>
+    </li>
+    <li>
+      <a href="/artists">Artists</a>
+    </li>
+    <li>
+      <a href="/vendors">Vendors</a>
+    </li>
+    <li>
+      <a href="/what-to-expect">What to Expect</a>
+    </li>
+  </ul>
+</nav>
+ <nav aria-label="Secondary">
+  <ul>
+    <li>
+      <a href="#" class="icon-link ticket" title="get Tickets"
+        >Tickets 24tix.com</a
+      >
+    </li>
+    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
+    <li>
+      <a
+        href="https://instagram.com/slctattooexpo"
+        class="icon-link instagram"
+        title="Instagram"
+        target="_blank"
+        >Instagram</a
+      >
+    </li>
+  </ul>
+</nav>
+
+  </div>
+  <p class="text-center">@copyright 2022 slctattooexpo.com</p>
 </footer>
 
     </div>
@@ -101,5 +169,7 @@ A – Yes, there will be multiple food choices as well as Beer Vendors. Valid st
         });
       }
     </script>
+
+    <script src="/js/bundle.js"></script>
   </body>
 </html>

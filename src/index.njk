@@ -4,30 +4,52 @@ title: Salt Lake City Tattoo Expo
 ---
 
 <article>
-  <div class="container">
-    <h1>{{ title }}</h1>
+  <header class="hero-banner">
+    <div class="container">
+      <h1>{{ title }}</h1>
+    </div>
+  </header>
 
-    <section>
-      DATES & TIMES Friday March 10th 3pm - 11pm Saturday March 11th 12pm - 11pm
-      Sunday March 12th 12pm - 8pm
+  <div class="container home-grid">
+    <section class="section section-dates">
+      <div class="section-container">
+        <h2>2023</h2>
+        <p>
+          March {{ slctattoo.dates[0].date }} -
+          {{ slctattoo.dates[slctattoo.dates.length - 1].date }}
+        </p>
+        <p>Salt Palace Convention Center</p>
+      </div>
     </section>
 
-    <section>
-      TICKETS $30 day or $70 for the weekend Tickets can be purchased online in
-      advance. Cash only at the door.
+    <section class="section section-tickets">
+      <div class="section-container">
+        <a href="https://24tix.com" class="ticket-button" title="24tix.com"
+          >Get Your <em>Ticket</em></a
+        >
+
+        <p class="text-center">
+          $30 per day or $70 for the weekend<br />
+          Tickets can be purchased online in advance.<br />
+          Cash only at the door.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <p>
-        The Salt Lake City International Tattoo Expo is THE premier tattoo expo
-        in the western US as well as one of the most prestigious in the country.
-        Hosting over 150 of the most talented tattoo artists from around the
-        globe as well as artists and vendors. All styles of tattooing will be
-        featured. Whether it be American Traditional, Black and Gray, Fine Line,
-        Realism, Japanese, we will be showcasing a lineup of the best tattoo
-        artists from Utah, the US and around the world in a safe, clean and
-        family friendly environment.
-      </p>
+    <section class="section section-about">
+      <div class="section-container">
+        <h2>{{ title }}</h2>
+        <p>
+          The Salt Lake City International Tattoo Expo is THE premier tattoo
+          expo in the western US as well as one of the most prestigious in the
+          country. Hosting over 150 of the most talented tattoo artists from
+          around the globe as well as artists and vendors. All styles of
+          tattooing will be featured. Whether it be American Traditional, Black
+          and Gray, Fine Line, Realism, Japanese, we will be showcasing a lineup
+          of the best tattoo artists from Utah, the US and around the world in a
+          safe, clean and family friendly environment.
+        </p>
+      </div>
     </section>
   </div>
 </article>

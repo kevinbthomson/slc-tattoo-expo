@@ -1,0 +1,6 @@
+<p>
+  {%- for day in slctattoo.dates -%} {{ day.day }} March {{ day.date }},
+  {{ day.times }}
+  {%- if loop.index !== slctattoo.dates.length -%}<br />{%- endif -%} {%- endfor
+  -%}
+</p>

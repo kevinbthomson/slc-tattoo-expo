@@ -5,12 +5,18 @@ media_folder: 'public/assets/images'
 public_folder: '/assets/images'
 collections:
   - name: 'artist'
-    title: 'Artist'
+    label: 'Artist'
     folder: 'src/artists'
     create: true
     slug: '{{slug}}'
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Instagram', name: 'instagram', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
+          label: 'Instagram',
+          name: 'instagram',
+          widget: 'string',
+          required: false,
+        }
+      - { label: 'Shop Name', name: 'shop', widget: 'string', required: false }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['artist'] }

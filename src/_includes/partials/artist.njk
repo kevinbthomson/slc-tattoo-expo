@@ -1,9 +1,18 @@
 <li>
   <article class="artist">
+    {% if artist.data.image %}
     <img src="{{ artist.data.image }}" alt="" class="artist__image" />
+    {% endif %}
     <h3 class="artist__title">{{ artist.data.name }}</h3>
-    <a class="artist__insta" href="{{ artist.data.instagram }}" target="_blank"
+    {% if artist.data.instagram %}
+    <a
+      class="artist__insta icon-link instagram"
+      href="{{ artist.data.instagram }}"
+      target="_blank"
       >Instagram</a
     >
+    {% endif %} {% if artist.data.shop %}
+    <p>{{ artist.data.shop }}</p>
+    {% endif %}
   </article>
 </li>
