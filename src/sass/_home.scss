@@ -24,22 +24,39 @@
       text-transform: uppercase;
 
       h2 {
-        font-size: 9rem;
+        font-size: clamp(6rem, 12vw, 9rem);
+        font-weight: 900;
         color: var(--gray-40);
         margin: 0;
+        line-height: 0.825;
       }
+
       p {
         margin: 0;
+        line-height: 1;
 
         &:first-of-type {
           color: black;
-          font-size: 6rem;
+          font-size: clamp(3rem, 10vw, 4rem);
+          font-weight: 700;
+
+          span {
+            color: var(--primary-color);
+          }
         }
 
         &:last-of-type {
-          color: var(--gray-70);
+          font-weight: 700;
+          color: var(--gray-50);
           font-size: 2rem;
+          line-height: 0.825;
         }
+      }
+
+      .section-container {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2rem;
       }
     }
 

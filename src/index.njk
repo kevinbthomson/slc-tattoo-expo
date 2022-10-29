@@ -15,8 +15,11 @@ title: Salt Lake City Tattoo Expo
       <div class="section-container">
         <h2>2023</h2>
         <p>
-          March {{ slctattoo.dates[0].date }} -
-          {{ slctattoo.dates[slctattoo.dates.length - 1].date }}
+          March
+          <span
+            >{{ slctattoo.dates[0].date }} -
+            {{ slctattoo.dates[slctattoo.dates.length - 1].date }}</span
+          >
         </p>
         <p>Salt Palace Convention Center</p>
       </div>
@@ -38,7 +41,6 @@ title: Salt Lake City Tattoo Expo
 
     <section class="section section-about">
       <div class="section-container">
-        <h2>{{ title }}</h2>
         <p>
           The Salt Lake City International Tattoo Expo is THE premier tattoo
           expo in the western US as well as one of the most prestigious in the

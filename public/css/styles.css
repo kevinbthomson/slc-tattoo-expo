@@ -408,20 +408,34 @@ footer nav ul {
   text-transform: uppercase;
 }
 .home-grid .section-dates h2 {
-  font-size: 9rem;
+  font-size: clamp(6rem, 12vw, 9rem);
+  font-weight: 900;
   color: var(--gray-40);
   margin: 0;
+  line-height: 0.825;
 }
 .home-grid .section-dates p {
   margin: 0;
+  line-height: 1;
 }
 .home-grid .section-dates p:first-of-type {
   color: black;
-  font-size: 6rem;
+  font-size: clamp(3rem, 10vw, 4rem);
+  font-weight: 700;
+}
+.home-grid .section-dates p:first-of-type span {
+  color: var(--primary-color);
 }
 .home-grid .section-dates p:last-of-type {
-  color: var(--gray-70);
+  font-weight: 700;
+  color: var(--gray-50);
   font-size: 2rem;
+  line-height: 0.825;
+}
+.home-grid .section-dates .section-container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2rem;
 }
 .home-grid .section-tickets {
   grid-area: tickets;
