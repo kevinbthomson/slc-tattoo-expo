@@ -1,6 +1,6 @@
 ---
 name: Kevin B Thomson
-instagram: https://instagram.com/kevinbthomson
+instagram: ""
 shop: Lost Art Tattoo
 image: ""
 tags:
