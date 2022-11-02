@@ -1,12 +1,24 @@
 <footer class="site-footer">
   <div class="container nav-container">
-    <p>
-      Salt Palace Convention Center - Hall 5 (West Side) 2023 Get your Ticket
-      @24tix.com
-    </p>
+    <section class="footer-info">
+      <h2>2023</h2>
+      <p>
+        <a href="https://goo.gl/maps/o6ZGi4Ux4DCG3HHZ6"
+          >Salt Palace Convention Center - Hall 5 (West Side)</a
+        ><br />
+        Across 300 West facing the Vivint Arena<br />
+        <a href="https://24tix.com" title="24tix.com"
+          >Get your Ticket @24tix.com</a
+        >
+      </p>
 
-    {% include "../partials/dates.njk" %} {% include "../partials/main-nav.njk"
-    %} {% include "../partials/secondary-nav.njk" %}
+      {% include "../partials/dates.njk" %}
+    </section>
+
+    <section class="footer-navigation">
+      {% include "../partials/main-nav.njk" %} {% include
+      "../partials/secondary-nav.njk" %}
+    </section>
   </div>
   <p class="text-center">@copyright {% currentYear %} slctattooexpo.com</p>
 </footer>

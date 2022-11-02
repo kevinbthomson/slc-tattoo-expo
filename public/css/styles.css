@@ -75,7 +75,7 @@ select {
   --primary-color: #51081b;
   --primary-color-light: #730220;
   --blue: #3bacf5;
-  --yellow: #f4a708;
+  --highlight-color: #f4a708;
   --white: #ffffff;
   --black: #000000;
   --gray-10: rgba(0, 0, 0, 0.1);
@@ -103,6 +103,10 @@ body {
 }
 body[data-mobile-nav-open=true] {
   overflow: hidden;
+}
+
+a {
+  color: var(--primary-color);
 }
 
 .site-layout {
@@ -209,6 +213,7 @@ body > div > header a {
 }
 body > div > header img[alt="Salt Lake City Tattoo Expo"] {
   height: 100px;
+  min-width: 100px;
 }
 body > div > header::before, body > div > header::after {
   font-family: var(--font-heading);
@@ -267,6 +272,7 @@ body > div > header nav ul {
   list-style: none;
 }
 body > div > header nav ul li {
+  line-height: 1;
   margin-block-end: 2rem;
 }
 body > div > header nav ul li a {
@@ -297,6 +303,11 @@ body > div > header nav ul li a {
   body > div > header nav ul li a {
     font-family: var(--font-body);
     font-size: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  body > div > header nav ul li:first-of-type {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
@@ -390,15 +401,57 @@ footer {
   color: var(--white);
 }
 footer a {
+  color: white;
   text-decoration: none;
+}
+footer h2 {
+  font-size: 6rem;
+  color: var(--primary-color-light);
+  margin-block-end: 0;
 }
 footer .nav-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  footer .nav-container {
+    flex-direction: row;
+  }
+}
+footer .footer-navigation {
+  margin-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 footer nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+footer nav ul li a {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  footer nav ul {
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+footer nav[aria-label=Secondary] ul {
+  justify-content: center;
+  flex-direction: row;
+  margin-block-end: 0;
+}
+@media (min-width: 768px) {
+  footer nav[aria-label=Secondary] ul {
+    justify-content: end;
+  }
 }
 
 .page-article .container {
@@ -522,6 +575,7 @@ footer nav ul {
   background-image: url("/assets/images/circle-logo-transparent.png");
   background-position: calc(100vw - 280px) 280px;
   background-repeat: no-repeat;
+  border-bottom: 1rem solid black;
   text-align: center;
 }
 .artist__image {
@@ -532,10 +586,15 @@ footer nav ul {
   margin-block: 0.5rem;
 }
 .artist__insta {
-  margin-block-end: 0.5rem;
+  margin-block-end: 0.25rem;
 }
 .artist__shop {
-  margin-block-end: 0.5rem;
+  margin: 0;
+  color: var(--highlight-color);
+  background-color: black;
+}
+.artist:has(.artist__shop) {
+  border: none;
 }
 
 .icon-link {
@@ -558,6 +617,9 @@ footer nav ul {
 }
 .icon-link.ticket {
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23fff"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"/%3E%3Cpath d="M22 10V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-2-1.46c-1.19.69-2 1.99-2 3.46s.81 2.77 2 3.46V18H4v-2.54c1.19-.69 2-1.99 2-3.46 0-1.48-.8-2.77-1.99-3.46L4 6h16v2.54zM9.07 16L12 14.12 14.93 16l-.89-3.36 2.69-2.2-3.47-.21L12 7l-1.27 3.22-3.47.21 2.69 2.2z"/%3E%3C/svg%3E');
+}
+.icon-link.hotel {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23ffffff'%3e%3cpath d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z'/%3e%3c/svg%3e");
 }
 
 .text-center {

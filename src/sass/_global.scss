@@ -2,7 +2,7 @@
   --primary-color: #51081b;
   --primary-color-light: #730220;
   --blue: #3bacf5;
-  --yellow: #f4a708;
+  --highlight-color: #f4a708;
   --white: #ffffff;
   --black: #000000;
 
@@ -38,6 +38,10 @@ body {
   &[data-mobile-nav-open='true'] {
     overflow: hidden;
   }
+}
+
+a {
+  color: var(--primary-color);
 }
 
 .site-layout {

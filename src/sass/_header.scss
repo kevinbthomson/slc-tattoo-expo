@@ -50,6 +50,7 @@ body > div > header {
 
   img[alt='Salt Lake City Tattoo Expo'] {
     height: 100px;
+    min-width: 100px;
   }
 
   &::before,
@@ -114,6 +115,7 @@ body > div > header {
       list-style: none;
 
       li {
+        line-height: 1;
         margin-block-end: 2rem;
 
         a {
@@ -127,6 +129,12 @@ body > div > header {
 
       @media (min-width: $breakpoint-md) {
         @include desktopListStyles;
+
+        li {
+          &:first-of-type {
+            display: none;
+          }
+        }
       }
 
       @media (min-width: $breakpoint-xl) {

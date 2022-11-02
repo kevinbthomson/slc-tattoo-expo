@@ -13,7 +13,7 @@
   background-image: url('/assets/images/circle-logo-transparent.png');
   background-position: calc(100vw - 280px) 280px;
   background-repeat: no-repeat;
-
+  border-bottom: 1rem solid black;
   text-align: center;
 
   &__image {
@@ -22,14 +22,21 @@
 
   &__title {
     color: white;
+    // margin-block-start: 1rem;
     margin-block: 0.5rem;
   }
 
   &__insta {
-    margin-block-end: 0.5rem;
+    margin-block-end: 0.25rem;
   }
 
   &__shop {
-    margin-block-end: 0.5rem;
+    margin: 0;
+    color: var(--highlight-color);
+    background-color: black;
+  }
+
+  &:has(.artist__shop) {
+    border: none;
   }
 }
