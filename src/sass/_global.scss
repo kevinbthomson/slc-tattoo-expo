@@ -21,7 +21,7 @@
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
-$breakpoint-xl: 992px;
+$breakpoint-xl: 1200px;
 
 html {
   font-size: 16px;
@@ -42,7 +42,7 @@ body {
 
 .site-layout {
   display: grid;
-  grid-template-rows: 1fr 240px;
+  grid-template-rows: 1fr minmax(240px, auto);
   min-height: 100vh;
 }
 

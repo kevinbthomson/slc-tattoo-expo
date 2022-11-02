@@ -107,7 +107,7 @@ body[data-mobile-nav-open=true] {
 
 .site-layout {
   display: grid;
-  grid-template-rows: 1fr 240px;
+  grid-template-rows: 1fr minmax(240px, auto);
   min-height: 100vh;
 }
 
@@ -119,7 +119,7 @@ main {
   margin-inline: auto;
   width: min(1200px, 86dvw);
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .container {
     width: min(1400px, 86vw);
   }
@@ -192,6 +192,7 @@ body > div > header {
   padding: 0 2rem;
   position: fixed;
   width: 100vw;
+  z-index: 1000;
 }
 body > div > header .container {
   align-items: center;
@@ -230,7 +231,7 @@ body > div > header::after {
   right: 100px;
   content: "2023";
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   body > div > header::after {
     display: block;
   }
@@ -286,12 +287,19 @@ body > div > header nav ul li a {
     margin-block-end: 0;
     margin-inline-end: 1.5rem;
   }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  body > div > header nav ul li {
+    margin-inline-end: 2rem;
+  }
+}
+@media (min-width: 768px) {
   body > div > header nav ul li a {
     font-family: var(--font-body);
     font-size: 1.25rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   body > div > header nav ul li a {
     font-size: 1.5rem;
   }
@@ -306,9 +314,22 @@ body > div > header nav[aria-label=Secondary] ul li {
   margin-block-end: 0;
   margin-inline-end: 1.5rem;
 }
+@media (min-width: 1200px) {
+  body > div > header nav[aria-label=Secondary] ul li {
+    margin-inline-end: 2rem;
+  }
+}
 body > div > header nav[aria-label=Secondary] ul li a {
   font-family: var(--font-body);
   font-size: 1.25rem;
+}
+body > div > header nav[aria-label=Secondary] ul li {
+  margin-inline-end: 0.75rem;
+}
+@media (min-width: 768px) {
+  body > div > header nav[aria-label=Secondary] ul li {
+    margin-inline-end: 1rem;
+  }
 }
 
 button[data-toggle=main-nav] {
