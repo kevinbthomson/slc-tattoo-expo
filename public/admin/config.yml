@@ -20,3 +20,11 @@ collections:
       - { label: 'Shop Name', name: 'shop', widget: 'string', required: false }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['artist'] }
+  - name: 'page'
+    label: 'Page'
+    folder: 'src/'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Page Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
