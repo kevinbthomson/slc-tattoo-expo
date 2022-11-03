@@ -1,6 +1,13 @@
 .page-article {
   .container {
     margin-inline: auto;
-    width: min(1100px, 86dvw);
+    width: min(1100px, 86vw);
+  }
+}
+
+.artists-article {
+  .container {
+    margin-inline: auto;
+    width: min(1100px, 99vw);
   }
 }

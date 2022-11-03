@@ -1,5 +1,7 @@
 module.exports = function () {
   return {
+    ticketLink:
+      'https://www.24tix.com/event/1477390210/salt-lake-city-tattoo-expo',
     dates: [
       {
         day: 'Friday',

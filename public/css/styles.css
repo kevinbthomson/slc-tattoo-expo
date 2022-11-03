@@ -425,12 +425,12 @@ footer .footer-navigation {
   flex-direction: column;
 }
 footer nav ul {
-  list-style: none;
-  padding: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
+  list-style: none;
+  padding: 0;
 }
 footer nav ul li a {
   font-family: var(--font-heading);
@@ -456,7 +456,12 @@ footer nav[aria-label=Secondary] ul {
 
 .page-article .container {
   margin-inline: auto;
-  width: min(1100px, 86dvw);
+  width: min(1100px, 86vw);
+}
+
+.artists-article .container {
+  margin-inline: auto;
+  width: min(1100px, 99vw);
 }
 
 .home-grid {

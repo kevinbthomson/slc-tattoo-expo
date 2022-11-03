@@ -26,9 +26,6 @@ footer {
     }
   }
 
-  .footer-info {
-  }
-
   .footer-navigation {
     margin-block-start: 1rem;
     display: flex;
@@ -37,13 +34,12 @@ footer {
 
   nav {
     ul {
-      list-style: none;
-      padding: 0;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-
       gap: 1rem;
+      list-style: none;
+      padding: 0;
 
       li {
         a {
