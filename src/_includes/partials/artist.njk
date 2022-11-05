@@ -1,7 +1,12 @@
 <li>
   <article class="artist">
     {% if artist.data.image %}
-    <img src="{{ artist.data.image }}" alt="" class="artist__image" />
+    <img
+      src="{{ artist.data.image }}"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
     {% endif %}
     <h3 class="artist__title">{{ artist.data.name }}</h3>
     {% if artist.data.instagram %}

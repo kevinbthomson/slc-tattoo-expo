@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Roboto+Slab:wght@900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body data-mobile-nav-open="false">
@@ -25,6 +24,7 @@
       <header>
   <div class="container">
     <a href="/" title="Home">
+      <span>Salt Lake City <strong>Tattoo</strong> <em>Expo</em></span>
       <img
         src="/assets/images/header-logo.png"
         alt="Salt Lake City Tattoo Expo"
@@ -33,28 +33,28 @@
     <nav aria-label="Main" data-mobile-nav-open="false">
   <ul>
     <li>
-      <a href="/">Home</a>
+      <a href="/"  aria-current="page">Home</a>
     </li>
     <li>
-      <a href="/artists">Artists</a>
+      <a href="/artists" >Artists</a>
     </li>
     <li>
-      <a href="/vendors">Vendors</a>
+      <a href="/vendors" >Vendors</a>
     </li>
     <li>
-      <a href="/what-to-expect">What to Expect</a>
+      <a href="/what-to-expect" >About</a>
     </li>
     <li>
-      <a href="/hotel">Hotel</a>
+      <a href="/hotel" >Hotel</a>
     </li>
     <li>
-      <a href="/news">News</a>
+      <a href="/news" >News</a>
     </li>
   </ul>
 </nav>
  <nav aria-label="Secondary">
   <ul>
-    <li>
+    <li class="ticket">
       <a
         href="https://www.24tix.com/event/1477390210/salt-lake-city-tattoo-expo"
         class="icon-link ticket"
@@ -62,7 +62,7 @@
         >Tickets @24tix.com</a
       >
     </li>
-    <li>
+    <li class="hotel">
       <a
         href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?checkInDate=2023-03-13&checkOutDate=2023-03-22&adults%5B%5D=1&children%5B%5D=0&searchType=pac&promotionCode=ATTEN&brandFirst=rad&hotelCode=UTSALTLK"
         class="icon-link hotel"
@@ -70,8 +70,10 @@
         >Radisson Hotel</a
       >
     </li>
-    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
-    <li>
+    <li class="email">
+      <a href="#" class="icon-link email" title="Email">Email Signup</a>
+    </li>
+    <li class="instagram">
       <a
         href="https://instagram.com/slctattooexpo"
         class="icon-link instagram"
@@ -145,6 +147,22 @@
         </p>
       </div>
     </section>
+
+    <section class="section section-news">
+      <ul class="news-list"><p>item.data.title</p><p>item.data.title</p></ul>
+    </section>
+
+    <section class="section section-email">
+      <form action="" class="email-form">
+  <fieldset>
+    <legend>Get expo news in your inbox!</legend>
+    <label for="email">Email:</label>
+    <input id="email" placeholder="Your email" type="email" />
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
+    </section>
   </div>
 </article>
 
@@ -174,28 +192,28 @@
       <nav aria-label="Main" data-mobile-nav-open="false">
   <ul>
     <li>
-      <a href="/">Home</a>
+      <a href="/"  aria-current="page">Home</a>
     </li>
     <li>
-      <a href="/artists">Artists</a>
+      <a href="/artists" >Artists</a>
     </li>
     <li>
-      <a href="/vendors">Vendors</a>
+      <a href="/vendors" >Vendors</a>
     </li>
     <li>
-      <a href="/what-to-expect">What to Expect</a>
+      <a href="/what-to-expect" >About</a>
     </li>
     <li>
-      <a href="/hotel">Hotel</a>
+      <a href="/hotel" >Hotel</a>
     </li>
     <li>
-      <a href="/news">News</a>
+      <a href="/news" >News</a>
     </li>
   </ul>
 </nav>
  <nav aria-label="Secondary">
   <ul>
-    <li>
+    <li class="ticket">
       <a
         href="https://www.24tix.com/event/1477390210/salt-lake-city-tattoo-expo"
         class="icon-link ticket"
@@ -203,7 +221,7 @@
         >Tickets @24tix.com</a
       >
     </li>
-    <li>
+    <li class="hotel">
       <a
         href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?checkInDate=2023-03-13&checkOutDate=2023-03-22&adults%5B%5D=1&children%5B%5D=0&searchType=pac&promotionCode=ATTEN&brandFirst=rad&hotelCode=UTSALTLK"
         class="icon-link hotel"
@@ -211,8 +229,10 @@
         >Radisson Hotel</a
       >
     </li>
-    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
-    <li>
+    <li class="email">
+      <a href="#" class="icon-link email" title="Email">Email Signup</a>
+    </li>
+    <li class="instagram">
       <a
         href="https://instagram.com/slctattooexpo"
         class="icon-link instagram"

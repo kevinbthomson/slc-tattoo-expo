@@ -96,7 +96,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--white);
+  background-color: var(--primary-color);
   font-family: var(--font-body);
   font-weight: 400;
   line-height: 1.6;
@@ -117,6 +117,7 @@ a {
 
 main {
   border-top: 120px solid black;
+  background-color: var(--white);
 }
 
 .container {
@@ -187,21 +188,26 @@ p {
 }
 
 body > div > header {
-  background-color: black;
+  background-color: #121212;
   border-bottom: 10px solid var(--primary-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
   height: 120px;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 0;
   position: fixed;
   width: 100vw;
   z-index: 1000;
 }
+@media (min-width: 992px) {
+  body > div > header {
+    padding: 0;
+  }
+}
 body > div > header .container {
   align-items: center;
   height: 100%;
-  max-width: 100%;
+  width: min(1200px, 90vw);
   display: flex;
   justify-content: space-between;
 }
@@ -211,16 +217,12 @@ body > div > header .container > * {
 body > div > header a {
   text-decoration: none;
 }
-body > div > header img[alt="Salt Lake City Tattoo Expo"] {
-  height: 100px;
-  min-width: 100px;
-}
 body > div > header::before, body > div > header::after {
   font-family: var(--font-heading);
   font-size: 10rem;
   line-height: 1;
   margin: 0;
-  color: #111111;
+  color: #1d1d1d;
   position: absolute;
   text-transform: uppercase;
   top: -10px;
@@ -282,6 +284,12 @@ body > div > header nav ul li a {
   font-size: 2rem;
   text-transform: uppercase;
 }
+body > div > header nav ul li a:hover {
+  color: var(--highlight-color);
+}
+body > div > header nav ul li a[aria-current=page] {
+  color: var(--highlight-color);
+}
 @media (min-width: 768px) {
   body > div > header nav ul {
     display: flex;
@@ -291,6 +299,14 @@ body > div > header nav ul li a {
     display: flex;
     line-height: 1;
     margin-block-end: 0;
+    margin-inline-end: 1rem;
+  }
+  body > div > header nav ul li:last-of-type {
+    margin-inline-end: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+  body > div > header nav ul li {
     margin-inline-end: 1.5rem;
   }
 }
@@ -317,13 +333,22 @@ body > div > header nav ul li a {
 }
 body > div > header nav[aria-label=Secondary] ul {
   display: flex;
+  gap: 0.5rem;
 }
 body > div > header nav[aria-label=Secondary] ul li {
   align-items: center;
   display: flex;
   line-height: 1;
   margin-block-end: 0;
-  margin-inline-end: 1.5rem;
+  margin-inline-end: 1rem;
+}
+body > div > header nav[aria-label=Secondary] ul li:last-of-type {
+  margin-inline-end: 0;
+}
+@media (min-width: 992px) {
+  body > div > header nav[aria-label=Secondary] ul li {
+    margin-inline-end: 1.5rem;
+  }
 }
 @media (min-width: 1200px) {
   body > div > header nav[aria-label=Secondary] ul li {
@@ -335,11 +360,24 @@ body > div > header nav[aria-label=Secondary] ul li a {
   font-size: 1.25rem;
 }
 body > div > header nav[aria-label=Secondary] ul li {
-  margin-inline-end: 0.75rem;
+  margin-inline-end: 0;
+}
+body > div > header nav[aria-label=Secondary] ul li.email, body > div > header nav[aria-label=Secondary] ul li.hotel {
+  display: none;
 }
 @media (min-width: 768px) {
-  body > div > header nav[aria-label=Secondary] ul li {
-    margin-inline-end: 1rem;
+  body > div > header nav[aria-label=Secondary] ul li.email {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  body > div > header nav[aria-label=Secondary] ul li.hotel {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  body > div > header nav[aria-label=Secondary] ul {
+    gap: 1rem;
   }
 }
 
@@ -393,6 +431,70 @@ button[data-toggle=main-nav]::after {
   }
 }
 
+a[title=Home] {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-weight: 900;
+  color: var(--highlight-color);
+  text-transform: uppercase;
+  position: relative;
+}
+a[title=Home] span {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 0.9;
+  margin-inline-end: 0.25rem;
+  align-items: center;
+  font-size: 1rem;
+  scale: 0.9;
+  transition: all 0.3s;
+}
+a[title=Home] span strong {
+  color: white;
+  font-size: 2rem;
+}
+a[title=Home] span em {
+  font-style: normal;
+  font-size: 0.875rem;
+  align-self: flex-end;
+}
+@media (min-width: 992px) {
+  a[title=Home] span {
+    margin-inline-end: 1rem;
+    scale: 1;
+  }
+}
+a[title=Home] img[alt="Salt Lake City Tattoo Expo"] {
+  height: 82px;
+  min-width: 82px;
+  transition: all 0.3s;
+}
+@media (min-width: 768px) {
+  a[title=Home] img[alt="Salt Lake City Tattoo Expo"] {
+    height: 62px;
+    min-width: 62px;
+  }
+}
+@media (min-width: 992px) {
+  a[title=Home] img[alt="Salt Lake City Tattoo Expo"] {
+    height: 82px;
+    min-width: 82px;
+  }
+}
+a[title=Home]:hover img {
+  rotate: 2deg;
+}
+a[title=Home]:hover > span {
+  scale: 1.05;
+}
+a[title=Home]:active img {
+  rotate: -2deg;
+}
+a[title=Home]:active > span {
+  scale: 0.9;
+}
+
 footer {
   background-color: var(--primary-color);
   background-image: url("/assets/images/circle-logo-transparent.png");
@@ -403,6 +505,9 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+}
+footer a:hover {
+  color: var(--highlight-color);
 }
 footer h2 {
   font-size: 6rem;
@@ -460,8 +565,9 @@ footer nav[aria-label=Secondary] ul {
 }
 
 .artists-article .container {
+  padding-block: 1rem;
   margin-inline: auto;
-  width: min(1100px, 99vw);
+  width: min(1440px, 99vw);
 }
 
 .home-grid {
@@ -564,12 +670,20 @@ footer nav[aria-label=Secondary] ul {
   grid-area: about;
   background-color: var(--gray-10);
 }
+.home-grid .section-about .section-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-grid .section-about .section-container p {
+  max-width: 64ch;
+}
 
 .artists-list {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 340px));
   gap: 1rem;
   justify-content: center;
 }
@@ -578,9 +692,9 @@ footer nav[aria-label=Secondary] ul {
   background-color: var(--primary-color);
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
   background-image: url("/assets/images/circle-logo-transparent.png");
-  background-position: calc(100vw - 280px) 280px;
+  background-position: 80px 180px;
   background-repeat: no-repeat;
-  border-bottom: 1rem solid black;
+  border-bottom: 1.5rem solid black;
   text-align: center;
 }
 .artist__image {
@@ -617,14 +731,33 @@ footer nav[aria-label=Secondary] ul {
   background-image: url('data:image/svg+xml,%3Csvg width="100%25" height="100%25" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"%3E%3Cpath d="M21,16c0,2.753 -2.247,5 -5,5c-2.753,0 -5,-2.247 -5,-5c0,-2.753 2.247,-5 5,-5c2.753,0 5,2.247 5,5Zm2.695,0c0,-4.257 -3.438,-7.695 -7.695,-7.695c-4.257,0 -7.695,3.438 -7.695,7.695c0,4.257 3.438,7.695 7.695,7.695c4.257,0 7.695,-3.438 7.695,-7.695Zm2.108,-8.007c0,-0.996 -0.8,-1.796 -1.796,-1.796c-0.996,0 -1.797,0.8 -1.797,1.796c0,0.996 0.801,1.797 1.797,1.797c0.996,0 1.796,-0.801 1.796,-1.797l0,0Zm-9.803,-4.296c2.187,0 6.875,-0.176 8.847,0.605c0.683,0.273 1.191,0.606 1.718,1.133c0.527,0.527 0.86,1.035 1.133,1.718c0.781,1.972 0.605,6.66 0.605,8.847c0,2.187 0.176,6.875 -0.605,8.847c-0.273,0.683 -0.606,1.191 -1.133,1.718c-0.527,0.527 -1.035,0.86 -1.718,1.133c-1.972,0.781 -6.66,0.605 -8.847,0.605c-2.187,0 -6.875,0.176 -8.847,-0.605c-0.683,-0.273 -1.191,-0.606 -1.718,-1.133c-0.527,-0.527 -0.86,-1.035 -1.133,-1.718c-0.781,-1.972 -0.605,-6.66 -0.605,-8.847c0,-2.187 -0.176,-6.875 0.605,-8.847c0.273,-0.683 0.606,-1.191 1.133,-1.718c0.527,-0.527 1.035,-0.86 1.718,-1.133c1.972,-0.781 6.66,-0.605 8.847,-0.605l0,0Zm14.999,12.303c0,-2.07 0.019,-4.12 -0.098,-6.191c-0.117,-2.402 -0.664,-4.531 -2.422,-6.288c-1.757,-1.758 -3.886,-2.305 -6.288,-2.422c-2.071,-0.117 -4.121,-0.098 -6.191,-0.098c-2.07,0 -4.12,-0.019 -6.191,0.098c-2.402,0.117 -4.531,0.664 -6.288,2.422c-1.758,1.757 -2.305,3.886 -2.422,6.288c-0.117,2.071 -0.098,4.121 -0.098,6.191c0,2.07 -0.019,4.12 0.098,6.191c0.117,2.402 0.664,4.531 2.422,6.288c1.757,1.758 3.886,2.305 6.288,2.422c2.071,0.117 4.121,0.098 6.191,0.098c2.07,0 4.12,0.019 6.191,-0.098c2.402,-0.117 4.531,-0.664 6.288,-2.422c1.758,-1.757 2.305,-3.886 2.422,-6.288c0.117,-2.071 0.098,-4.121 0.098,-6.191Z" style="fill:%23fff;fill-rule:nonzero;"/%3E%3C/svg%3E');
   background-size: 30px;
 }
+.icon-link.instagram:hover {
+  background-image: url('data:image/svg+xml,%3Csvg width="100%25" height="100%25" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"%3E%3Cpath d="M21,16c0,2.753 -2.247,5 -5,5c-2.753,0 -5,-2.247 -5,-5c0,-2.753 2.247,-5 5,-5c2.753,0 5,2.247 5,5Zm2.695,0c0,-4.257 -3.438,-7.695 -7.695,-7.695c-4.257,0 -7.695,3.438 -7.695,7.695c0,4.257 3.438,7.695 7.695,7.695c4.257,0 7.695,-3.438 7.695,-7.695Zm2.108,-8.007c0,-0.996 -0.8,-1.796 -1.796,-1.796c-0.996,0 -1.797,0.8 -1.797,1.796c0,0.996 0.801,1.797 1.797,1.797c0.996,0 1.796,-0.801 1.796,-1.797l0,0Zm-9.803,-4.296c2.187,0 6.875,-0.176 8.847,0.605c0.683,0.273 1.191,0.606 1.718,1.133c0.527,0.527 0.86,1.035 1.133,1.718c0.781,1.972 0.605,6.66 0.605,8.847c0,2.187 0.176,6.875 -0.605,8.847c-0.273,0.683 -0.606,1.191 -1.133,1.718c-0.527,0.527 -1.035,0.86 -1.718,1.133c-1.972,0.781 -6.66,0.605 -8.847,0.605c-2.187,0 -6.875,0.176 -8.847,-0.605c-0.683,-0.273 -1.191,-0.606 -1.718,-1.133c-0.527,-0.527 -0.86,-1.035 -1.133,-1.718c-0.781,-1.972 -0.605,-6.66 -0.605,-8.847c0,-2.187 -0.176,-6.875 0.605,-8.847c0.273,-0.683 0.606,-1.191 1.133,-1.718c0.527,-0.527 1.035,-0.86 1.718,-1.133c1.972,-0.781 6.66,-0.605 8.847,-0.605l0,0Zm14.999,12.303c0,-2.07 0.019,-4.12 -0.098,-6.191c-0.117,-2.402 -0.664,-4.531 -2.422,-6.288c-1.757,-1.758 -3.886,-2.305 -6.288,-2.422c-2.071,-0.117 -4.121,-0.098 -6.191,-0.098c-2.07,0 -4.12,-0.019 -6.191,0.098c-2.402,0.117 -4.531,0.664 -6.288,2.422c-1.758,1.757 -2.305,3.886 -2.422,6.288c-0.117,2.071 -0.098,4.121 -0.098,6.191c0,2.07 -0.019,4.12 0.098,6.191c0.117,2.402 0.664,4.531 2.422,6.288c1.757,1.758 3.886,2.305 6.288,2.422c2.071,0.117 4.121,0.098 6.191,0.098c2.07,0 4.12,0.019 6.191,-0.098c2.402,-0.117 4.531,-0.664 6.288,-2.422c1.758,-1.757 2.305,-3.886 2.422,-6.288c0.117,-2.071 0.098,-4.121 0.098,-6.191Z" style="fill:%23f4a708;fill-rule:nonzero;"/%3E%3C/svg%3E');
+}
 .icon-link.email {
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23fff"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"/%3E%3Cpath d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/%3E%3C/svg%3E');
+}
+.icon-link.email:hover {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23f4a708"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"/%3E%3Cpath d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/%3E%3C/svg%3E');
 }
 .icon-link.ticket {
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23fff"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"/%3E%3Cpath d="M22 10V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-2-1.46c-1.19.69-2 1.99-2 3.46s.81 2.77 2 3.46V18H4v-2.54c1.19-.69 2-1.99 2-3.46 0-1.48-.8-2.77-1.99-3.46L4 6h16v2.54zM9.07 16L12 14.12 14.93 16l-.89-3.36 2.69-2.2-3.47-.21L12 7l-1.27 3.22-3.47.21 2.69 2.2z"/%3E%3C/svg%3E');
 }
+.icon-link.ticket:hover {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23f4a708"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"/%3E%3Cpath d="M22 10V6c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-2-1.46c-1.19.69-2 1.99-2 3.46s.81 2.77 2 3.46V18H4v-2.54c1.19-.69 2-1.99 2-3.46 0-1.48-.8-2.77-1.99-3.46L4 6h16v2.54zM9.07 16L12 14.12 14.93 16l-.89-3.36 2.69-2.2-3.47-.21L12 7l-1.27 3.22-3.47.21 2.69 2.2z"/%3E%3C/svg%3E');
+}
 .icon-link.hotel {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23ffffff'%3e%3cpath d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23fff'%3e%3cpath d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z'/%3e%3c/svg%3e");
+}
+.icon-link.hotel:hover {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23f4a708'%3e%3cpath d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.email-form fieldset {
+  border: none;
+}
+.email-form fieldset input[type=email] {
+  background-color: var(--gray-40);
 }
 
 .text-center {

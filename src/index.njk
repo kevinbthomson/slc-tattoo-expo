@@ -56,5 +56,17 @@ title: Salt Lake City Tattoo Expo
         </p>
       </div>
     </section>
+
+    <section class="section section-news">
+      <ul class="news-list">
+        {%- for item in collections.post -%}
+        <p>item.data.title</p>
+        {%- endfor -%}
+      </ul>
+    </section>
+
+    <section class="section section-email">
+      {% include "partials/email.njk" %}
+    </section>
   </div>
 </article>

@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Roboto+Slab:wght@900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body data-mobile-nav-open="false">
@@ -25,6 +24,7 @@
       <header>
   <div class="container">
     <a href="/" title="Home">
+      <span>Salt Lake City <strong>Tattoo</strong> <em>Expo</em></span>
       <img
         src="/assets/images/header-logo.png"
         alt="Salt Lake City Tattoo Expo"
@@ -33,28 +33,28 @@
     <nav aria-label="Main" data-mobile-nav-open="false">
   <ul>
     <li>
-      <a href="/">Home</a>
+      <a href="/" >Home</a>
     </li>
     <li>
-      <a href="/artists">Artists</a>
+      <a href="/artists" >Artists</a>
     </li>
     <li>
-      <a href="/vendors">Vendors</a>
+      <a href="/vendors" >Vendors</a>
     </li>
     <li>
-      <a href="/what-to-expect">What to Expect</a>
+      <a href="/what-to-expect" >About</a>
     </li>
     <li>
-      <a href="/hotel">Hotel</a>
+      <a href="/hotel" >Hotel</a>
     </li>
     <li>
-      <a href="/news">News</a>
+      <a href="/news" >News</a>
     </li>
   </ul>
 </nav>
  <nav aria-label="Secondary">
   <ul>
-    <li>
+    <li class="ticket">
       <a
         href="https://www.24tix.com/event/1477390210/salt-lake-city-tattoo-expo"
         class="icon-link ticket"
@@ -62,7 +62,7 @@
         >Tickets @24tix.com</a
       >
     </li>
-    <li>
+    <li class="hotel">
       <a
         href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?checkInDate=2023-03-13&checkOutDate=2023-03-22&adults%5B%5D=1&children%5B%5D=0&searchType=pac&promotionCode=ATTEN&brandFirst=rad&hotelCode=UTSALTLK"
         class="icon-link hotel"
@@ -70,8 +70,10 @@
         >Radisson Hotel</a
       >
     </li>
-    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
-    <li>
+    <li class="email">
+      <a href="#" class="icon-link email" title="Email">Email Signup</a>
+    </li>
+    <li class="instagram">
       <a
         href="https://instagram.com/slctattooexpo"
         class="icon-link instagram"
@@ -104,32 +106,12 @@
 <ul class="artists-list"><li>
   <article class="artist">
     
-    <img src="/assets/images/artists-place-holder.jpg" alt="" class="artist__image" />
-    
-    <h3 class="artist__title">Thad Robison</h3>
-    
-    <a
-      class="artist__insta icon-link instagram"
-      href="https://www.instagram.com/fishhippie/?hl=en"
-      target="_blank"
-      >Instagram</a
-    >
-     
-  </article>
-</li>
-<li>
-  <article class="artist">
-    
-    <h3 class="artist__title">Kevin B Thomson</h3>
-     
-    <p class="artist__shop">Lost Art Tattoo</p>
-    
-  </article>
-</li>
-<li>
-  <article class="artist">
-    
-    <img src="/assets/images/screen-shot-2022-10-12-at-4.18.06-pm.png" alt="" class="artist__image" />
+    <img
+      src="/assets/images/screen-shot-2022-10-12-at-4.18.06-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
     
     <h3 class="artist__title">Alex Hall</h3>
     
@@ -147,25 +129,12 @@
 <li>
   <article class="artist">
     
-    <img src="/assets/images/artists-place-holder.jpg" alt="" class="artist__image" />
-    
-    <h3 class="artist__title">Chris Garver</h3>
-    
-    <a
-      class="artist__insta icon-link instagram"
-      href="https://www.fivepointstattoo.com/"
-      target="_blank"
-      >Instagram</a
-    >
-     
-    <p class="artist__shop">5 Points Tattoo</p>
-    
-  </article>
-</li>
-<li>
-  <article class="artist">
-    
-    <img src="/assets/images/artists-place-holder.jpg" alt="" class="artist__image" />
+    <img
+      src="/assets/images/artists-place-holder.jpg"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
     
     <h3 class="artist__title">Taylor Shaw</h3>
     
@@ -177,6 +146,328 @@
     >
      
     <p class="artist__shop">Lost Art Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.19.42-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Christopher Coll</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/christopher_coll/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Treasure Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-12.59.56-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Daniel Werder</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/danielwerdertattoo/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Boartooth</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.25.25-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Danny Warner</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/danyankee/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Lighthouse Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.35.22-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">David Flores</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/davidfloresatc/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Old Rose Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.08.24-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">DRE</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/dretattoo/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Boartooth</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.14.52-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Jamie Ruth</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/jamieruuth/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Treasure Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-12.52.17-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Luis Gonzalez</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/chingoflamingo/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Atomic Tattoos</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.42.30-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Max Aguilar</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/maximasprime/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Old Rose Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.27.37-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Peter Crowell</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/petergranite/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Lighthouse Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.04.20-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Shawn Nutting</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/chon_ta2/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Boartooth</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.38.56-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Sterling Barck</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/sterling_barck/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Old Rose Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-1.44.26-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Tony Cruz</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/tony.cruz.tattoo/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Old Rose Tattoo</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/screen-shot-2022-11-04-at-12.56.51-pm.png"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Graven Goods</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/gravengoods/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Graven Goods</p>
+    
+  </article>
+</li>
+<li>
+  <article class="artist">
+    
+    <img
+      src="/assets/images/chopper.jpg"
+      alt=""
+      class="artist__image"
+      loading="lazy"
+    />
+    
+    <h3 class="artist__title">Chopper</h3>
+    
+    <a
+      class="artist__insta icon-link instagram"
+      href="https://www.instagram.com/chopper_ftw/"
+      target="_blank"
+      >Instagram</a
+    >
+     
+    <p class="artist__shop">Atomic Tattoos</p>
     
   </article>
 </li>
@@ -211,28 +502,28 @@
       <nav aria-label="Main" data-mobile-nav-open="false">
   <ul>
     <li>
-      <a href="/">Home</a>
+      <a href="/" >Home</a>
     </li>
     <li>
-      <a href="/artists">Artists</a>
+      <a href="/artists" >Artists</a>
     </li>
     <li>
-      <a href="/vendors">Vendors</a>
+      <a href="/vendors" >Vendors</a>
     </li>
     <li>
-      <a href="/what-to-expect">What to Expect</a>
+      <a href="/what-to-expect" >About</a>
     </li>
     <li>
-      <a href="/hotel">Hotel</a>
+      <a href="/hotel" >Hotel</a>
     </li>
     <li>
-      <a href="/news">News</a>
+      <a href="/news" >News</a>
     </li>
   </ul>
 </nav>
  <nav aria-label="Secondary">
   <ul>
-    <li>
+    <li class="ticket">
       <a
         href="https://www.24tix.com/event/1477390210/salt-lake-city-tattoo-expo"
         class="icon-link ticket"
@@ -240,7 +531,7 @@
         >Tickets @24tix.com</a
       >
     </li>
-    <li>
+    <li class="hotel">
       <a
         href="https://www.radissonhotelsamericas.com/en-us/booking/room-display?checkInDate=2023-03-13&checkOutDate=2023-03-22&adults%5B%5D=1&children%5B%5D=0&searchType=pac&promotionCode=ATTEN&brandFirst=rad&hotelCode=UTSALTLK"
         class="icon-link hotel"
@@ -248,8 +539,10 @@
         >Radisson Hotel</a
       >
     </li>
-    <li><a href="#" class="icon-link email" title="Email">Email Signup</a></li>
-    <li>
+    <li class="email">
+      <a href="#" class="icon-link email" title="Email">Email Signup</a>
+    </li>
+    <li class="instagram">
       <a
         href="https://instagram.com/slctattooexpo"
         class="icon-link instagram"

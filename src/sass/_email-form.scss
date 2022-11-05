@@ -1,0 +1,9 @@
+.email-form {
+  fieldset {
+    border: none;
+
+    input[type='email'] {
+      background-color: var(--gray-40);
+    }
+  }
+}

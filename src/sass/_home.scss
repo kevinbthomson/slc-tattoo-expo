@@ -112,6 +112,16 @@
     }
 
     &-about {
+      .section-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+          max-width: 64ch;
+        }
+      }
+
       grid-area: about;
       background-color: var(--gray-10);
     }

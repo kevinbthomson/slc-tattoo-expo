@@ -8,6 +8,10 @@ footer {
   a {
     color: white;
     text-decoration: none;
+
+    &:hover {
+      color: var(--highlight-color);
+    }
   }
 
   h2 {
