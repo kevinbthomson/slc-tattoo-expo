@@ -517,6 +517,7 @@ footer h2 {
   font-size: 6rem;
   color: var(--primary-color-light);
   margin-block-end: 0;
+  margin-block-start: 1rem;
 }
 footer .nav-container {
   display: flex;
