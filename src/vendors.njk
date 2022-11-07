@@ -1,0 +1,9 @@
+---
+title: Vendors
+layout: 'layouts/artists.njk'
+---
+
+<ul class="vendors-list">
+  {%- for vendor in collections.vendors -%} {% include 'partials/vendor.njk' %}
+  {%- endfor -%}
+</ul>

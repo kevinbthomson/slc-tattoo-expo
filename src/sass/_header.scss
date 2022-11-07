@@ -28,7 +28,7 @@
 }
 
 body > div > header {
-  background-color: #121212;
+  background: #121212;
   border-bottom: 10px solid var(--primary-color);
   box-shadow: 0 0 20px rgb(black, 0.4);
   box-sizing: border-box;
@@ -46,7 +46,7 @@ body > div > header {
   .container {
     align-items: center;
     height: 100%;
-    width: min(1200px, 90vw);
+    width: min(1440px, 90vw);
     display: flex;
     justify-content: space-between;
 
@@ -131,7 +131,8 @@ body > div > header {
           font-size: 2rem;
           text-transform: uppercase;
 
-          &:hover {
+          &:hover,
+          &:active {
             color: var(--highlight-color);
           }
 

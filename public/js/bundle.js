@@ -14,6 +14,7 @@
   menuBtn.addEventListener("click", () => {
     menuToggle(body);
     menuToggle(mainNav);
+    menuToggle(menuBtn);
   });
   document.addEventListener("keyup", (e) => {
     if (body.dataset.mobileNavOpen === "true" && e.key === "Escape") {

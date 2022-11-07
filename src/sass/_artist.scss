@@ -1,4 +1,5 @@
-.artists-list {
+.artists-list,
+.vendors-list {
   list-style: none;
   padding: 0;
   display: grid;
@@ -7,17 +8,34 @@
   justify-content: center;
 }
 
-.artist {
+.artist,
+.vendor {
   background-color: var(--primary-color);
-  box-shadow: 1px 3px 10px rgba(black, 0.2);
   background-image: url('/assets/images/circle-logo-transparent.png');
   background-position: 80px 180px;
   background-repeat: no-repeat;
   border-bottom: 1.5rem solid black;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 1rem rgba(black, 0.125);
   text-align: center;
 
-  &__image {
+  &__image__wrapper {
     width: 100%;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    border: 0.5rem solid var(--primary-color);
+    position: relative;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    margin: 0 0 0 4px;
+    width: 102%;
+    height: 102%;
+    aspect-ratio: 1 / 1;
   }
 
   &__title {
@@ -26,8 +44,14 @@
     margin-block: 0.5rem;
   }
 
-  &__insta {
+  p {
     margin-block-end: 0.25rem;
+  }
+  &__insta {
+  }
+
+  &__website {
+    color: var(--highlight-color);
   }
 
   &__shop {
@@ -36,7 +60,8 @@
     background-color: black;
   }
 
-  &:has(.artist__shop) {
-    border: none;
+  &:has(.artist__shop),
+  &:has(.vendor__shop) {
+    border-bottom: none;
   }
 }

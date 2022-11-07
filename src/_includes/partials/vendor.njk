@@ -1,0 +1,33 @@
+<li>
+  <article class="vendor">
+    {% if vendor.data.image %}
+    <div class="vendor__image__wrapper">
+      <img
+        src="{{ vendor.data.image }}"
+        alt=""
+        class="vendor__image"
+        loading="lazy"
+      />
+    </div>
+    {% endif %}
+    <h3 class="vendor__title">{{ vendor.data.name }}</h3>
+
+    {% if vendor.data.instagram %}
+    <a
+      class="vendor__insta icon-link instagram"
+      href="{{ vendor.data.instagram }}"
+      target="_blank"
+      >Instagram</a
+    >
+    {% endif %} {% if vendor.data.website %}
+    <p class="vendor__shop">
+      <a
+        class="vendor__website"
+        href="{{ vendor.data.website }}"
+        target="_blank"
+        >{{ vendor.data.website }}</a
+      >
+      {% endif %}
+    </p>
+  </article>
+</li>

@@ -1,13 +1,14 @@
 .page-article {
-  .container {
+  > .container {
+    padding-block: 2rem;
     margin-inline: auto;
     width: min(1100px, 86vw);
   }
 }
 
 .artists-article {
-  .container {
-    padding-block: 1rem;
+  > .container {
+    padding-block: 2rem;
     margin-inline: auto;
     width: min(1440px, 99vw);
   }

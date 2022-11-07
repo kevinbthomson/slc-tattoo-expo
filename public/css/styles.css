@@ -138,11 +138,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 900;
   line-height: 1;
-  margin-block: 1.5rem;
-}
-
-h2 {
-  color: var(--gray-60);
+  margin-block: 1em;
 }
 
 h1 {
@@ -150,7 +146,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  color: var(--gray-60);
+  font-size: 2.25rem;
 }
 
 h3 {
@@ -184,11 +181,11 @@ p {
   font-size: clamp(3rem, 10vw, 6rem);
   margin: 0;
   text-align: center;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 2px 1rem rgba(255, 255, 255, 0.5);
 }
 
 body > div > header {
-  background-color: #121212;
+  background: #121212;
   border-bottom: 10px solid var(--primary-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -207,7 +204,7 @@ body > div > header {
 body > div > header .container {
   align-items: center;
   height: 100%;
-  width: min(1200px, 90vw);
+  width: min(1440px, 90vw);
   display: flex;
   justify-content: space-between;
 }
@@ -284,7 +281,7 @@ body > div > header nav ul li a {
   font-size: 2rem;
   text-transform: uppercase;
 }
-body > div > header nav ul li a:hover {
+body > div > header nav ul li a:hover, body > div > header nav ul li a:active {
   color: var(--highlight-color);
 }
 body > div > header nav ul li a[aria-current=page] {
@@ -385,13 +382,13 @@ button[data-toggle=main-nav] {
   align-items: center;
   appearance: none;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0;
+  border-radius: 50%;
   border: none;
   bottom: 2rem;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 2.5rem;
+  height: 3rem;
   justify-content: space-around;
   left: 2rem;
   position: fixed;
@@ -400,18 +397,11 @@ button[data-toggle=main-nav] {
   width: 3rem;
   z-index: 1000;
 }
-button[data-toggle=main-nav]:hover {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-button[data-toggle=main-nav]:active {
-  background-color: black;
-  transform: scale(1.125);
-}
 button[data-toggle=main-nav] span, button[data-toggle=main-nav]::before, button[data-toggle=main-nav]::after {
   display: block;
-  background-color: white;
-  height: 4px;
-  width: 2rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 3px;
+  width: 1.5rem;
 }
 button[data-toggle=main-nav] span {
   text-indent: -100%;
@@ -419,11 +409,25 @@ button[data-toggle=main-nav] span {
 }
 button[data-toggle=main-nav]::before {
   content: "";
-  margin-top: 0.25rem;
+  margin-top: 0.625rem;
+  transform-origin: center;
 }
 button[data-toggle=main-nav]::after {
   content: "";
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+button[data-toggle=main-nav]:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+button[data-toggle=main-nav]:hover span, button[data-toggle=main-nav]:hover::before, button[data-toggle=main-nav]:hover::after {
+  background-color: white;
+}
+button[data-toggle=main-nav]:active {
+  background-color: black;
+  transform: scale(1.125);
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true] {
+  background-color: var(--primary-color);
 }
 @media (min-width: 768px) {
   button[data-toggle=main-nav] {
@@ -441,12 +445,12 @@ a[title=Home] {
   position: relative;
 }
 a[title=Home] span {
+  align-items: center;
   display: inline-flex;
   flex-direction: column;
   line-height: 0.9;
   margin-inline-end: 0.25rem;
-  align-items: center;
-  font-size: 1rem;
+  font-size: 1.0325rem;
   scale: 0.9;
   transition: all 0.3s;
 }
@@ -478,8 +482,8 @@ a[title=Home] img[alt="Salt Lake City Tattoo Expo"] {
 }
 @media (min-width: 992px) {
   a[title=Home] img[alt="Salt Lake City Tattoo Expo"] {
-    height: 82px;
-    min-width: 82px;
+    height: 92px;
+    min-width: 92px;
   }
 }
 a[title=Home]:hover img {
@@ -559,13 +563,14 @@ footer nav[aria-label=Secondary] ul {
   }
 }
 
-.page-article .container {
+.page-article > .container {
+  padding-block: 2rem;
   margin-inline: auto;
   width: min(1100px, 86vw);
 }
 
-.artists-article .container {
-  padding-block: 1rem;
+.artists-article > .container {
+  padding-block: 2rem;
   margin-inline: auto;
   width: min(1440px, 99vw);
 }
@@ -679,7 +684,8 @@ footer nav[aria-label=Secondary] ul {
   max-width: 64ch;
 }
 
-.artists-list {
+.artists-list,
+.vendors-list {
   list-style: none;
   padding: 0;
   display: grid;
@@ -688,32 +694,59 @@ footer nav[aria-label=Secondary] ul {
   justify-content: center;
 }
 
-.artist {
+.artist,
+.vendor {
   background-color: var(--primary-color);
-  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
   background-image: url("/assets/images/circle-logo-transparent.png");
   background-position: 80px 180px;
   background-repeat: no-repeat;
   border-bottom: 1.5rem solid black;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.125);
   text-align: center;
 }
-.artist__image {
+.artist__image__wrapper,
+.vendor__image__wrapper {
   width: 100%;
+  overflow: hidden;
+  background-color: var(--primary-color);
+  border: 0.5rem solid var(--primary-color);
+  position: relative;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.artist__title {
+.artist__image,
+.vendor__image {
+  margin: 0 0 0 4px;
+  width: 102%;
+  height: 102%;
+  aspect-ratio: 1/1;
+}
+.artist__title,
+.vendor__title {
   color: white;
   margin-block: 0.5rem;
 }
-.artist__insta {
+.artist p,
+.vendor p {
   margin-block-end: 0.25rem;
 }
-.artist__shop {
+.artist__website,
+.vendor__website {
+  color: var(--highlight-color);
+}
+.artist__shop,
+.vendor__shop {
   margin: 0;
   color: var(--highlight-color);
   background-color: black;
 }
-.artist:has(.artist__shop) {
-  border: none;
+.artist:has(.artist__shop), .artist:has(.vendor__shop),
+.vendor:has(.artist__shop),
+.vendor:has(.vendor__shop) {
+  border-bottom: none;
 }
 
 .icon-link {

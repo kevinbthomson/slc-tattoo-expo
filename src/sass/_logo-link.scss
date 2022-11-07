@@ -9,12 +9,13 @@ a[title='Home'] {
   position: relative;
 
   span {
+    align-items: center;
     display: inline-flex;
     flex-direction: column;
     line-height: 0.9;
     margin-inline-end: 0.25rem;
-    align-items: center;
-    font-size: 1rem;
+
+    font-size: 1.0325rem;
     scale: 0.9;
     transition: all 0.3s;
 
@@ -46,8 +47,8 @@ a[title='Home'] {
     }
 
     @media (min-width: $breakpoint-lg) {
-      height: 82px;
-      min-width: 82px;
+      height: 92px;
+      min-width: 92px;
     }
   }
 

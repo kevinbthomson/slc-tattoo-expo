@@ -11,6 +11,7 @@ const menuBtn = document.querySelector('[data-toggle="main-nav"]');
 menuBtn.addEventListener('click', () => {
   menuToggle(body);
   menuToggle(mainNav);
+  menuToggle(menuBtn);
 });
 
 document.addEventListener('keyup', (e) => {

@@ -2,13 +2,13 @@ button[data-toggle='main-nav'] {
   align-items: center;
   appearance: none;
   background-color: rgba(black, 0.5);
-  border-radius: 0;
+  border-radius: 50%;
   border: none;
   bottom: 2rem;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 2.5rem;
+  height: 3rem;
   justify-content: space-around;
   left: 2rem;
   position: fixed;
@@ -17,22 +17,13 @@ button[data-toggle='main-nav'] {
   width: 3rem;
   z-index: 1000;
 
-  &:hover {
-    background-color: rgba(black, 0.75);
-  }
-
-  &:active {
-    background-color: black;
-    transform: scale(1.125);
-  }
-
   span,
   &::before,
   &::after {
     display: block;
-    background-color: white;
-    height: 4px;
-    width: 2rem;
+    background-color: rgba(white, 0.75);
+    height: 3px;
+    width: 1.5rem;
   }
 
   span {
@@ -42,12 +33,46 @@ button[data-toggle='main-nav'] {
 
   &::before {
     content: '';
-    margin-top: 0.25rem;
+    margin-top: 0.625rem;
+    transform-origin: center;
   }
 
   &::after {
     content: '';
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &:hover {
+    background-color: rgba(black, 0.75);
+
+    span,
+    &::before,
+    &::after {
+      background-color: white;
+    }
+  }
+
+  &:active {
+    background-color: black;
+    transform: scale(1.125);
+  }
+
+  &[data-mobile-nav-open='true'] {
+    background-color: var(--primary-color);
+
+    // span {
+    //   rotate: 45deg;
+    //   background-color: pink;
+    // }
+
+    // &::before {
+    //   background-color: lime;
+    //   rotate: -45deg;
+    // }
+
+    // &::after {
+    //   display: none;
+    // }
   }
 
   @media (min-width: $breakpoint-md) {

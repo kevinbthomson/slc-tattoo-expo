@@ -1,9 +1,10 @@
 const { DateTime } = require('luxon');
 const esbuild = require('esbuild');
+
 module.exports = function (eleventyConfig) {
-  // make sure we're watching for css changes in dev
   eleventyConfig.addWatchTarget('./src/sass/');
   eleventyConfig.addWatchTarget('./src/js/');
+
   eleventyConfig.addPassthroughCopy('./src/assets');
   eleventyConfig.addPassthroughCopy('./src/admin');
 
