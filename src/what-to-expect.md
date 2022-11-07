@@ -1,8 +1,7 @@
 ---
 title: What to expect
-layout: 'layouts/page.njk'
+layout: layouts/page.njk
 ---
-
 ## How to plan
 
 It is important for you to plan ahead if you are looking to get a tattoo at the expo. The artist we have invited are highly sought after and their schedules will fill up quickly.
@@ -13,7 +12,7 @@ If you are attending just to look, or are on the fence about getting a tattoo th
 
 #### 👶 Can I bring my kids?
 
-Yes! We strive to offer a family friendly environment, but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth; _no exceptions_. We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists.
+Yes! We strive to offer a family friendly environment, but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth; *no exceptions*. We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists. Unattended children will be given energy drinks and taught how to swear.
 
 #### ⏰ How do I set up and appointment with an artist?
 
@@ -27,9 +26,13 @@ Go to our <a href="/artists/">Artists page</a> and find the artists you are look
 
 💵 Cash is King, 📱 Venmo is Queen.
 
+#### 💰 How much does a tattoo cost?
+
+Y﻿ou will work out the price individually with your tattoo artist, however we have worked hard to bring these exceptionally talented tattoo artists to SLC and are implementing a $150 minimum. Don't be a cheapskate!
+
 #### 🏧 Will there be ATM’s at the Expo?
 
-**Yes**, we will have several ATM’s for you to get cash, but plan ahead. ATM’s have cash withdraw limits. (Typically $300 max) If you’re paying cash to your artist, please be sure you bring what you need in advance. _And don’t forget that tip!_
+**Yes**, we will have several ATM’s for you to get cash, but plan ahead. ATM’s have cash withdraw limits. (Typically $300 max) If you’re paying cash to your artist, please be sure you bring what you need in advance. *And don’t forget that tip!*
 
 #### 🍕 Will food and concessions be available at the Expo?
 
