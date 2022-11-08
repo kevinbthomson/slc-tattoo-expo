@@ -174,7 +174,7 @@ p {
 
 .hero-banner {
   background-color: var(--gray-10);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/slc-skyline.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/hero-mobile.jpg");
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   background-position: center, bottom;
   background-repeat: no-repeat;
@@ -183,6 +183,11 @@ p {
   align-items: center;
   height: 300px;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .hero-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/images/hero-desktop.jpg");
+  }
 }
 .hero-banner h1 {
   color: var(--primary-color);
