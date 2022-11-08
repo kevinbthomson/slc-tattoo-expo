@@ -21,7 +21,7 @@
     }
 
     a {
-      font-family: var(--font-body);
+      font-family: var(--body-font);
       font-size: 1.25rem;
     }
   }
@@ -61,7 +61,7 @@ body > div > header {
 
   &::before,
   &::after {
-    font-family: var(--font-heading);
+    font-family: var(--heading-font);
     font-size: 10rem;
     line-height: 1;
     margin: 0;
@@ -127,7 +127,7 @@ body > div > header {
         a {
           color: var(--white);
           font-weight: 700;
-          font-family: var(--font-heading);
+          font-family: var(--heading-font);
           font-size: 2rem;
           text-transform: uppercase;
 

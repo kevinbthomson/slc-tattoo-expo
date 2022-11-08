@@ -1,0 +1,45 @@
+.meta {
+  color: white;
+  padding: 0 0.5rem;
+  background-color: var(--primary-color);
+  border-top-right-radius: 0.25rem;
+  font-family: var(--heading-font);
+  text-align: end;
+}
+
+.post-list {
+  padding: 0;
+  list-style: none;
+}
+
+.post {
+  border-bottom: 0.25rem solid var(--primary-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 1rem rgba(black, 0.125);
+  margin-block-end: 1rem;
+  padding: 1rem;
+  position: relative;
+
+  &__title {
+    margin: 0;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__description {
+    margin: 0;
+  }
+
+  &__date {
+    color: white;
+    padding: 0 0.5rem;
+    position: absolute;
+    background-color: var(--primary-color);
+    border-top-right-radius: 0.25rem;
+    font-family: var(--heading-font);
+    top: 0;
+    right: 0;
+  }
+}

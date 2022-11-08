@@ -3,8 +3,7 @@ title: News
 layout: 'layouts/page.njk'
 ---
 
-<ul>
-  {%- for post in collections.posts -%}
-  <li>{{ post.data.title }}</li>
-  {%- endfor -%}
+<ul class="post-list">
+  {%- for post in collections.posts -%} {% include 'partials/post.njk' %} {%-
+  endfor -%}
 </ul>

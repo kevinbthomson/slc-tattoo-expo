@@ -14,8 +14,8 @@
   --gray-60: rgba(0, 0, 0, 0.6);
   --gray-80: rgba(0, 0, 0, 0.8);
 
-  --font-body: 'Roboto Condensed', sans-serif;
-  --font-heading: 'Roboto Slab', serif;
+  --body-font: 'Roboto Condensed', sans-serif;
+  --heading-font: 'Roboto Slab', serif;
 }
 
 $breakpoint-sm: 576px;
@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  font-family: var(--font-body);
+  font-family: var(--body-font);
   font-weight: 400;
   line-height: 1.6;
 
@@ -42,6 +42,7 @@ body {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .site-layout {
@@ -53,6 +54,15 @@ a {
 main {
   border-top: 120px solid black;
   background-color: var(--white);
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .container {

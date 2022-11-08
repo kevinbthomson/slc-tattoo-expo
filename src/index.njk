@@ -57,23 +57,14 @@ title: Salt Lake City Tattoo Expo
       </div>
     </section>
 
-    <!-- <section class="section section-news">
-      <ul>
-        {% for post in collections.posts %}
-        <li>
-          <article>
-            <h3>
-              <a href="{{ post.url }}">{{ post.data.title }}</a>
-            </h3>
-            <p>{{ post.data.date | postDate }}</p>
-            <p>{{ post.data.description }}</p>
-          </article>
-        </li>
-        {% endfor %}
+    <section class="section section-news">
+      <ul class="post-list">
+        {%- for post in collections.posts -%} {% include 'partials/post.njk' %}
+        {%- endfor -%}
       </ul>
     </section>
 
-    <section class="section section-email">
+    <!-- <section class="section section-email">
       {% include "partials/email.njk" %}
     </section> -->
   </div>

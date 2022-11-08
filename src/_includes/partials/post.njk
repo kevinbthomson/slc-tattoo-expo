@@ -1,8 +1,11 @@
 <li>
   <article class="post">
-    <h3 class="post__title">{{ post.data.title }}</h3>
+    <h3 class="post__title">
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </h3>
+    <span class="post__date">{{ page.date | postDate }}</span>
     {% if post.data.description %}
-    <p>{{ post.data.description }}</p>
+    <p class="post__description">{{ post.data.description }}</p>
     {% endif %}
   </article>
 </li>
