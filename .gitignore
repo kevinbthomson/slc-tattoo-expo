@@ -104,5 +104,3 @@ dist
 .tern-port
 # Dependency directories
 node_modules/
-
-public/

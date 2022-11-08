@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: 'public/assets/images'
+public_folder: '/assets/images'
+collections:
+  - name: 'artist'
+    label: 'Artist'
+    folder: 'src/artists'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - {
+          label: 'Instagram',
+          name: 'instagram',
+          widget: 'string',
+          required: false,
+        }
+      - { label: 'Shop Name', name: 'shop', widget: 'string', required: false }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: ['artist'] }
+  - name: 'vendor'
+    label: 'Vendor'
+    folder: 'src/vendors'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - {
+          label: 'Instagram',
+          name: 'instagram',
+          widget: 'string',
+          required: false,
+        }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Website', name: 'website', widget: 'string', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: ['vendors'] }
+  - name: 'page'
+    label: 'Page'
+    folder: 'src/'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Page Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'src/news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          required: false,
+        }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Tags', name: 'tags', widget: 'list, default: ["post"]' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
