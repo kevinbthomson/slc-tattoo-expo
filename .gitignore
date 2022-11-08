@@ -105,4 +105,4 @@ dist
 # Dependency directories
 node_modules/
 
-public
+public/

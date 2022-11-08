@@ -27,17 +27,25 @@
   }
 }
 
-body > div > header {
+header.site-header {
   background: #121212;
-  border-bottom: 10px solid var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  border-bottom-width: 0.625rem;
+  border-bottom-style: solid;
   box-shadow: 0 0 20px rgb(black, 0.4);
   box-sizing: border-box;
-  height: 120px;
+  height: 7.5rem;
   overflow: hidden;
   padding: 0;
   position: fixed;
+  transition: all 0.3s;
   width: 100vw;
   z-index: 1000;
+
+  &[data-scrolled='true'] {
+    border-bottom-width: 0.25rem;
+    height: 4rem;
+  }
 
   @media (min-width: $breakpoint-lg) {
     padding: 0;

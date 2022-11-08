@@ -15,13 +15,13 @@ a[title='Home'] {
     line-height: 0.9;
     margin-inline-end: 0.25rem;
 
-    font-size: 1.0325rem;
+    font-size: 1.05rem;
     scale: 0.9;
     transition: all 0.3s;
 
     strong {
       color: white;
-      font-size: 2rem;
+      font-size: 2.0625rem;
     }
 
     em {
@@ -70,5 +70,16 @@ a[title='Home'] {
     > span {
       scale: 0.9;
     }
+  }
+}
+
+.site-header[data-scrolled='true'] {
+  span {
+    margin-inline-end: 0.125rem;
+    scale: 0.8;
+  }
+  img[alt='Salt Lake City Tattoo Expo'] {
+    height: 48px;
+    min-width: 48px;
   }
 }
