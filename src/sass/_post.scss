@@ -12,16 +12,23 @@
   list-style: none;
 }
 
+.post-list-home {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 340px));
+  gap: 1rem;
+}
+
 .post {
   border-bottom: 0.25rem solid var(--primary-color);
-  border-radius: 0.25rem;
   box-shadow: 0 2px 1rem rgba(black, 0.125);
-  margin-block-end: 1rem;
   padding: 1rem;
   position: relative;
 
   &__title {
     margin: 0;
+    margin-bottom: 1rem;
 
     a:hover {
       text-decoration: none;
@@ -37,9 +44,9 @@
     padding: 0 0.5rem;
     position: absolute;
     background-color: var(--primary-color);
-    border-top-right-radius: 0.25rem;
     font-family: var(--heading-font);
-    top: 0;
+
+    bottom: -2rem;
     right: 0;
   }
 }

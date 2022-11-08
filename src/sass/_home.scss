@@ -4,11 +4,12 @@
   @media (min-width: $breakpoint-lg) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
     grid-template-areas:
       'dates about'
-      'tickets about';
+      'tickets about'
+      'posts posts';
   }
 
   .section {
@@ -111,7 +112,24 @@
       }
     }
 
+    // About
     &-about {
+      .section-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+          max-width: 64ch;
+        }
+      }
+
+      grid-area: about;
+      background-color: var(--gray-10);
+    }
+
+    // News
+    &-posts {
       .section-container {
         display: flex;
         align-items: center;
