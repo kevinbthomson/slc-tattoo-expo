@@ -418,6 +418,7 @@ button[data-toggle=main-nav] {
   z-index: 1000;
 }
 button[data-toggle=main-nav] span, button[data-toggle=main-nav]::before, button[data-toggle=main-nav]::after {
+  transition: all 0.4s ease;
   display: block;
   background-color: rgba(255, 255, 255, 0.75);
   height: 3px;
@@ -448,6 +449,19 @@ button[data-toggle=main-nav]:active {
 }
 button[data-toggle=main-nav][data-mobile-nav-open=true] {
   background-color: var(--primary-color);
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true] span {
+  rotate: 45deg;
+  top: -13px;
+  position: relative;
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true]::before {
+  rotate: -45deg;
+  top: 5px;
+  position: relative;
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true]::after {
+  display: none;
 }
 @media (min-width: 768px) {
   button[data-toggle=main-nav] {
@@ -519,7 +533,7 @@ a[title=Home]:active > span {
   scale: 0.9;
 }
 
-.site-header[data-scrolled=true] span {
+.site-header[data-scrolled=true] a[title=Home] span {
   margin-inline-end: 0.125rem;
   scale: 0.8;
 }

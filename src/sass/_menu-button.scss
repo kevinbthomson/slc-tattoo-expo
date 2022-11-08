@@ -20,6 +20,7 @@ button[data-toggle='main-nav'] {
   span,
   &::before,
   &::after {
+    transition: all 0.4s ease;
     display: block;
     background-color: rgba(white, 0.75);
     height: 3px;
@@ -60,19 +61,21 @@ button[data-toggle='main-nav'] {
   &[data-mobile-nav-open='true'] {
     background-color: var(--primary-color);
 
-    // span {
-    //   rotate: 45deg;
-    //   background-color: pink;
-    // }
+    span {
+      rotate: 45deg;
+      top: -13px;
+      position: relative;
+    }
 
-    // &::before {
-    //   background-color: lime;
-    //   rotate: -45deg;
-    // }
+    &::before {
+      rotate: -45deg;
+      top: 5px;
+      position: relative;
+    }
 
-    // &::after {
-    //   display: none;
-    // }
+    &::after {
+      display: none;
+    }
   }
 
   @media (min-width: $breakpoint-md) {
