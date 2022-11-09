@@ -1,5 +1,5 @@
 ---
-title: News Item
+title: Latest News
 description: Tickets On Sale Now!
 date: 2022-11-05
 ---
