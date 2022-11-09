@@ -1,7 +1,7 @@
 button[data-toggle='main-nav'] {
   align-items: center;
   appearance: none;
-  background-color: rgba(black, 0.5);
+  background-color: var(--gray-80);
   border-radius: 50%;
   border: none;
   bottom: 2rem;

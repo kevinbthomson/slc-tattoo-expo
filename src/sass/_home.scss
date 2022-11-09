@@ -13,21 +13,37 @@
   }
 
   .section {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     min-height: 400px;
+    position: relative;
 
     // DATES
     &-dates {
       grid-area: dates;
-      background-color: white;
-      text-transform: uppercase;
+      background-color: rgb(176, 212, 236);
+      background-image: url('../assets/images/hero-desktop.jpg');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: 200%;
+
+      @media (min-width: $breakpoint-md) {
+        background-size: 150%;
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        background-size: 126%;
+      }
+
+      @media (min-width: $breakpoint-xl) {
+        background-size: 100%;
+      }
 
       h2 {
         font-size: clamp(6rem, 12vw, 9rem);
         font-weight: 900;
-        color: var(--gray-40);
+        color: var(--gray-50);
         margin: 0;
         line-height: 0.825;
       }
@@ -48,9 +64,10 @@
 
         &:last-of-type {
           font-weight: 700;
-          color: var(--gray-50);
+          color: var(--black);
           font-size: 2rem;
           line-height: 0.825;
+          text-shadow: 0 0 4px white;
         }
       }
 
@@ -58,13 +75,14 @@
         display: flex;
         flex-direction: column;
         padding-inline: 2rem;
+        z-index: 2;
       }
     }
 
     // TICKETS
     &-tickets {
       grid-area: tickets;
-      background-color: var(--gray-40);
+      background-color: var(--gray-20);
 
       .section-container {
         display: flex;
@@ -84,12 +102,13 @@
         font-weight: 900;
         justify-content: center;
         line-height: 0.725;
+        padding-inline-end: 3rem;
         scale: 0.8;
         text-decoration: none;
         text-transform: uppercase;
         transition: all 0.3s;
 
-        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:rgb(15,8,10);'/%3e%3c/svg%3e ");
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:rgb(0,0,0);'/%3e%3c/svg%3e ");
         width: 350px;
         height: 140px;
 
@@ -114,22 +133,41 @@
 
     // About
     &-about {
+      grid-area: about;
+      background-image: url('../assets/images/home-about-bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
       .section-container {
-        display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.625);
+        box-shadow: inset 0 0 10px rgb(black, 0.5);
+        color: white;
+        display: flex;
+        height: 50%;
         flex-direction: column;
+        padding: 2rem 2rem 1rem 2rem;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
 
         p {
           max-width: 64ch;
+          margin-block-start: 0;
         }
       }
 
-      grid-area: about;
       background-color: var(--gray-10);
     }
 
     // News
     &-posts {
+      grid-area: posts;
+
       .section-container {
         display: flex;
         align-items: center;
@@ -140,7 +178,6 @@
         }
       }
 
-      grid-area: about;
       background-color: var(--gray-10);
     }
   }

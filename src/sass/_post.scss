@@ -1,9 +1,8 @@
 .meta {
-  color: white;
-  padding: 0 0.5rem;
   background-color: var(--primary-color);
-  border-top-right-radius: 0.25rem;
+  color: white;
   font-family: var(--heading-font);
+  padding: 0 0.5rem;
   text-align: end;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .post {
-  border-bottom: 0.25rem solid var(--primary-color);
+  border-top: 0.25rem solid var(--primary-color);
   box-shadow: 0 2px 1rem rgba(black, 0.125);
   padding: 1rem;
   position: relative;
@@ -42,11 +41,7 @@
   &__date {
     color: white;
     padding: 0 0.5rem;
-    position: absolute;
     background-color: var(--primary-color);
     font-family: var(--heading-font);
-
-    bottom: -2rem;
-    right: 0;
   }
 }
