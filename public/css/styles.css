@@ -756,10 +756,15 @@ footer nav[aria-label=Secondary] ul {
   flex-direction: column;
   padding: 2rem 2rem 1rem 2rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
+}
+@media (min-width: 992px) {
+  .home-grid .section-about .section-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+  }
 }
 .home-grid .section-about .section-container p {
   max-width: 64ch;
