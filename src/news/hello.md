@@ -1,12 +1,11 @@
 ---
-title: Hello Your mom
-description: Minim eiusmod sunt esse commodo consectetur deserunt aute
-  excepteur. Aute dolor ea deserunt ullamco.
+title: WELCOME BACK!
+description: Salt Lake City Tattoo Expo Returns to the Salt Palace!
 date: 2022-11-05
 ---
+M﻿ark your calendars March 17-19, 2023 cause were coming back atcha! It will be three years since the last tattoo gathering in SLC. There's been a huge gaping hole in our hearts and we miss our tribe. It's long overdue and we're stoked that we can once again bring the greatest tattoo artists and vendors from across the world.
 
-Consectetur aliqua cillum cupidatat veniam incididunt aute fugiat dolor aliqua mollit dolore nulla nostrud. Minim eiusmod sunt esse commodo consectetur deserunt aute excepteur. Aute dolor ea deserunt ullamco. Nostrud nisi exercitation do labore ea et exercitation consequat id ullamco laboris elit. Duis commodo qui culpa ut cillum commodo duis.
+O﻿ur Artists and Vendor pages are being updated daily so keep checking back as we anticipate we will have over 300 tattoo artists roll into town and dozens of amazing vendors by the time the doors open on March 17th!
 
-Non cupidatat incididunt dolore deserunt culpa do in nulla voluptate nostrud occaecat mollit est sint. Qui qui commodo qui anim occaecat laborum id. Sunt incididunt officia reprehenderit veniam pariatur cillum deserunt cillum minim nulla commodo velit. Dolore et est ullamco amet qui labore et elit duis elit. Proident laborum enim et ut ipsum irure proident.
-
-Aute exercitation laborum fugiat anim est eiusmod dolor aliquip. Ut reprehenderit est eiusmod et anim deserunt nisi excepteur. Reprehenderit nostrud ullamco pariatur occaecat nulla ipsum amet dolore magna elit nisi dolore duis dolor. Quis ad cupidatat sint eu veniam nulla excepteur pariatur irure non tempor amet esse. Veniam cillum ullamco eiusmod minim mollit reprehenderit elit officia enim enim dolor.
+Welcome Back to the 2023 Salt Lake Tattoo Expo!\
+W﻿e've missed you all!
