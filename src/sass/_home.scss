@@ -46,11 +46,17 @@
         color: var(--gray-50);
         margin: 0;
         line-height: 0.825;
+        text-shadow: 0 1px 0 white;
       }
 
       p {
         margin: 0;
         line-height: 1;
+
+        sup {
+          text-transform: uppercase;
+          font-size: 0.5em;
+        }
 
         &:first-of-type {
           color: black;
@@ -97,7 +103,7 @@
         color: white;
         display: flex;
         flex-direction: column;
-        font-size: 3rem;
+        font-size: 3.325rem;
         font-style: italic;
         font-weight: 900;
         justify-content: center;
@@ -113,7 +119,7 @@
         height: 140px;
 
         em {
-          font-size: 4.0625rem;
+          font-size: 4rem;
         }
 
         @media (min-width: $breakpoint-sm) {
@@ -122,6 +128,10 @@
           &:hover {
             scale: 1.04;
           }
+        }
+
+        &:hover {
+          color: var(--highlight-color);
         }
       }
 

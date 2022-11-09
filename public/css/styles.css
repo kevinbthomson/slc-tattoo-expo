@@ -194,7 +194,7 @@ p {
   font-size: clamp(3rem, 10vw, 6rem);
   margin: 0;
   text-align: center;
-  text-shadow: 1px 2px 1rem rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 0.25rem white;
 }
 
 header.site-header {
@@ -666,10 +666,15 @@ footer nav[aria-label=Secondary] ul {
   color: var(--gray-50);
   margin: 0;
   line-height: 0.825;
+  text-shadow: 0 1px 0 white;
 }
 .home-grid .section-dates p {
   margin: 0;
   line-height: 1;
+}
+.home-grid .section-dates p sup {
+  text-transform: uppercase;
+  font-size: 0.5em;
 }
 .home-grid .section-dates p:first-of-type {
   color: black;
@@ -708,7 +713,7 @@ footer nav[aria-label=Secondary] ul {
   color: white;
   display: flex;
   flex-direction: column;
-  font-size: 3rem;
+  font-size: 3.325rem;
   font-style: italic;
   font-weight: 900;
   justify-content: center;
@@ -723,7 +728,7 @@ footer nav[aria-label=Secondary] ul {
   height: 140px;
 }
 .home-grid .section-tickets .ticket-button em {
-  font-size: 4.0625rem;
+  font-size: 4rem;
 }
 @media (min-width: 576px) {
   .home-grid .section-tickets .ticket-button {
@@ -732,6 +737,9 @@ footer nav[aria-label=Secondary] ul {
   .home-grid .section-tickets .ticket-button:hover {
     scale: 1.04;
   }
+}
+.home-grid .section-tickets .ticket-button:hover {
+  color: var(--highlight-color);
 }
 .home-grid .section-tickets p {
   margin: 0.5rem 0 0 0;
@@ -860,36 +868,51 @@ footer nav[aria-label=Secondary] ul {
   padding: 0;
   list-style: none;
 }
+.post-list-page li {
+  margin-block-end: 2rem;
+}
 
 .post-list-home {
-  width: 100%;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 340px));
   gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 340px));
+  width: 100%;
 }
 
 .post {
   border-top: 0.25rem solid var(--primary-color);
   box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.125);
-  padding: 1rem;
+  height: 100%;
   position: relative;
 }
 .post__title {
   margin: 0;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  padding: 0 1rem;
+  background-color: var(--primary-color);
+}
+.post__title a {
+  color: white;
 }
 .post__title a:hover {
   text-decoration: none;
 }
 .post__description {
-  margin: 0;
+  margin-block: 1rem;
+  padding: 0 4rem 0 1rem;
 }
 .post__date {
-  color: white;
-  padding: 0 0.5rem;
-  background-color: var(--primary-color);
-  font-family: var(--heading-font);
+  color: var(--gray-80);
+  text-align: end;
+  margin: 0;
+  padding: 0 1rem;
+  background-color: var(--gray-20);
+}
+.post__link {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .icon-link {

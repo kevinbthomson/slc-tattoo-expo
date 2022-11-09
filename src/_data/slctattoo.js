@@ -5,17 +5,17 @@ module.exports = function () {
     dates: [
       {
         day: 'Friday',
-        date: '17th',
+        date: '17',
         times: '3pm - 11pm',
       },
       {
         day: 'Saturday',
-        date: '18th',
+        date: '18',
         times: '12pm - 11pm',
       },
       {
         day: 'Sunday',
-        date: '19th',
+        date: '19',
         times: '12pm - 8pm',
       },
     ],
