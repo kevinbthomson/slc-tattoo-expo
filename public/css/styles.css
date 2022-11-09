@@ -452,7 +452,7 @@ button[data-toggle=main-nav][data-mobile-nav-open=true] {
 }
 button[data-toggle=main-nav][data-mobile-nav-open=true] span {
   rotate: 45deg;
-  top: -13px;
+  top: -14px;
   position: relative;
 }
 button[data-toggle=main-nav][data-mobile-nav-open=true]::before {
