@@ -181,6 +181,7 @@
     // News
     &-posts {
       grid-area: posts;
+      background-color: var(--gray-10);
 
       .section-container {
         display: flex;
@@ -191,8 +192,6 @@
           max-width: 64ch;
         }
       }
-
-      background-color: var(--gray-10);
     }
   }
 }

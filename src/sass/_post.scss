@@ -1,5 +1,6 @@
 .meta {
   background-color: var(--primary-color);
+  border-radius: 0.25rem;
   color: white;
   font-family: var(--heading-font);
   padding: 0 0.5rem;
@@ -21,24 +22,37 @@
   display: grid;
   justify-content: center;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 340px));
-  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: min(1440px, 99vw);
+  padding-inline: 1rem;
 }
 
 .post {
-  border-top: 0.25rem solid var(--primary-color);
-  box-shadow: 0 2px 1rem rgba(black, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 1rem rgba(black, 0.125);
   height: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+
+  & > p {
+    padding: 0 1rem;
+
+    &:last-of-type {
+      margin-top: auto;
+    }
+  }
 
   &__title {
     margin: 0;
     line-height: 1.5;
-    padding: 0 1rem;
-    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    background-color: var(--gray-10);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
 
     a {
-      color: white;
+      color: var(--primary-color);
 
       &:hover {
         text-decoration: none;
@@ -52,6 +66,7 @@
   }
 
   &__date {
+    font-size: 0.875rem;
     color: var(--gray-80);
     text-align: end;
     margin: 0;
@@ -60,8 +75,14 @@
   }
 
   &__link {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.25rem;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
