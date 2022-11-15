@@ -109,8 +109,7 @@
         <p>
           March
           <span
-            >17<sup>th</sup> -
-            19<sup>th</sup></span
+            >17<sup>th</sup>-19<sup>th</sup></span
           >
         </p>
         <p>Salt Palace Convention Center</p>
@@ -192,17 +191,37 @@
 </ul>
     </section>
 
-    <!-- <section class="section section-email">
-      <form action="" class="email-form">
+    <section class="section section-email">
+      <form
+  class="email-form"
+  name="subscribe"
+  method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+>
   <fieldset>
-    <legend>Get expo news in your inbox!</legend>
-    <label for="email">Email:</label>
-    <input id="email" placeholder="Your email" type="email" />
-    <button type="submit">Submit</button>
+    <legend>Subscribe to get updates</legend>
+    <input
+      type="hidden"
+      name="subject"
+      value="Subscribe to email list slctattooexpo.com"
+    />
+    <p class="hidden">
+      <label>
+        Don't fill this out if you're human: <input name="bot-field" />
+      </label>
+    </p>
+    <p>
+      <label
+        >Your email:
+        <input type="email" name="email" placeholder="email@address.com"
+      /></label>
+      <button type="submit">Subscribe</button>
+    </p>
   </fieldset>
 </form>
 
-    </section> -->
+    </section>
   </div>
 </article>
 

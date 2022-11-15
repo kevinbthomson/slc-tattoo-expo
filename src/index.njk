@@ -18,8 +18,8 @@ title: Salt Lake City Tattoo Expo
         <p>
           March
           <span
-            >{{ slctattoo.dates[0].date }}<sup>th</sup> -
-            {{ slctattoo.dates[slctattoo.dates.length - 1].date
+            >{{ slctattoo.dates[0].date }}<sup>th</sup>-{{
+              slctattoo.dates[slctattoo.dates.length - 1].date
             }}<sup>th</sup></span
           >
         </p>
@@ -69,8 +69,8 @@ title: Salt Lake City Tattoo Expo
       </ul>
     </section>
 
-    <!-- <section class="section section-email">
-      {% include "partials/email.njk" %}
-    </section> -->
+    <section class="section section-email">
+      {% include "partials/email-form.njk" %}
+    </section>
   </div>
 </article>
