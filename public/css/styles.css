@@ -138,6 +138,21 @@ main a:hover {
   }
 }
 
+.button, .email-form fieldset button[type=submit], .post__link {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+.button:hover, .email-form fieldset button[type=submit]:hover, .post__link:hover {
+  cursor: pointer;
+  background-color: var(--primary-color-light);
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -628,7 +643,7 @@ footer nav[aria-label=Secondary] ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "dates about" "tickets about" "posts posts";
+    grid-template-areas: "dates about" "tickets about" "posts posts" "email email";
   }
 }
 .home-grid .section {
@@ -781,15 +796,11 @@ footer nav[aria-label=Secondary] ul {
 }
 .home-grid .section-posts {
   grid-area: posts;
-  background-color: var(--gray-10);
+  background-image: linear-gradient(white, var(--gray-10));
+  padding-block: 1rem;
 }
-.home-grid .section-posts .section-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.home-grid .section-posts .section-container p {
-  max-width: 64ch;
+.home-grid .section-email {
+  grid-area: email;
 }
 
 .artists-list,
@@ -877,13 +888,14 @@ footer nav[aria-label=Secondary] ul {
 .post-list-home {
   display: grid;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   width: min(1440px, 99vw);
-  padding-inline: 1rem;
+  padding-inline: 2rem;
 }
 
 .post {
+  background-color: var(--white);
   border-radius: 0.25rem;
   box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.125);
   height: 100%;
@@ -901,7 +913,6 @@ footer nav[aria-label=Secondary] ul {
   margin: 0;
   line-height: 1.5;
   padding: 0.5rem 1rem;
-  background-color: var(--gray-10);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
@@ -921,19 +932,8 @@ footer nav[aria-label=Secondary] ul {
   text-align: end;
   margin: 0;
   padding: 0 1rem;
-  background-color: var(--gray-20);
+  background-image: linear-gradient(0.25turn, var(--white), var(--gray-10));
 }
-.post__link {
-  background-color: var(--primary-color);
-  border-radius: 0.25rem;
-  color: white;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-}
-.post__link:hover {
-  text-decoration: none;
-}
-
 .icon-link {
   width: 2rem;
   height: 2rem;
@@ -971,13 +971,37 @@ footer nav[aria-label=Secondary] ul {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23f4a708'%3e%3cpath d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z'/%3e%3c/svg%3e");
 }
 
-.email-form fieldset {
-  border: none;
-}
-.email-form fieldset input[type=email] {
-  background-color: var(--gray-40);
+:has(> .email-form) {
+  display: grid;
+  place-content: center;
 }
 
+.email-form {
+  background-color: var(--white);
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.125);
+  padding: 2rem;
+  margin-inline: 2rem;
+}
+.email-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.email-form fieldset legend {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+.email-form fieldset input[type=email] {
+  appearance: none;
+  background-color: var(--gray-80);
+  border-radius: 0.25rem;
+  border: none;
+  color: var(--white);
+  padding: 0.5rem 1rem;
+}
 .text-center {
   text-align: center;
 }
@@ -989,6 +1013,18 @@ footer nav[aria-label=Secondary] ul {
 }
 .text-capitalize {
   text-transform: capitalize;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
