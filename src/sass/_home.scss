@@ -9,7 +9,8 @@
     grid-template-areas:
       'dates about'
       'tickets about'
-      'posts posts';
+      'posts posts'
+      'email email';
   }
 
   .section {
@@ -181,17 +182,13 @@
     // News
     &-posts {
       grid-area: posts;
-      background-color: var(--gray-10);
+      background-image: linear-gradient(white, var(--gray-10));
+      padding-block: 1rem;
+    }
 
-      .section-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-
-        p {
-          max-width: 64ch;
-        }
-      }
+    // Email signup
+    &-email {
+      grid-area: email;
     }
   }
 }
