@@ -763,11 +763,16 @@ footer nav[aria-label=Secondary] ul {
 }
 .home-grid .section-about {
   grid-area: about;
-  background-image: url("../assets/images/home-about-bg.jpg");
+  background-image: url("../assets/images/home-about-bg-mobile.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--gray-10);
+}
+@media (min-width: 768px) {
+  .home-grid .section-about {
+    background-image: url("../assets/images/home-about-bg-desktop.webp");
+  }
 }
 .home-grid .section-about .section-container {
   align-items: center;

@@ -145,10 +145,14 @@
     // About
     &-about {
       grid-area: about;
-      background-image: url('../assets/images/home-about-bg.jpg');
+      background-image: url('../assets/images/home-about-bg-mobile.webp');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+
+      @media (min-width: $breakpoint-md) {
+        background-image: url('../assets/images/home-about-bg-desktop.webp');
+      }
 
       .section-container {
         align-items: center;
