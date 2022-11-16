@@ -190,7 +190,7 @@ p {
 .hero-banner {
   background-color: var(--gray-10);
   background-color: rgb(176, 212, 236);
-  background-image: url("/assets/images/hero-mobile.jpg");
+  background-image: url("/assets/images/hero-mobile.webp");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -201,7 +201,7 @@ p {
 }
 @media (min-width: 768px) {
   .hero-banner {
-    background-image: url("/assets/images/hero-desktop.jpg");
+    background-image: url("/assets/images/hero-desktop.webp");
   }
 }
 .hero-banner h1 {
@@ -656,7 +656,7 @@ footer nav[aria-label=Secondary] ul {
 .home-grid .section-dates {
   grid-area: dates;
   background-color: rgb(176, 212, 236);
-  background-image: url("../assets/images/hero-desktop.jpg");
+  background-image: url("../assets/images/hero-desktop.webp");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 200%;
