@@ -100,6 +100,9 @@ body {
   font-family: var(--body-font);
   font-weight: 400;
   line-height: 1.6;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 body[data-mobile-nav-open=true] {
   overflow: hidden;
@@ -119,6 +122,7 @@ a {
 main {
   border-top: 120px solid black;
   background-color: var(--white);
+  isolation: isolate;
 }
 main a {
   color: var(--primary-color);
@@ -178,25 +182,25 @@ h3 {
 }
 
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   text-transform: none;
 }
 
 p {
   margin-block: 1.5rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .hero-banner {
-  background-color: var(--gray-10);
+  align-items: center;
   background-color: rgb(176, 212, 236);
   background-image: url("/assets/images/hero-mobile.webp");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
-  align-items: center;
   height: 300px;
+  width: 100vw;
   z-index: 1;
 }
 @media (min-width: 768px) {
@@ -559,7 +563,7 @@ a[title=Home]:active > span {
 }
 .site-header[data-scrolled=true] img[alt="Salt Lake City Tattoo Expo"] {
   height: 48px;
-  min-width: 48px;
+  width: 48px;
 }
 
 footer {
@@ -627,6 +631,9 @@ footer nav[aria-label=Secondary] ul {
   }
 }
 
+.page-article {
+  background-color: var(--white);
+}
 .page-article > .container {
   padding-block: 2rem;
   margin-inline: auto;

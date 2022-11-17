@@ -14,6 +14,7 @@
   var mainNav = document.querySelector('nav[aria-label="Main"]');
   var menuBtn = document.querySelector('[data-toggle="main-nav"]');
   var header = document.querySelector(".site-header");
+  var heroBanner = document.querySelector(".hero-banner");
   menuBtn.addEventListener("click", () => {
     menuToggle(body);
     menuToggle(mainNav);
@@ -28,8 +29,10 @@
   window.addEventListener("scroll", () => {
     if (window.scrollY > 100) {
       resizeHeader(header, true);
+      resizeHeader(heroBanner, true);
     } else {
       resizeHeader(header, false);
+      resizeHeader(heroBanner, false);
     }
   });
 })();
