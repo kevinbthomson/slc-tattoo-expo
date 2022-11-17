@@ -282,6 +282,9 @@ header.site-header nav[aria-label=Main] {
   width: 100vw;
   height: 100vh;
   background-color: black;
+  background-image: url("/assets/images/bust_out.webp");
+  background-repeat: no-repeat;
+  background-position: 80% 80%;
   top: 0;
   left: 0;
   padding: 2rem;
@@ -295,6 +298,7 @@ header.site-header nav[aria-label=Main][data-mobile-nav-open=true] {
 @media (min-width: 768px) {
   header.site-header nav[aria-label=Main] {
     background-color: transparent;
+    background-image: none;
     height: auto;
     padding: 0;
     position: relative;
@@ -560,7 +564,7 @@ a[title=Home]:active > span {
 
 footer {
   background-color: var(--primary-color);
-  background-image: url("/assets/images/circle-logo-transparent.png");
+  background-image: url("/assets/images/circle-logo-transparent.webp");
   background-position: calc(100vw - 290px) center;
   background-repeat: no-repeat;
   color: var(--white);
@@ -821,7 +825,7 @@ footer nav[aria-label=Secondary] ul {
 .artist,
 .vendor {
   background-color: var(--primary-color);
-  background-image: url("/assets/images/circle-logo-transparent.png");
+  background-image: url("/assets/images/circle-logo-transparent.webp");
   background-position: 80px 180px;
   background-repeat: no-repeat;
   border-bottom: 1.5rem solid black;

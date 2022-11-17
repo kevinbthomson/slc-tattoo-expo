@@ -103,6 +103,9 @@ header.site-header {
       width: 100vw;
       height: 100vh;
       background-color: black;
+      background-image: url('/assets/images/bust_out.webp');
+      background-repeat: no-repeat;
+      background-position: 80% 80%;
       top: 0;
       left: 0;
       padding: 2rem;
@@ -116,6 +119,7 @@ header.site-header {
 
       @media (min-width: $breakpoint-md) {
         background-color: transparent;
+        background-image: none;
         height: auto;
         padding: 0;
         position: relative;
