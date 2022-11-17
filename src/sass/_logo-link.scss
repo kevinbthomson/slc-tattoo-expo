@@ -38,17 +38,17 @@ a[title='Home'] {
 
   img[alt='Salt Lake City Tattoo Expo'] {
     height: 82px;
-    min-width: 82px;
+    width: 82px;
     transition: all 0.3s;
 
     @media (min-width: $breakpoint-md) {
       height: 62px;
-      min-width: 62px;
+      width: 62px;
     }
 
     @media (min-width: $breakpoint-lg) {
       height: 92px;
-      min-width: 92px;
+      width: 92px;
     }
   }
 
