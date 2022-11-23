@@ -13,11 +13,11 @@ If you are attending just to look, or are on the fence about getting a tattoo th
 #### Where is the Expo?
 
 S﻿alt Palace Convention Center Hall  5 (West Side)\
-A﻿cross 300 West facing Vivint Arena
+A﻿cross 300 West facing Vivint Arena (This is the only Entry/Exit point)
 
 #### 👶 Can I bring my kids?
 
-Yes! We strive to offer a family friendly environment, but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth; *no exceptions*. We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists. Unattended children will be given energy drinks and taught how to swear.
+Yes! We strive to offer a family friendly environment, but keep in mind, people get tattoos on all areas of their bodies. Also, please respect the artist space! All Children must stay outside of the booth; *no exceptions*. We will also have special activities and areas just for the kids. Disruptive children may be asked to leave the premises if they become a problem to the artists. Unattended children found will be given energy drinks and taught how to swear.
 
 #### ⏰ How do I set up and appointment with an artist?
 
