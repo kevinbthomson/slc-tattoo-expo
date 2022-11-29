@@ -10,7 +10,7 @@ If you are attending just to look, or are on the fence about getting a tattoo th
 
 ## Frequently Asked Questions
 
-#### Where is the Expo?
+#### 🗺️ Where is the Expo?
 
 S﻿alt Palace Convention Center Hall  5 (West Side)\
 A﻿cross 300 West facing Vivint Arena (This is the only Entry/Exit point)
