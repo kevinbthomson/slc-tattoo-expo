@@ -7,5 +7,5 @@ M﻿ark your calendars March 17-19, 2023 cause were coming atcha! It will be thr
 
 O﻿ur Artists and Vendor pages are being updated weekly so keep checking back as we anticipate we will have over 300 tattoo artists roll into town and dozens of amazing vendors by the time the doors open on March 17th!
 
-Welcome to the 2023 Salt Lake Tattoo Expo!\
+Welcome to the 2023 Salt Lake City Tattoo Expo! \
 Salt Lake City has missed you all!
