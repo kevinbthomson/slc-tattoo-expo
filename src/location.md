@@ -7,7 +7,7 @@ layout: 'layouts/page.njk'
 
 #### <a href="https://www.visitsaltlake.com/salt-palace-convention-center/" title="visitsaltlake.com">visitsaltlake.com</a> | <a href="https://goo.gl/maps/fxMZsUBM1oNkbwZF6" target="_blank">View in maps</a>
 
-The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. The Salt Lake City Tattoo Expo is located on the west end of the center, and we recommend entering on the **300 West** entrance facing the Vivint Arena
+The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. **The Salt Lake City Tattoo Expo** is located on the west end of the center, and we recommend entering on the **300 West** entrance facing the Vivint Arena.
 
 The convetion center has two underground parking garages for your convenience.
 
