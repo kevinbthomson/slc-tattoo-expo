@@ -403,11 +403,11 @@ header.site-header nav[aria-label=Secondary] ul li a {
 header.site-header nav[aria-label=Secondary] ul li {
   margin-inline-end: 0;
 }
-header.site-header nav[aria-label=Secondary] ul li.email, header.site-header nav[aria-label=Secondary] ul li.hotel {
+header.site-header nav[aria-label=Secondary] ul li.email, header.site-header nav[aria-label=Secondary] ul li.hotel, header.site-header nav[aria-label=Secondary] ul li.facebook {
   display: none;
 }
-@media (min-width: 768px) {
-  header.site-header nav[aria-label=Secondary] ul li.email {
+@media (min-width: 768px), (orientation: landscape) {
+  header.site-header nav[aria-label=Secondary] ul li.facebook {
     display: block;
   }
 }
