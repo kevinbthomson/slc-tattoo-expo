@@ -1,6 +1,6 @@
 ---
 name: Bezel Books
-instagram: https://www.instagram.com/bezelbooks/
+instagram: ""
 image: /assets/images/bezel.jpg
 website: https://belzel.com/
 tags:
