@@ -52,6 +52,7 @@ a {
   display: grid;
   grid-template-rows: 1fr minmax(240px, auto);
   min-height: 100vh;
+  overflow: hidden;
 }
 
 main {

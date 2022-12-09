@@ -22,10 +22,10 @@ document.addEventListener('keyup', (e) => {
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 100) {
-    resizeHeader(header, true);
-    resizeHeader(heroBanner, true);
+    if (header) resizeHeader(header, true);
+    if (heroBanner) resizeHeader(heroBanner, true);
   } else {
-    resizeHeader(header, false);
-    resizeHeader(heroBanner, false);
+    if (header) resizeHeader(header, false);
+    if (heroBanner) resizeHeader(heroBanner, false);
   }
 });

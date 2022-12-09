@@ -53,10 +53,10 @@ header.site-header {
 
   .container {
     align-items: center;
-    height: 100%;
-    width: min(1440px, 90vw);
     display: flex;
+    height: 100%;
     justify-content: space-between;
+    width: min(1440px, 96vw);
 
     > * {
       z-index: 2;
