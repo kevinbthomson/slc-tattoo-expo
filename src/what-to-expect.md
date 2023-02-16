@@ -43,4 +43,7 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 **Yes**, there will be multiple food choices as well as Beer Vendors. Valid state ID will be required to purchase Beer. (21+)
 
+#### H﻿ow do I get a booth for my shop?\
+T﻿he Salt Lake City Tattoo Expo is an invitational. No open booths.
+
 #### NO MOTORCYCLE CLUBS OR COLORS
