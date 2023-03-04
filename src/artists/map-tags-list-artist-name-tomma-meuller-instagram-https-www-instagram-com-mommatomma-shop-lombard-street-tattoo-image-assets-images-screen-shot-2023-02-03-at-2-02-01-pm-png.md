@@ -2,7 +2,7 @@
 name: Tomma Mueller
 instagram: https://www.instagram.com/mommatomma/
 shop: Lombard Street Tattoo
-image: /assets/images/screen-shot-2023-02-03-at-2.02.01-pm.png
+image: /assets/images/screenshot-2023-03-04-at-3.06.02-pm.png
 tags:
   - artist
 ---
