@@ -65,3 +65,22 @@
     border-bottom: none;
   }
 }
+
+.pagination__item {
+  background-color: var(--primary-color);
+  color: white;
+  display: inline-block;
+  padding-block: 0.25rem;
+  padding-inline: 1rem;
+}
+
+a.pagination__item {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+span.pagination__item {
+  background-color: var(--gray-20);
+  color: var(--gray-80);
+}
