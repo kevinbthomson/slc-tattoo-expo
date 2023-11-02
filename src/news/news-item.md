@@ -1,9 +1,10 @@
 ---
 title: Latest News
-description: Tickets On Sale Now!
-date: 2022-11-05T16:13:22.265Z
+description: SLC Tattoo Expo Returns March 29-31 2024!
+date: 2023-09-19T11:38:47.106Z
 ---
+The Salt Lake City Tattoo Expo returns March 29, 30, 31 2024
 
-Online ticketing for the 2023 Salt Lake City Tattoo Expo is live! Purchase a Weekend Pass to get the most out of the show, (3 days for the price of 2) but if you can't make it for the weekend single day tickets are available. Kids (12-17) tickets are available with an accompanied adult and Children under 11 are free. Please visit our "About" page regarding bringing your kids to the show.
+Online ticket sales and website updates will be available soon. 
 
-Tickets will also be available at the door March 17,18,19. Cash only. No credit cards accepted.
+See you in 2024!
