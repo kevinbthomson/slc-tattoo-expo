@@ -89,7 +89,7 @@ header.site-header {
   &::after {
     display: none;
     right: 100px;
-    content: '2023';
+    content: '2024';
 
     @media (min-width: $breakpoint-xl) {
       display: block;
