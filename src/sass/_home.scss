@@ -86,7 +86,7 @@
       }
     }
 
-    // TICKETS
+    // Tickets
     &-tickets {
       grid-area: tickets;
       background-color: var(--gray-20);
@@ -115,7 +115,7 @@
         text-transform: uppercase;
         transition: all 0.3s;
 
-        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:rgb(0,0,0);'/%3e%3c/svg%3e ");
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:%2351081b;'/%3e%3c/svg%3e ");
         width: 350px;
         height: 140px;
 

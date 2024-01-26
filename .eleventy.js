@@ -33,6 +33,11 @@ module.exports = function (eleventyConfig) {
     })
   );
 
+  eleventyConfig.addCollection('artists', (collectionApi) => {
+    const artists = collectionApi.getFilteredByTags('artist');
+    return artists.sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
+  });
+
   return {
     markdownTemplateEngine: 'njk',
     dir: {
