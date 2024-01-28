@@ -35,8 +35,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('artists', (collectionApi) => {
     const artists = collectionApi.getFilteredByTags('artist');
+
     return artists
-      .filter((artist) => artist.active)
+      .filter((artist) => artist.data.active)
       .sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
   });
 
