@@ -20,7 +20,13 @@ collections:
       - { label: 'Shop Name', name: 'shop', widget: 'string', required: false }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['artist'] }
-      - { label: 'Active', name: 'active', widget: 'boolean', default: true }
+      - {
+          label: 'Active',
+          name: 'active',
+          widget: 'boolean',
+          required: true,
+          default: true,
+        }
   - name: 'vendor'
     label: 'Vendor'
     folder: 'src/vendors'
