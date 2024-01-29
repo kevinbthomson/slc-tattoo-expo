@@ -5,4 +5,5 @@ shop: Old Rose Tattoo
 image: /assets/images/sterling_barck.jpg
 tags:
   - artist
+active: true
 ---

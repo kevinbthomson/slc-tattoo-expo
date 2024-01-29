@@ -5,4 +5,5 @@ shop: Imperial Tattoo
 image: /assets/images/screenshot-2023-01-24-at-11.35.05-am.png
 tags:
   - artist
+active: true
 ---

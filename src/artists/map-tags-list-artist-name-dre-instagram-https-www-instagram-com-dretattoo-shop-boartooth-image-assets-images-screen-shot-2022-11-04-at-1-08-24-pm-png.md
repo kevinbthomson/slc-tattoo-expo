@@ -5,4 +5,5 @@ shop: Boartooth
 image: /assets/images/dre.jpg
 tags:
   - artist
+active: true
 ---

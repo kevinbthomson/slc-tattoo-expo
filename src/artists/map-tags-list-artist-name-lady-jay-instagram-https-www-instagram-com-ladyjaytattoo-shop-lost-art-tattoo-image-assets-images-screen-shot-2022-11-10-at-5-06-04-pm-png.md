@@ -5,4 +5,5 @@ shop: Lost Art Tattoo
 image: /assets/images/lady_jay.jpg
 tags:
   - artist
+active: true
 ---

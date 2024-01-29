@@ -5,4 +5,5 @@ shop: Noodles Tattoo Shop
 image: /assets/images/josh_albers.jpg
 tags:
   - artist
+active: true
 ---

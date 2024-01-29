@@ -5,4 +5,5 @@ shop: Mindzai Creative
 image: /assets/images/pedro_alvarez.jpg
 tags:
   - artist
+active: true
 ---

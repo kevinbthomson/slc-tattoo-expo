@@ -5,4 +5,5 @@ shop: Boartooth
 image: /assets/images/shawn_nutting.jpg
 tags:
   - artist
+active: true
 ---

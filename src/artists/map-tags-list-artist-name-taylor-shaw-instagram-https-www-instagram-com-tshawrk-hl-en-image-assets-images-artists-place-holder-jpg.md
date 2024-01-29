@@ -5,4 +5,5 @@ shop: Lost Art Tattoo
 image: /assets/images/ts.jpg
 tags:
   - artist
+active: true
 ---

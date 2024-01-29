@@ -5,4 +5,5 @@ shop: Devotion Tattoo
 image: /assets/images/screen-shot-2023-02-03-at-3.28.20-pm.png
 tags:
   - artist
+active: true
 ---

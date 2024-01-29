@@ -5,4 +5,5 @@ shop: Tip Top Tattoo
 image: /assets/images/screenshot-2023-01-11-at-1.45.11-pm.png
 tags:
   - artist
+active: true
 ---

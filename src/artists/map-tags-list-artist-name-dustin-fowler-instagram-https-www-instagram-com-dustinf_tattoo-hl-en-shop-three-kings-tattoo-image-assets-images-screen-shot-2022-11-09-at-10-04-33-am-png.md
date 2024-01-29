@@ -5,4 +5,5 @@ shop: Three Kings Tattoo
 image: /assets/images/dustin_fowler.jpg
 tags:
   - artist
+active: true
 ---

@@ -5,4 +5,5 @@ shop: Mindzai Creative
 image: /assets/images/david_leal.jpg
 tags:
   - artist
+active: true
 ---

@@ -5,4 +5,5 @@ shop: Relentless Tattoo
 image: /assets/images/screen-shot-2022-11-21-at-3.02.05-pm.png
 tags:
   - artist
+active: true
 ---

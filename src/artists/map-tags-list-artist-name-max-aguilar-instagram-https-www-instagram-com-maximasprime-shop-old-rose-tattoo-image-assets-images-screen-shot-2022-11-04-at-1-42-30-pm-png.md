@@ -5,4 +5,5 @@ shop: Old Rose Tattoo
 image: /assets/images/max_aguilar.jpg
 tags:
   - artist
+active: true
 ---

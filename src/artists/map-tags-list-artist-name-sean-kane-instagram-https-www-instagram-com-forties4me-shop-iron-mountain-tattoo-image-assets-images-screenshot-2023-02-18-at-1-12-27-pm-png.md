@@ -5,4 +5,5 @@ shop: Iron Mountain Tattoo
 image: /assets/images/screenshot-2023-02-18-at-1.12.27-pm.png
 tags:
   - artist
+active: true
 ---

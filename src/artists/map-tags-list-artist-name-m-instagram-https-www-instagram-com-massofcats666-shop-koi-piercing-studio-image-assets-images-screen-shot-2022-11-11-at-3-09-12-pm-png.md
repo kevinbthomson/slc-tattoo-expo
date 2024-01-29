@@ -5,4 +5,5 @@ shop: Koi Piercing Studio
 image: /assets/images/m.jpg
 tags:
   - artist
+active: true
 ---

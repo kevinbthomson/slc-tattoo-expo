@@ -5,4 +5,5 @@ shop: Lighthouse Tattoo
 image: /assets/images/peter_crowell.jpg
 tags:
   - artist
+active: true
 ---

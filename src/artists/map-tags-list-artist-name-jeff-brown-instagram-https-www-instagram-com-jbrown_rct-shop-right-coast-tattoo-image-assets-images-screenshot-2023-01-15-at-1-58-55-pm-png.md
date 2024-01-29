@@ -5,4 +5,5 @@ shop: Right Coast Tattoo
 image: /assets/images/screenshot-2023-01-15-at-1.58.55-pm.png
 tags:
   - artist
+active: true
 ---

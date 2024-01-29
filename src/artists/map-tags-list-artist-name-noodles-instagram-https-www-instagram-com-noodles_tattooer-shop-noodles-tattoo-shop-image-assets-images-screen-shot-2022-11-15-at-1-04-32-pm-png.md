@@ -5,4 +5,5 @@ shop: Noodles Tattoo Shop
 image: /assets/images/noodles.jpg
 tags:
   - artist
+active: true
 ---

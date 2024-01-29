@@ -5,4 +5,5 @@ shop: Mindzai Creative
 image: /assets/images/scott_weatherwax.jpg
 tags:
   - artist
+active: true
 ---

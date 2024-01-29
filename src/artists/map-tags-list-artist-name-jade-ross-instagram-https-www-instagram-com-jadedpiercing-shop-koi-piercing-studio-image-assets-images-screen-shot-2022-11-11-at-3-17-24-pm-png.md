@@ -5,4 +5,5 @@ shop: Koi Piercing Studio
 image: /assets/images/jade_ross.jpg
 tags:
   - artist
+active: true
 ---

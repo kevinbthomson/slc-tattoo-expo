@@ -5,4 +5,5 @@ shop: Snake River Tattoo
 image: /assets/images/screenshot-2022-12-27-at-12.23.52-pm.png
 tags:
   - artist
+active: true
 ---

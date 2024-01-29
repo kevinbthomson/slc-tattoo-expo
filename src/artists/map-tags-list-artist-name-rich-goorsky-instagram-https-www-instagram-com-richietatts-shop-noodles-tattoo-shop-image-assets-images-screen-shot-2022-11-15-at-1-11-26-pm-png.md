@@ -5,4 +5,5 @@ shop: Noodles Tattoo Shop
 image: /assets/images/rich_goorsky.jpg
 tags:
   - artist
+active: true
 ---

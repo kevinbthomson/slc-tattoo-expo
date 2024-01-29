@@ -5,4 +5,5 @@ shop: Boise Tattoo Co
 image: /assets/images/artists-place-holder.jpg
 tags:
   - artist
+active: true
 ---

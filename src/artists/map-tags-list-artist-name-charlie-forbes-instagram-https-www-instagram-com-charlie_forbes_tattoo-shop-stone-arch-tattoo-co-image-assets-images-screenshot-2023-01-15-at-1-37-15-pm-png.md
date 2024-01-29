@@ -5,4 +5,5 @@ shop: Stone Arch Tattoo & Co
 image: /assets/images/cf.jpg
 tags:
   - artist
+active: true
 ---
