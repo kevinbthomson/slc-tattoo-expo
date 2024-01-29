@@ -5,4 +5,5 @@ shop: Boartooth
 image: /assets/images/daniel_werder.jpg
 tags:
   - artist
+active: true
 ---
