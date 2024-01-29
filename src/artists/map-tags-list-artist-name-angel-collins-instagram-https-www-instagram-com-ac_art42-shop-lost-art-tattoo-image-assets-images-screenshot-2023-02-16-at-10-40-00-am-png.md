@@ -5,4 +5,5 @@ shop: Lost Art Tattoo
 image: /assets/images/screenshot-2023-02-16-at-10.40.00-am.png
 tags:
   - artist
+active: true
 ---
