@@ -5,4 +5,5 @@ shop: Heavy Duty Tattoo Parlor
 image: /assets/images/brandon_lewis.jpg
 tags:
   - artist
+active: true
 ---
