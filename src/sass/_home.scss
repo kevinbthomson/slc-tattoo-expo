@@ -1,16 +1,76 @@
 .home-grid {
-  width: 100%;
+  width: 100dvw;
 
   @media (min-width: $breakpoint-lg) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
 
     grid-template-areas:
-      'dates about'
-      'tickets about'
+      'about poster'
+      'dates tickets'
       'posts posts'
       'email email';
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    grid-template-columns: minmax(0, 1fr) repeat(2, minmax(45ch, 640px)) minmax(
+        0,
+        1fr
+      );
+
+    grid-template-areas:
+      'gutter-about about poster gutter-poster'
+      'dates dates tickets tickets'
+      'gutter-posts-left posts posts gutter-posts-right'
+      'gutter-email-left email email gutter-email-right';
+  }
+
+  .grid-gutter {
+    &--about {
+      background-color: var(--primary-color);
+      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
+      grid-area: gutter-about;
+    }
+
+    &--poster {
+      background-color: var(--primary-color);
+      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
+      grid-area: gutter-poster;
+    }
+
+    &--posts-left {
+      background-image: linear-gradient(white, var(--gray-10));
+      grid-area: gutter-posts-left;
+    }
+
+    &--posts-right {
+      background-image: linear-gradient(white, var(--gray-10));
+      grid-area: gutter-posts-right;
+    }
+  }
+
+  .background {
+    background-image: url('../assets/images/hero-desktop.webp');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+    @media (min-width: $breakpoint-md) {
+      background-size: 150%;
+      text-align: left;
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      background-size: 126%;
+    }
+
+    @media (min-width: $breakpoint-xl) {
+      background-size: 100%;
+    }
   }
 
   .section {
@@ -20,34 +80,92 @@
     min-height: 400px;
     position: relative;
 
+    &-poster {
+      grid-area: poster;
+      background-color: var(--primary-color);
+      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
+
+      padding-block: 4rem;
+      position: relative;
+
+      img {
+        position: relative;
+        width: 400px;
+        max-width: 90dvw;
+        @media (min-width: $breakpoint-lg) {
+          width: 420px;
+        }
+      }
+    }
+
+    // About
+    &-about {
+      grid-area: about;
+      background-color: var(--primary-color);
+      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
+      // background-image: url('../assets/images/home-about-bg-desktop.webp');
+      // background-position: center;
+      // background-size: cover;
+
+      .section-container {
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+        display: flex;
+        height: 50%;
+        flex-direction: column;
+        padding: 0 2rem 1rem 2rem;
+
+        h2,
+        h3 {
+          color: var(--white);
+          text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.75),
+            2px 4px 0px var(--hightlight-color);
+          max-width: 640px;
+        }
+
+        p {
+          margin-block-start: 0;
+          max-width: 64ch;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+
+          &:first-of-type {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
     // DATES
     &-dates {
       grid-area: dates;
-      background-color: rgb(176, 212, 236);
-      background-image: url('../assets/images/hero-desktop.webp');
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      background-size: 200%;
+      background-color: #b0d4ec;
+      position: relative;
+      text-align: center;
 
       @media (min-width: $breakpoint-md) {
-        background-size: 150%;
-      }
-
-      @media (min-width: $breakpoint-lg) {
-        background-size: 126%;
+        text-align: left;
       }
 
       @media (min-width: $breakpoint-xl) {
-        background-size: 100%;
+        justify-content: flex-end;
+
+        .section-container {
+          margin-inline-end: 12ch;
+        }
       }
 
       h2 {
-        font-size: clamp(6rem, 12vw, 9rem);
+        font-size: 8rem;
         font-weight: 900;
         color: var(--gray-50);
         margin: 0;
         line-height: 0.825;
         text-shadow: 0 1px 0 white;
+        @media (min-width: $breakpoint-md) {
+          font-size: clamp(6rem, 12vw, 9rem);
+        }
       }
 
       p {
@@ -91,17 +209,33 @@
       grid-area: tickets;
       background-color: var(--gray-20);
 
+      .background {
+        @extend .background;
+        background-image: url('../assets/images/home-about-bg-desktop.webp');
+        background-blend-mode: overlay;
+        background-color: var(--gray-20);
+      }
+
+      @media (min-width: $breakpoint-xl) {
+        justify-content: flex-start;
+
+        .section-container {
+          margin-inline-start: 12ch;
+        }
+      }
+
       .section-container {
         display: flex;
         align-items: center;
         flex-direction: column;
+        z-index: 100;
       }
 
       .ticket-button {
         align-items: center;
         background-repeat: no-repeat;
         background-size: cover;
-        color: white;
+        color: var(--white);
         display: flex;
         flex-direction: column;
         font-size: 3.325rem;
@@ -112,10 +246,11 @@
         padding-inline-end: 3rem;
         scale: 0.8;
         text-decoration: none;
+        // text-shadow: 2px 2px 0px var(--white);
         text-transform: uppercase;
         transition: all 0.3s;
 
-        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:%2351081b;'/%3e%3c/svg%3e ");
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100%25' height='100%25' viewBox='0 0 350 140' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3e%3cpath d='M293.713,140L0,140L0,87.652C9.896,87.652 17.918,79.477 17.918,69.391C17.918,59.306 9.896,51.131 0,51.13L0,0L350,0L350,51.13C340.104,51.13 332.082,59.306 332.082,69.391C332.082,79.477 340.104,87.652 350,87.652L350,140L300.965,140L300.965,133L293.713,133L293.713,140ZM300.965,105L300.965,119L293.713,119L293.713,105L300.965,105ZM300.965,77L300.965,91L293.713,91L293.713,77L300.965,77ZM300.965,49L300.965,63L293.713,63L293.713,49L300.965,49ZM300.965,21L300.965,35L293.713,35L293.713,21L300.965,21ZM300.965,0L300.965,7L293.713,7L293.713,0L300.965,0Z' style='fill:%23000;'/%3e%3c/svg%3e ");
         width: 350px;
         height: 140px;
 
@@ -131,56 +266,20 @@
           }
         }
 
-        &:hover {
-          color: var(--highlight-color);
-        }
+        // &:hover {
+        //   color: var(--highlight-color);
+        // }
       }
 
       p {
         margin: 0.5rem 0 0 0;
         line-height: 1;
-      }
-    }
-
-    // About
-    &-about {
-      grid-area: about;
-      background-image: url('../assets/images/home-about-bg-mobile.webp');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-
-      @media (min-width: $breakpoint-md) {
-        background-image: url('../assets/images/home-about-bg-desktop.webp');
-      }
-
-      .section-container {
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.625);
-        box-shadow: inset 0 0 10px rgb(black, 0.5);
         color: white;
-        display: flex;
-        height: 50%;
-        flex-direction: column;
-        padding: 2rem 2rem 1rem 2rem;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
 
-        @media (min-width: $breakpoint-lg) {
-          position: absolute;
-          right: 0;
-          left: 0;
-          bottom: 0;
-          height: 50%;
-        }
-
-        p {
-          max-width: 64ch;
-          margin-block-start: 0;
-        }
+        // text-shadow: 2px 2px 0 var(--hightlight-color);
+        text-shadow: 1px 1px 2px var(--primary-color), 0 0 0.5em black,
+          0 0 0.2em blue;
       }
-
-      background-color: var(--gray-10);
     }
 
     // News
