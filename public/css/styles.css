@@ -719,18 +719,22 @@ footer nav[aria-label=Secondary] ul {
   position: relative;
 }
 .home-grid .section-poster {
-  grid-area: poster;
   background-color: var(--primary-color);
+  grid-area: poster;
   padding-block: 4rem;
   position: relative;
 }
 .home-grid .section-poster img {
+  --shadow-color: var(--highlight-color);
+  border: 0.5rem solid white;
+  box-shadow: 2px 2px 0px #f4a708, 4px 4px 3px rgba(0, 0, 0, 0.75);
+  max-width: 90dvw;
   position: relative;
   width: 400px;
-  max-width: 90dvw;
 }
 @media (min-width: 992px) {
   .home-grid .section-poster img {
+    rotate: 1deg;
     width: 420px;
   }
 }

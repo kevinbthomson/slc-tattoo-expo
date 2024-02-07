@@ -81,18 +81,21 @@
     position: relative;
 
     &-poster {
-      grid-area: poster;
       background-color: var(--primary-color);
-      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
-
+      grid-area: poster;
       padding-block: 4rem;
       position: relative;
 
       img {
+        --shadow-color: var(--highlight-color);
+        border: 0.5rem solid white;
+        box-shadow: 2px 2px 0px #f4a708, 4px 4px 3px rgba(0, 0, 0, 0.75);
+        max-width: 90dvw;
         position: relative;
         width: 400px;
-        max-width: 90dvw;
+
         @media (min-width: $breakpoint-lg) {
+          rotate: 1deg;
           width: 420px;
         }
       }
@@ -102,10 +105,6 @@
     &-about {
       grid-area: about;
       background-color: var(--primary-color);
-      // background-image: linear-gradient(var(--primary-color), var(--gray-80));
-      // background-image: url('../assets/images/home-about-bg-desktop.webp');
-      // background-position: center;
-      // background-size: cover;
 
       .section-container {
         align-items: center;
