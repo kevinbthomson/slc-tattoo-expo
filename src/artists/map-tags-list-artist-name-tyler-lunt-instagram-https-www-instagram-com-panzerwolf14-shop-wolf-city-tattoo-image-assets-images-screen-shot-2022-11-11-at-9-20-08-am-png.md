@@ -5,5 +5,5 @@ shop: Wolf City Tattoo
 image: /assets/images/tyler_lunt.jpg
 tags:
   - artist
-active: true
+active: false
 ---
