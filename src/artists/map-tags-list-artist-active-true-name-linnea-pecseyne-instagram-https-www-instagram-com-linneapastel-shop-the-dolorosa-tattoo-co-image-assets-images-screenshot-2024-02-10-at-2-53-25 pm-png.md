@@ -1,9 +1,7 @@
 ---
-name: Linnea Pecseyne
-instagram: https://www.instagram.com/linneapastel/
+name: Jody Dawber
+instagram: https://www.instagram.com/jodydawber/
 shop: The Dolorosa Tattoo Co
-image: /assets/images/screenshot-2024-02-10-at-2.53.25 pm.png
-tags:
-  - artist
+image: /assets/images/screenshot-2024-02-10-at-2.56.00 pm.png
 active: true
 ---
