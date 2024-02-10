@@ -5,5 +5,5 @@ shop: Devine Street Tattoo
 image: /assets/images/screenshot-2023-01-24-at-12.39.18-pm.png
 tags:
   - artist
-active: true
+active: false
 ---
