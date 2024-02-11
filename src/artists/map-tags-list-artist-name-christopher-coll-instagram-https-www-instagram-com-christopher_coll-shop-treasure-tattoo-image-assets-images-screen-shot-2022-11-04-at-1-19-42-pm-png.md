@@ -5,5 +5,5 @@ shop: Treasure Tattoo
 image: /assets/images/christopher_coll.jpg
 tags:
   - artist
-active: true
+active: false
 ---
