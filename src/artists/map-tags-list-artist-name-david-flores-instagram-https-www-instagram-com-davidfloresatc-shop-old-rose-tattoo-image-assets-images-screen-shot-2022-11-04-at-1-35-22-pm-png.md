@@ -5,5 +5,5 @@ shop: Old Rose Tattoo
 image: /assets/images/david_flores.jpg
 tags:
   - artist
-active: true
+active: false
 ---
