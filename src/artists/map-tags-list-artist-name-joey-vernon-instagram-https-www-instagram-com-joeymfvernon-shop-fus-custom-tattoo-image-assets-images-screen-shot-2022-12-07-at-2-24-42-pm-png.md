@@ -1,8 +1,8 @@
 ---
-name: Joey Vernon
+name: Joey "MF" Vernon
 instagram: https://www.instagram.com/joeymfvernon/
 shop: Fu's Custom Tattoo
-image: /assets/images/screen-shot-2022-12-07-at-2.24.42-pm.png
+image: /assets/images/screenshot-2024-02-12-at-2.54.12 pm.png
 tags:
   - artist
 active: true
