@@ -1,9 +1,9 @@
 ---
 name: Myranda Pinkson
-instagram: https://www.instagram.com/jasontylergrace/
-shop: https://www.instagram.com/jasontylergrace/
-image: /assets/images/screenshot-2024-02-11-at-3.28.06-pm.png
+instagram: https://www.instagram.com/maneefriday/
+shop: Tattoo Smile
+image: /assets/images/screenshot-2024-02-12-at-3.26.39 pm.png
 tags:
   - artist
-active: true
+active: false
 ---
