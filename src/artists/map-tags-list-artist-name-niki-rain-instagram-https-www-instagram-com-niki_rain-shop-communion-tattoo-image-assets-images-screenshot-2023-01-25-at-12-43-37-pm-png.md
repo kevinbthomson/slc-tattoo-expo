@@ -5,5 +5,5 @@ shop: Communion Tattoo
 image: /assets/images/screenshot-2023-01-25-at-12.43.37-pm.png
 tags:
   - artist
-active: true
+active: false
 ---
