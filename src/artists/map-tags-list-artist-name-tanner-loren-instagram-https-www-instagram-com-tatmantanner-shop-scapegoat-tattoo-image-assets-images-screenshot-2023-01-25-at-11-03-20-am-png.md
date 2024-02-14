@@ -5,6 +5,6 @@ shop: Scapegoat Tattoo
 image: /assets/images/screenshot-2023-01-25-at-11.03.20-am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---

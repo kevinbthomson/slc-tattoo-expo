@@ -5,6 +5,6 @@ shop: Heart Tattoo
 image: /assets/images/screenshot-2023-01-24-at-11.52.52-am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---

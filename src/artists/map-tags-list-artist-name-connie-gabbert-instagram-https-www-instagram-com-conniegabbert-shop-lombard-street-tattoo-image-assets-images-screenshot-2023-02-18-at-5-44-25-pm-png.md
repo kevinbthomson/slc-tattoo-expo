@@ -1,8 +1,8 @@
 ---
 name: Connie Gabbert
 instagram: https://www.instagram.com/conniegabbert/
-shop: Lombard Street Tattoo
-image: /assets/images/screenshot-2023-02-18-at-5.44.25-pm.png
+shop: I Heart Tattoo
+image: /assets/images/screenshot-2024-02-11-at-10.58.54 am.png
 tags:
   - artist
 active: true

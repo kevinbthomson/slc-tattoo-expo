@@ -1,8 +1,8 @@
 ---
 name: Kiljun
 instagram: https://www.instagram.com/kiljun/
-shop: 'Seoul Ink '
-image: /assets/images/screen-shot-2022-12-20-at-5.39.48-pm.png
+shop: "Seoul Ink "
+image: /assets/images/screenshot-2024-02-11-at-11.10.13 am.png
 tags:
   - artist
 active: true

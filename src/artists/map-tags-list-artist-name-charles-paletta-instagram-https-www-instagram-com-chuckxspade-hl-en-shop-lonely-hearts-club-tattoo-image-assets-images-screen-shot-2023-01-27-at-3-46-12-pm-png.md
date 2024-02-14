@@ -1,8 +1,8 @@
 ---
-name: Charles Paletta
+name: Chuck Spade
 instagram: https://www.instagram.com/chuckxspade/?hl=en
 shop: Lonely Hearts Club Tattoo
-image: /assets/images/screen-shot-2023-01-27-at-3.46.12-pm.png
+image: /assets/images/screenshot-2024-02-12-at-3.15.02 pm.png
 tags:
   - artist
 active: true

@@ -5,6 +5,6 @@ shop: High Tide Tattoo
 image: /assets/images/screenshot-2023-01-23-at-10.24.13-am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
