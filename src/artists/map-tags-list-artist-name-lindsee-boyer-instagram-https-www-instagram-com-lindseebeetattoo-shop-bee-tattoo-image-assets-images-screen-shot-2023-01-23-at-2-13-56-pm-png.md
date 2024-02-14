@@ -2,7 +2,7 @@
 name: Lindsee Boyer
 instagram: https://www.instagram.com/lindseebeetattoo/
 shop: Bee Tattoo
-image: /assets/images/screen-shot-2023-01-23-at-2.13.56-pm.png
+image: /assets/images/screenshot-2024-02-14-at-10.54.54 am.png
 tags:
   - artist
 active: true
