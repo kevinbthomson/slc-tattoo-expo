@@ -6,4 +6,5 @@ image: /assets/images/jamie_ruth.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

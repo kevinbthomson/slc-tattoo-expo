@@ -6,4 +6,5 @@ image: /assets/images/screenshot-2023-02-05-at-2.30.33-pm.png
 tags:
   - artist
 active: true
+featured: false
 ---

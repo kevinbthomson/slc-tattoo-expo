@@ -6,4 +6,5 @@ image: /assets/images/scott_weatherwax.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

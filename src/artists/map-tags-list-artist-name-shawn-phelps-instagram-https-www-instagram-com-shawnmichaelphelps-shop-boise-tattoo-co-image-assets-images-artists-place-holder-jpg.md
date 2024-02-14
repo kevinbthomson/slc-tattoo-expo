@@ -6,4 +6,5 @@ image: /assets/images/artists-place-holder.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

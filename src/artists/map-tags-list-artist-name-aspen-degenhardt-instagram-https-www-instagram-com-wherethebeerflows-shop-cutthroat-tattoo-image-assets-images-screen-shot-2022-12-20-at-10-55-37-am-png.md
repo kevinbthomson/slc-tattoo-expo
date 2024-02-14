@@ -6,4 +6,5 @@ image: /assets/images/aspenimg_6033.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

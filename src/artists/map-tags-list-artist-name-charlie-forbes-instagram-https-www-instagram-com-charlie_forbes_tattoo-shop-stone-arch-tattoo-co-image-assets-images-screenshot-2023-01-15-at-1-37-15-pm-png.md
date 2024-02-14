@@ -6,4 +6,5 @@ image: /assets/images/cf.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

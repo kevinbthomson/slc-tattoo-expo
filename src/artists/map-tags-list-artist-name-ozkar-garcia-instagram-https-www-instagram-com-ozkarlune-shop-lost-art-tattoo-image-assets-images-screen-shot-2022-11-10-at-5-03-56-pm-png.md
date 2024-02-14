@@ -6,4 +6,5 @@ image: /assets/images/ozkar_garcia.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

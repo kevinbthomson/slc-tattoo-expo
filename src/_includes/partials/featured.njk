@@ -1,0 +1,25 @@
+<li>
+  <article class='artist'>
+    {% if artist.data.image %}
+    <div class='artist__image__wrapper'>
+      <a href='{{artist.data.instagram}}' target='_blank'>
+        <img
+          alt=' '
+          class='artist__image'
+          loading='lazy'
+          src='{{artist.data.image}}'
+        /></a>
+    </div>
+    {% endif %}
+    <h3 class='artist__title'>{{artist.data.name}}</h3>
+    {% if artist.data.instagram %}
+    <a
+      class='artist__insta icon-link instagram'
+      href='{{artist.data.instagram}}'
+      target='_blank'
+    >Instagram</a>
+    {% endif %} {% if artist.data.shop %}
+    <p class='artist__shop'>{{artist.data.shop}}</p>
+    {% endif %}
+  </article>
+</li>

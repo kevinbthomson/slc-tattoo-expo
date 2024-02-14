@@ -6,4 +6,5 @@ image: /assets/images/luis_gonzalez.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

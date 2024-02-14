@@ -27,17 +27,21 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
-  eleventyConfig.addFilter('filterFeatured', (artists) =>
-    artists.filter((artist) => {
-      return artist.data.featured;
-    })
-  );
-
   eleventyConfig.addCollection('artists', (collectionApi) => {
     const artists = collectionApi.getFilteredByTags('artist');
 
     return artists
       .filter((artist) => artist.data.active === true)
+      .sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
+  });
+
+  eleventyConfig.addCollection('featured', (collectionApi) => {
+    const artists = collectionApi.getFilteredByTags('artist');
+
+    return artists
+      .filter(
+        (artist) => artist.data.active === true && artist.data.featured === true
+      )
       .sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
   });
 

@@ -6,4 +6,5 @@ image: /assets/images/jade_ross.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

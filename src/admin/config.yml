@@ -27,6 +27,12 @@ collections:
           required: true,
           default: true,
         }
+      - {
+          label: 'Featured',
+          name: 'featured',
+          widget: 'boolean',
+          default: false,
+        }
   - name: 'vendor'
     label: 'Vendor'
     folder: 'src/vendors'

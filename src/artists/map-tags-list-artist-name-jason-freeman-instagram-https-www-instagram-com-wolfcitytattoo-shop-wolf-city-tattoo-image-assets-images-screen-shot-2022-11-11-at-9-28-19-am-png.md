@@ -6,4 +6,5 @@ image: /assets/images/jason_freeman.jpg
 tags:
   - artist
 active: false
+featured: false
 ---

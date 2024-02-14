@@ -6,4 +6,5 @@ image: /assets/images/brandon_lewis.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

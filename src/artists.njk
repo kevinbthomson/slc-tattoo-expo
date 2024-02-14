@@ -6,7 +6,20 @@ pagination:
   size: 24
   alias: artists
 ---
-<h2 style="text-align: center">New Artists Updated Weekly</h2>
+
+
+{% if pagination.pageNumber + 1 == 1 and collections.featured.length > 0 %}
+  <h2 style="text-align: center">Featured 2024 Artists</h2>
+  <ul class="featured-list">
+  {%- for artist in collections.featured | sort -%} {% include 'partials/featured.njk' %} {%- endfor
+  -%}
+  </ul>
+{% endif %}
+
+
+{% if pagination.pageNumber + 1 == 1 %}
+  <h2 style="text-align: center;">New Artists Updated Weekly</h2>
+{% endif %}
 
 {% if pagination.pageLinks.length > 1 %}
 <div

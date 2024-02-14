@@ -6,4 +6,5 @@ image: /assets/images/pedro_alvarez.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

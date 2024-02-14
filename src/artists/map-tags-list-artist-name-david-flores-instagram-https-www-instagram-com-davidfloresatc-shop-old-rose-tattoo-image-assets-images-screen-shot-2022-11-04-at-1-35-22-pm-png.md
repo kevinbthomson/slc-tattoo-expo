@@ -6,4 +6,5 @@ image: /assets/images/david_flores.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

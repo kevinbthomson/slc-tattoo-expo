@@ -6,4 +6,5 @@ image: /assets/images/m.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

@@ -1,14 +1,17 @@
 .page-article {
-  background-color: var(--white);
+  background-color: var(--gray-10);
+  min-height: 100%;
+  padding-block-end: 2rem;
 
   > .container {
-    padding-block: 2rem;
     margin-inline: auto;
     width: min(1000px, 86vw);
   }
 }
 
 .artists-article {
+  background-color: var(--gray-20);
+
   > .container {
     padding-block: 2rem;
     margin-inline: auto;

@@ -6,4 +6,5 @@ image: /assets/images/jess_ritchie.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

@@ -6,4 +6,5 @@ image: /assets/images/screen-shot-2022-11-30-at-2.52.00-pm.png
 tags:
   - artist
 active: true
+featured: false
 ---

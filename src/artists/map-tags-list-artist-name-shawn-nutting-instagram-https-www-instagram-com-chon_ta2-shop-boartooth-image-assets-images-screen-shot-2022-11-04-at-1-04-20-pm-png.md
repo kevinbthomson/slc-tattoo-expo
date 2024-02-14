@@ -6,4 +6,5 @@ image: /assets/images/shawn_nutting.jpg
 tags:
   - artist
 active: false
+featured: false
 ---

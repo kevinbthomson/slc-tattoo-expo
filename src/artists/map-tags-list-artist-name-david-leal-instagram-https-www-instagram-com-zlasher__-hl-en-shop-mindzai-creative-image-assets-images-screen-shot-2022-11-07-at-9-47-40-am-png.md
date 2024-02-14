@@ -6,4 +6,5 @@ image: /assets/images/david_leal.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

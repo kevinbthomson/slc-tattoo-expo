@@ -6,4 +6,5 @@ image: /assets/images/tony_cruz.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

@@ -6,4 +6,5 @@ image: /assets/images/christopher_coll.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

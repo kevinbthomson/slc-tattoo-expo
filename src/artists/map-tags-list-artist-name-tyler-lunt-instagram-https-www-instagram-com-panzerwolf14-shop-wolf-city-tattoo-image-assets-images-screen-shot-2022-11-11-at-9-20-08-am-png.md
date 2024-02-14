@@ -6,4 +6,5 @@ image: /assets/images/tyler_lunt.jpg
 tags:
   - artist
 active: false
+featured: false
 ---

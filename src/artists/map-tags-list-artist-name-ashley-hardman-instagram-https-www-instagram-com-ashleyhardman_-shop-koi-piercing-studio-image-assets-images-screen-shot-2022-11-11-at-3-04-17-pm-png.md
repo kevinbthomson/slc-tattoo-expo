@@ -6,4 +6,5 @@ image: /assets/images/ashley_hardman.jpg
 tags:
   - artist
 active: true
+featured: false
 ---

@@ -6,4 +6,5 @@ image: /assets/images/screenshot-2024-02-09-at-10.57.00-am.png
 tags:
   - artist
 active: true
+featured: false
 ---

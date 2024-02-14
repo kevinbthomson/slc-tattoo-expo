@@ -50,8 +50,8 @@ a {
 
 .site-layout {
   display: grid;
-  grid-template-rows: 1fr minmax(240px, auto);
-  min-height: 100vh;
+  grid-template-rows: 1fr auto auto;
+  min-height: 100dvh;
   overflow: hidden;
 }
 
