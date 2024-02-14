@@ -16,5 +16,9 @@
     padding-block: 2rem;
     margin-inline: auto;
     width: min(1440px, 99vw);
+
+    h2 {
+      padding-inline-start: 1rem;
+    }
   }
 }

@@ -9,7 +9,7 @@ pagination:
 
 
 {% if pagination.pageNumber + 1 == 1 and collections.featured.length > 0 %}
-  <h2 style="text-align: center">Featured 2024 Artists</h2>
+  <h2>Special Guests</h2>
   <ul class="featured-list">
   {%- for artist in collections.featured | sort -%} {% include 'partials/featured.njk' %} {%- endfor
   -%}
@@ -18,7 +18,7 @@ pagination:
 
 
 {% if pagination.pageNumber + 1 == 1 %}
-  <h2 style="text-align: center;">New Artists Updated Weekly</h2>
+  <h2>New Artists Updated Weekly</h2>
 {% endif %}
 
 {% if pagination.pageLinks.length > 1 %}

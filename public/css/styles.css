@@ -656,6 +656,9 @@ footer nav[aria-label=Secondary] ul {
   margin-inline: auto;
   width: min(1440px, 99vw);
 }
+.artists-article > .container h2 {
+  padding-inline-start: 1rem;
+}
 
 .home-grid {
   width: 100dvw;
@@ -988,6 +991,10 @@ a.pagination__item:hover {
 span.pagination__item {
   background-color: var(--gray-20);
   color: var(--gray-80);
+}
+
+.featured-list {
+  margin-block-end: 4rem;
 }
 
 .meta {
