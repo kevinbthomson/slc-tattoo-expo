@@ -13,7 +13,7 @@ The convetion center has two underground parking garages for your convenience.
 
 ## Radisson Hotel Salt Lake City Downtown
 
-#### <a href="https://www.24tix.com/event/2063067077/salt-lake-city-tattoo-expo-2024" title="radissonhotelsamericas.com">Book your room</a> | <a href="https://goo.gl/maps/aWR2sLFXkfmPG3Y26" target="_blank">View in maps</a>
+#### <a href="{{slctattoo.hotelLink}}" title="radissonhotelsamericas.com">Book your room</a> | <a href="https://goo.gl/maps/aWR2sLFXkfmPG3Y26" target="_blank">View in maps</a>
 
 Book a comfortable room at Radisson Hotel Salt Lake City Downtown to stay within walking distance of Temple Square, the Eccles Theater, and the Salt Palace Convention Center. We offer an indoor pool and an on-site restaurant.
 
