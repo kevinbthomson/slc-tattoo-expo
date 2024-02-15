@@ -3,5 +3,6 @@ name: Antonio Paloma
 shop: Painted Temple
 tags:
   - artist
-active: true
+active: false
+featured: false
 ---
