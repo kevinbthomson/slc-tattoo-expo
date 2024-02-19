@@ -2,7 +2,7 @@
 name: Bryan Ezola
 instagram: https://www.instagram.com/anonymousetattoo/
 shop: Big Deluxe Tattoo
-image: /assets/images/screen-shot-2023-02-17-at-5.55.31-pm.png
+image: /assets/images/screenshot-2024-02-19-at-9.34.19 am.png
 tags:
   - artist
 active: true
