@@ -5,6 +5,6 @@ shop: Big Deluxe Tattoo
 image: /assets/images/screen-shot-2023-02-17-at-5.33.19-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
