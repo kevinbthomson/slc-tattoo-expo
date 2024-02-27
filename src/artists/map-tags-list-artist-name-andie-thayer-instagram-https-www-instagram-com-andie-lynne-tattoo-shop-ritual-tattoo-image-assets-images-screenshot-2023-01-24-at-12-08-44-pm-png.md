@@ -5,6 +5,6 @@ shop: Ritual Tattoo
 image: /assets/images/screenshot-2023-01-24-at-12.08.44-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
