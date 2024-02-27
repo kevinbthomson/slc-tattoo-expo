@@ -2,9 +2,9 @@
 name: Shea August
 instagram: https://www.instagram.com/shea__august/
 shop: Stay True Tattoo
-image: /assets/images/screen-shot-2022-12-20-at-11.14.58-am.png
+image: /assets/images/screenshot-2024-02-27-at-1.37.44 pm.png
 tags:
   - artist
-active: false
+active: true
 featured: false
 ---
