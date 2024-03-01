@@ -83,7 +83,7 @@
     &-poster {
       background-color: var(--primary-color);
       grid-area: poster;
-      padding-block: 4rem;
+      padding-block-start: 2rem;
       position: relative;
 
       img {
@@ -98,6 +98,10 @@
           rotate: 1deg;
           width: 420px;
         }
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        padding-block: 4rem;
       }
     }
 

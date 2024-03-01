@@ -728,7 +728,7 @@ footer nav[aria-label=Secondary] ul {
 .home-grid .section-poster {
   background-color: var(--primary-color);
   grid-area: poster;
-  padding-block: 4rem;
+  padding-block-start: 2rem;
   position: relative;
 }
 .home-grid .section-poster img {
@@ -743,6 +743,11 @@ footer nav[aria-label=Secondary] ul {
   .home-grid .section-poster img {
     rotate: 1deg;
     width: 420px;
+  }
+}
+@media (min-width: 992px) {
+  .home-grid .section-poster {
+    padding-block: 4rem;
   }
 }
 .home-grid .section-about {
