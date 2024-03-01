@@ -850,7 +850,7 @@ footer nav[aria-label=Secondary] ul {
   justify-content: center;
   text-shadow: 1px 1px 0 white;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .home-grid .section-dates .art-promo p {
     justify-content: flex-start;
   }
