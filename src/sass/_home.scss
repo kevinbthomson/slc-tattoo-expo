@@ -220,16 +220,20 @@
           justify-content: center;
           text-shadow: 1px 1px 0 white;
 
-          @media (min-width: $breakpoint-md) {
-            justify-content: flex-start;
-            span {
-              &:first-of-type {
-                margin-inline-end: 0.25em;
-                &::after {
-                  content: ' - ';
-                }
+          span {
+            &:first-of-type {
+              margin-inline-end: 0.25em;
+            }
+
+            @media (min-width: $breakpoint-sm) {
+              &::after {
+                content: ' - ';
               }
             }
+          }
+
+          @media (min-width: $breakpoint-md) {
+            justify-content: flex-start;
           }
         }
       }
