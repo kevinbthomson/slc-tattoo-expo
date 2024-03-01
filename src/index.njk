@@ -69,7 +69,7 @@ title: Salt Lake City Tattoo Expo
     <b class="grid-gutter grid-gutter--posts-left"></b>
     <section class="section section-posts">
       <ul class="post-list post-list-home">
-        {%- for post in collections.posts -%} {% include 'partials/post.njk' %}
+        {%- for post in collections.posts | reverse -%} {% include 'partials/post.njk' %}
         {%- endfor -%}
       </ul>
     </section>
