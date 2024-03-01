@@ -825,7 +825,7 @@ footer nav[aria-label=Secondary] ul {
 .home-grid .section-dates p:first-of-type span {
   color: var(--primary-color);
 }
-.home-grid .section-dates p:last-of-type {
+.home-grid .section-dates p .section-dates-location {
   font-weight: 700;
   color: var(--black);
   font-size: 2rem;
@@ -837,6 +837,15 @@ footer nav[aria-label=Secondary] ul {
   flex-direction: column;
   padding-inline: 2rem;
   z-index: 2;
+}
+.home-grid .section-dates .art-promo {
+  text-shadow: 1px 2px 0 white;
+}
+.home-grid .section-dates .art-promo h3 {
+  margin-block-end: 0;
+}
+.home-grid .section-dates .art-promo p {
+  font-size: 1.2rem;
 }
 .home-grid .section-tickets {
   grid-area: tickets;
