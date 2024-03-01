@@ -838,14 +838,28 @@ footer nav[aria-label=Secondary] ul {
   padding-inline: 2rem;
   z-index: 2;
 }
-.home-grid .section-dates .art-promo {
+.home-grid .section-dates .art-promo h3 {
+  color: var(--primary-color);
+  margin-block-end: 0;
   text-shadow: 1px 2px 0 white;
 }
-.home-grid .section-dates .art-promo h3 {
-  margin-block-end: 0;
-}
 .home-grid .section-dates .art-promo p {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 1.2rem;
+  justify-content: center;
+  text-shadow: 1px 1px 0 white;
+}
+@media (min-width: 992px) {
+  .home-grid .section-dates .art-promo p {
+    justify-content: flex-start;
+  }
+  .home-grid .section-dates .art-promo p span:first-of-type {
+    margin-inline-end: 0.25em;
+  }
+  .home-grid .section-dates .art-promo p span:first-of-type::after {
+    content: " - ";
+  }
 }
 .home-grid .section-tickets {
   grid-area: tickets;

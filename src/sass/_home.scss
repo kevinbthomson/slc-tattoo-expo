@@ -207,14 +207,30 @@
       }
 
       .art-promo {
-        text-shadow: 1px 2px 0 white;
-
         h3 {
+          color: var(--primary-color);
           margin-block-end: 0;
+          text-shadow: 1px 2px 0 white;
         }
 
         p {
+          display: flex;
+          flex-wrap: wrap;
           font-size: 1.2rem;
+          justify-content: center;
+          text-shadow: 1px 1px 0 white;
+
+          @media (min-width: $breakpoint-lg) {
+            justify-content: flex-start;
+            span {
+              &:first-of-type {
+                margin-inline-end: 0.25em;
+                &::after {
+                  content: ' - ';
+                }
+              }
+            }
+          }
         }
       }
     }
