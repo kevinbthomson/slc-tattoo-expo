@@ -5,6 +5,6 @@ shop: Hold Fast Tattoo
 image: /assets/images/screen-shot-2023-01-06-at-2.05.36-pm.png
 tags:
   - artist
-active: false
+active: true
 featured: false
 ---
