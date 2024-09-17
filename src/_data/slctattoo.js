@@ -6,20 +6,21 @@ module.exports = {
   facebookLink:
     'https://www.facebook.com/people/SLC-Tattoo-Expo/100083123352663/?mibextid=LQQJ4d',
   instagramLink: 'https://instagram.com/slctattooexpo',
+  year: 2025,
   dates: [
     {
       day: 'Friday',
-      date: '29',
+      date: '7',
       times: '3pm - 11pm',
     },
     {
       day: 'Saturday',
-      date: '30',
+      date: '8',
       times: '12pm - 11pm',
     },
     {
       day: 'Sunday',
-      date: '31',
+      date: '9',
       times: '12pm - 8pm',
     },
   ],
