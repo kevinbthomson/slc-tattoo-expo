@@ -1,6 +1,5 @@
 module.exports = {
-  ticketLink:
-    'https://www.24tix.com/event/2063067077/salt-lake-city-tattoo-expo-2024',
+  ticketLink: 'https://www.24tix.com/event/47726752371',
   hotelLink:
     'https://book.passkey.com/gt/219503829?gtid=cb28fa2bd368f5a0d84191aa731316af',
   facebookLink:
