@@ -1,9 +1,9 @@
 ---
 title: DAILY SCHEDULE
 description: "Schedule & Tattoo Contests "
-date: 2023-09-20T11:37:39.939Z
+date: 2024-11-01T20:37:40.163Z
 ---
-**FRIDAY, MARCH 29TH**
+**FRIDAY, MARCH 7TH**
 
 **DOORS OPEN TO THE PUBLIC  3PM – 11PM**
 
@@ -17,7 +17,7 @@ date: 2023-09-20T11:37:39.939Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SATURDAY, MARCH 30TH**
+**SATURDAY, MARCH 8TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 11PM**
 
@@ -35,7 +35,7 @@ date: 2023-09-20T11:37:39.939Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SUNDAY, MARCH 31ST**
+**SUNDAY, MARCH 9TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 8PM**
 
