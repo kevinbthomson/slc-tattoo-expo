@@ -5,6 +5,6 @@ shop: Treasure Tattoo
 image: /assets/images/jamie_ruth.jpg
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
