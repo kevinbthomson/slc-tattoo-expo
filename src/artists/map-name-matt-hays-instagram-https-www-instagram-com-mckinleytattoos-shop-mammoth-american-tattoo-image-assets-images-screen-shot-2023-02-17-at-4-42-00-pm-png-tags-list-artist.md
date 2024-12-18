@@ -5,6 +5,6 @@ shop: Mammoth American Tattoo
 image: /assets/images/screen-shot-2023-02-17-at-4.42.00-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
