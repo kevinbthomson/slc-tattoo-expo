@@ -5,6 +5,6 @@ shop: Wild Rose Tattoo
 image: /assets/images/screenshot-2024-02-10-at-3.48.04 pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
