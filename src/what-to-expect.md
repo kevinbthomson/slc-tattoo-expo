@@ -23,8 +23,8 @@ Yes! We strive to offer a family friendly environment, but keep in mind, people 
 
 Go to our <a href="/artists/">Artists page</a> and find the artists you are looking to schedule with. You can click on their profile to go directly to their website, Instagram or email. From there you can get in contact directly with your artists to schedule your time with them at the Expo. Many artists will also be taking walk ups! so feel free to browse around the booths and find the artists you like. Strike up a conversation and work out a time during the Expo. 
 
-**!﻿AVOID SCAMS!** If an artist claims to be tattooing at our show, and they are not on our list of artists we advise you not to send any $ for a deposit. We are an Invitational Only show and all our artists are vetted.\
-*N﻿ot on our list, not tattooing at our show!*
+**!﻿AVOID SCAMS!** **If an artist claims to be tattooing at our show, and they are not on our list of artists we advise you not to send any $ for a deposit. We are an Invitational Only show and all our artists are vetted.**\
+***N﻿ot on our list, not tattooing at our show!***
 
 #### 💳 Do you accept Credit Cards at the door?
 
