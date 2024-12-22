@@ -28,7 +28,7 @@ Go to our <a href="/artists/">Artists page</a> and find the artists you are look
 
 #### 💳 Do you accept Credit Cards at the door?
 
-**No**. Tickets can be purchased in advance at <a href="https://www.24tix.com/event/47726752371</a> or cash only at the door.
+**No**. Tickets can be purchased in advance at <a href="https://www.24tix.com/event/47726752371 a> or cash only at the door.
 
 #### Do the tattoo artists accept Credit Cards?
 
