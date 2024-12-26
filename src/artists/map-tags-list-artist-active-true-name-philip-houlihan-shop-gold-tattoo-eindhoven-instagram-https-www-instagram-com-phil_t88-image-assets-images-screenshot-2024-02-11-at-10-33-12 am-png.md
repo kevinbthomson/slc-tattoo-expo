@@ -5,6 +5,6 @@ shop: Gold Tattoo Eindhoven
 image: /assets/images/screenshot-2024-02-11-at-10.33.12 am.png
 tags:
   - artist
-active: true
+active: false
 featured: true
 ---
