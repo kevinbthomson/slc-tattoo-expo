@@ -5,6 +5,6 @@ shop: Good Luck NYC
 image: /assets/images/screenshot-2024-12-27-at-11.02.08-am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
