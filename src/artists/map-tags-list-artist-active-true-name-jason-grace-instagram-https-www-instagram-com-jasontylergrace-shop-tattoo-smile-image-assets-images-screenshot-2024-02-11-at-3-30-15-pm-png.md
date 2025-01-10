@@ -1,8 +1,8 @@
 ---
-name: Jason Grace
+name: Jason Tyler Grace
 instagram: https://www.instagram.com/jasontylergrace/
 shop: Tattoo Smile
-image: /assets/images/screenshot-2024-02-11-at-3.30.15-pm.png
+image: /assets/images/screenshot-2025-01-10-at-3.25.55 pm.png
 tags:
   - artist
 active: true
