@@ -48,7 +48,6 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 #### ?H﻿ow do I apply for a booth for my tattoo shop?
 
-**T﻿he Salt Lake City Tattoo Expo is by invitation only. No open booths.**\
-**I﻿f you would like to be added to our waitlist send email to info@slctattooexpo.com**
+### **T﻿he Salt Lake City Tattoo Expo is by invitation only. No open booths.**
 
 #### NO MOTORCYCLE CLUBS OR COLORS
