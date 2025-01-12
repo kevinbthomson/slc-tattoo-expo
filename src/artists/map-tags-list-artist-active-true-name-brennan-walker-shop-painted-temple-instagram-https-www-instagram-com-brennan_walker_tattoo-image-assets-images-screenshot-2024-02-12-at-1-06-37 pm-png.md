@@ -5,6 +5,6 @@ shop: Painted Temple
 image: /assets/images/screenshot-2024-02-12-at-1.06.37 pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
