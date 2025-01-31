@@ -5,6 +5,6 @@ shop: Xodus Tattoo
 image: /assets/images/screenshot-2024-03-02-at-1.25.53 pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
