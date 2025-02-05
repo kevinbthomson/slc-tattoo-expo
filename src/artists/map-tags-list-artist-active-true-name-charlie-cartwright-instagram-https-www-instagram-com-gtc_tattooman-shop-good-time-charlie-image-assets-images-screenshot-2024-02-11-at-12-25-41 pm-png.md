@@ -5,6 +5,6 @@ shop: Good Time Charlie
 image: /assets/images/screenshot-2024-02-14-at-12.44.28 pm.png
 tags:
   - artist
-active: true
-featured: true
+active: false
+featured: false
 ---
