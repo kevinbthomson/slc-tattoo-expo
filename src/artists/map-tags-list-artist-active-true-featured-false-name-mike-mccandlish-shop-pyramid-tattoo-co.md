@@ -3,6 +3,6 @@ name: Mike McCandlish
 shop: Pyramid Tattoo Co
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
