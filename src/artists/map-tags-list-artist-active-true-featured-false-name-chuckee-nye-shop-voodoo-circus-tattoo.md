@@ -3,6 +3,6 @@ name: Chuckee Nye
 shop: Voodoo Circus Tattoo
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
