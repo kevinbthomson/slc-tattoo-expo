@@ -1,5 +1,5 @@
 ---
-name: Ryan Tarnton
+name: Ryan Tanton
 instagram: https://www.instagram.com/tatsacto/
 shop: The American Tradition - GTC
 image: /assets/images/screenshot-2024-12-27-at-3.37.40-pm.png
