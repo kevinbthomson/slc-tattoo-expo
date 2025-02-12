@@ -1,5 +1,5 @@
 ---
-name: Cory Miller
+name: Corey Miller
 instagram: https://www.instagram.com/coreymillertattoo/
 shop: Six Feet Under Tattoo Parlor
 image: /assets/images/screenshot-2024-09-26-at-12.48.57 pm.png
