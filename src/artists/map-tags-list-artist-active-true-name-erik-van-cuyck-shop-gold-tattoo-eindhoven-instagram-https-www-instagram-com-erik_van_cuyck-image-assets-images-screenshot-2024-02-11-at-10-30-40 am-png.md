@@ -2,9 +2,9 @@
 name: Erik Van Cuyck
 instagram: https://www.instagram.com/erik_van_cuyck/
 shop: Gold Tattoo Eindhoven
-image: /assets/images/screenshot-2024-02-11-at-10.30.40 am.png
+image: /assets/images/screenshot-2025-03-04-at-10.08.24 am.png
 tags:
   - artist
-active: false
+active: true
 featured: false
 ---
