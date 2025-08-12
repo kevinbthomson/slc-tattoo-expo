@@ -1,10 +1,9 @@
 ---
 title: LATEST NEWS
-description: SLC TATTOO EXPO RETURNS MARCH 7-9, 2025
-date: 2024-09-12T18:58:36.013Z
+description: SLC TATTOO EXPO RETURNS MARCH 6-8, 2026
+date: 2025-08-12T20:25:25.954Z
 ---
-The Salt Lake City Tattoo Expo returns March 7, 8, 9, 2025 at the Salt Palace Convention Center Hall 5.
+The Salt Lake City Tattoo Expo returns March 6, 7, 8, 2025 at the Salt Palace Convention Center Hall 5.\
+Updates, Online ticketing and 2026 attending Artists will be available in the coming weeks.
 
-Online ticket sales are live! Website updates and 2025 attending Artists will be available soon. 
-
-See you in 2025!
+See you in 2026!
