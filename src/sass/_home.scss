@@ -4,7 +4,7 @@
   @media (min-width: $breakpoint-lg) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
 
     grid-template-areas:
       'about poster'
@@ -29,7 +29,6 @@
   .grid-gutter {
     &--about {
       background-color: var(--primary-color);
-      // background-image: linear-gradient(var(--primary-color), rgb(232, 156, 186));
       grid-area: gutter-about;
     }
 
@@ -104,6 +103,27 @@
       }
     }
 
+    // Video Streaming
+    &-video {
+      background-color: var(--pink);
+      grid-area: video;
+      padding: 2rem;
+
+      .section-container.video-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+      }
+
+      iframe {
+        border: 0;
+        box-shadow: 0 1rem 2rem var(--primary-color);
+        aspect-ratio: 16 / 9;
+        height: auto;
+        width: 100%;
+      }
+    }
+
     // About
     &-about {
       grid-area: about;
@@ -121,7 +141,7 @@
 
         h2,
         h3 {
-          color: var(--white);
+          color: var(--highlight-color);
           text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.75),
             2px 4px 0px var(--hightlight-color);
           max-width: 640px;
