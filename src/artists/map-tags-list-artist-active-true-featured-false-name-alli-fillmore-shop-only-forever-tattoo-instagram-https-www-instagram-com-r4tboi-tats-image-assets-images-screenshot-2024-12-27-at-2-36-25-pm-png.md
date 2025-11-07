@@ -5,6 +5,6 @@ shop: Only Forever Tattoo
 image: /assets/images/screenshot-2024-12-27-at-2.36.25-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
