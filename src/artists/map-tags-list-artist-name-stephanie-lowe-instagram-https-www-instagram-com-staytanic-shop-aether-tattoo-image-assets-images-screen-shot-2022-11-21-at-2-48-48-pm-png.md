@@ -1,7 +1,7 @@
 ---
-name: Stephanie Lowe
+name: Stephanie Kammell
 instagram: https://www.instagram.com/staytanic/
-shop: Aether Tattoo
+shop: Ramble On Tattoo
 image: /assets/images/screen-shot-2022-11-21-at-2.48.48-pm.png
 tags:
   - artist
