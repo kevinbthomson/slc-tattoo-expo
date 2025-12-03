@@ -5,6 +5,6 @@ shop: Atlas Tattoo
 image: /assets/images/screenshot-2024-02-14-at-12.37.36 pm.png
 tags:
   - artist
-active: false
-featured: false
+active: true
+featured: true
 ---
