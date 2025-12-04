@@ -2,7 +2,7 @@
 name: Juan Puente
 instagram: https://www.instagram.com/classicjuan/
 shop: Atlas Tattoo
-image: /assets/images/image0.jpeg
+image: /assets/images/juan.jpg
 tags:
   - artist
 active: true
