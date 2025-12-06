@@ -5,6 +5,6 @@ shop: Imperial Tattoo DTLV
 image: /assets/images/screenshot-2025-02-20-at-8.49.27 am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
