@@ -16,9 +16,10 @@ S﻿alt Palace Convention Center Hall  5 (West Side)\
 A﻿cross 300 West facing The Delta Center Arena (This is the only Entry/Exit point)
 
 #### ⏰ H﻿ours\
-﻿Friday 3pm - 11pm\
-﻿Saturday 12pm - 11pm\
-S﻿unday 12pm - 8pm
+
+﻿Friday March 6th 3pm - 11pm\
+﻿Saturday March 7th 12pm - 11pm\
+﻿Sunday  March 8th 12pm - 8pm
 
 #### 👶 Can I bring my kids?
 
