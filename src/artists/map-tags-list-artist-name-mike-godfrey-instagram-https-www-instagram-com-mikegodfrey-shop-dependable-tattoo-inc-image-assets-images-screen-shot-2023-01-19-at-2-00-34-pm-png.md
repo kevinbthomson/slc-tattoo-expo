@@ -2,9 +2,9 @@
 name: Mike Godfrey
 instagram: https://www.instagram.com/mikegodfrey/
 shop: Dependable Tattoo Inc
-image: /assets/images/screen-shot-2023-01-19-at-2.00.34-pm.png
+image: /assets/images/screenshot-2025-12-09-at-8.29.41 pm.png
 tags:
   - artist
 active: true
-featured: false
+featured: true
 ---
