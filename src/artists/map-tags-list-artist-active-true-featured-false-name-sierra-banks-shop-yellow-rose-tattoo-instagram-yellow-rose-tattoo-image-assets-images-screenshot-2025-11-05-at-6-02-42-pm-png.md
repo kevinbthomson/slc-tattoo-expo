@@ -2,7 +2,7 @@
 name: Sierra Banks
 instagram: https://www.instagram.com/luckyhumantattoo/
 shop: Yellow Rose Tattoo
-image: /assets/images/screenshot-2025-11-05-at-6.02.42-pm.png
+image: /assets/images/screenshot-2025-12-10-at-3.42.50 pm.png
 tags:
   - artist
 active: true
