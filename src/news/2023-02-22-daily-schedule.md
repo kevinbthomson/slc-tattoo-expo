@@ -3,7 +3,7 @@ title: DAILY SCHEDULE
 description: "Schedule & Tattoo Contests "
 date: 2024-11-01T20:37:40.163Z
 ---
-**FRIDAY, MARCH 7TH**
+**FRIDAY, MARCH 6TH**
 
 **DOORS OPEN TO THE PUBLIC  3PM – 11PM**
 
@@ -17,7 +17,7 @@ date: 2024-11-01T20:37:40.163Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SATURDAY, MARCH 8TH**
+**SATURDAY, MARCH 7TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 11PM**
 
@@ -35,7 +35,7 @@ date: 2024-11-01T20:37:40.163Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SUNDAY, MARCH 9TH**
+**SUNDAY, MARCH 8TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 8PM**
 
