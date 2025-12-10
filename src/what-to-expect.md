@@ -15,7 +15,7 @@ If you are attending just to look, or are on the fence about getting a tattoo th
 S﻿alt Palace Convention Center Hall  5 (West Side)\
 A﻿cross 300 West facing The Delta Center Arena (This is the only Entry/Exit point)
 
-#### ⏰ H﻿ours\
+#### ⏰ H﻿ours
 
 ﻿Friday March 6th 3pm - 11pm\
 ﻿Saturday March 7th 12pm - 11pm\
