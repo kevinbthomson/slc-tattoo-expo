@@ -2,7 +2,7 @@
 name: Johnny Mac Howell
 instagram: https://www.instagram.com/truegrittattoo/
 shop: True Grit Tattoo
-image: /assets/images/screenshot-2024-02-09-at-11.22.37-am.png
+image: /assets/images/screenshot-2025-12-11-at-10.52.57 am.png
 tags:
   - artist
 active: true
