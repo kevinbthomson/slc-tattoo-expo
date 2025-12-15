@@ -5,6 +5,6 @@ shop: Electric Sabbath
 image: /assets/images/screenshot-2024-12-27-at-10.51.30-am.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
