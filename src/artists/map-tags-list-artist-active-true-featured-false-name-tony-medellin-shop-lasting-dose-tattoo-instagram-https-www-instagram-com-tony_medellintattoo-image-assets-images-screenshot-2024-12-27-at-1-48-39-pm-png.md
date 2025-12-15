@@ -5,6 +5,6 @@ shop: Lasting Dose Tattoo
 image: /assets/images/screenshot-2024-12-27-at-1.48.39-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
