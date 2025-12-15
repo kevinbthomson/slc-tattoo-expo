@@ -5,6 +5,6 @@ shop: Immaculate Tattoo
 image: /assets/images/screenshot-2024-12-27-at-1.28.07-pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
