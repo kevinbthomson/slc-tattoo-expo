@@ -2,7 +2,7 @@
 name: Mig Fdez
 instagram: https://www.instagram.com/migdyart/
 shop: Mecca Tattoo
-image: /assets/images/screenshot-2025-11-04-at-5.41.32-pm.png
+image: /assets/images/screenshot-2025-12-18-at-11.26.53 am.png
 tags:
   - artist
 active: true
