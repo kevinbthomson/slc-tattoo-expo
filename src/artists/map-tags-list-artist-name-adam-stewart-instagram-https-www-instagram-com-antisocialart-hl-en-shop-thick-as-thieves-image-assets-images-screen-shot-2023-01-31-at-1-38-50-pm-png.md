@@ -2,7 +2,7 @@
 name: Adam Stewart
 instagram: https://www.instagram.com/antisocialart/?hl=en
 shop: Thick As Thieves
-image: /assets/images/screen-shot-2023-01-31-at-1.38.50-pm.png
+image: /assets/images/screenshot-2025-12-18-at-11.34.37 am.png
 tags:
   - artist
 active: true
