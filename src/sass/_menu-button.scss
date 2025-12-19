@@ -1,3 +1,5 @@
+@use 'global' as *;
+
 button[data-toggle='main-nav'] {
   align-items: center;
   appearance: none;

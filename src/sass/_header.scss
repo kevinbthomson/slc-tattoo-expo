@@ -1,3 +1,7 @@
+@use 'global' as *;
+
+@use 'menu-button';
+
 @mixin desktopListStyles {
   display: flex;
 
@@ -212,5 +216,3 @@ header.site-header {
     }
   }
 }
-
-@import 'menu-button';

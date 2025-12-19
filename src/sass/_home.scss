@@ -1,3 +1,5 @@
+@use 'global' as *;
+
 .home-grid {
   width: 100dvw;
 
@@ -264,10 +266,28 @@
       background-color: var(--gray-20);
 
       .background {
-        @extend .background;
-        background-image: url('../assets/images/home-about-bg-desktop.webp');
         background-blend-mode: overlay;
         background-color: var(--gray-20);
+        background-image: url('../assets/images/home-about-bg-desktop.webp');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+
+        @media (min-width: $breakpoint-md) {
+          background-size: 150%;
+          text-align: left;
+        }
+
+        @media (min-width: $breakpoint-lg) {
+          background-size: 126%;
+        }
+
+        @media (min-width: $breakpoint-xl) {
+          background-size: 100%;
+        }
       }
 
       @media (min-width: $breakpoint-xl) {
