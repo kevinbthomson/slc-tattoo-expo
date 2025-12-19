@@ -63,8 +63,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -86,8 +86,8 @@ select {
   --gray-50: rgba(0, 0, 0, 0.5);
   --gray-60: rgba(0, 0, 0, 0.6);
   --gray-80: rgba(0, 0, 0, 0.8);
-  --body-font: "Roboto Condensed", sans-serif;
-  --heading-font: "Roboto Slab", serif;
+  --body-font: 'Roboto Condensed', sans-serif;
+  --heading-font: 'Roboto Slab', serif;
 }
 
 html {
@@ -275,7 +275,7 @@ header.site-header::before {
 header.site-header::after {
   display: none;
   right: 100px;
-  content: "2025";
+  content: "2026";
 }
 @media (min-width: 1200px) {
   header.site-header::after {
@@ -369,8 +369,6 @@ header.site-header nav ul li a[aria-current=page] {
     font-family: var(--body-font);
     font-size: 1.25rem;
   }
-}
-@media (min-width: 768px) {
   header.site-header nav ul li:first-of-type {
     display: none;
   }
@@ -382,7 +380,6 @@ header.site-header nav ul li a[aria-current=page] {
 }
 header.site-header nav[aria-label=Secondary] ul {
   display: flex;
-  gap: 0.5rem;
 }
 header.site-header nav[aria-label=Secondary] ul li {
   align-items: center;
@@ -407,6 +404,9 @@ header.site-header nav[aria-label=Secondary] ul li:last-of-type {
 header.site-header nav[aria-label=Secondary] ul li a {
   font-family: var(--body-font);
   font-size: 1.25rem;
+}
+header.site-header nav[aria-label=Secondary] ul {
+  gap: 0.5rem;
 }
 header.site-header nav[aria-label=Secondary] ul li {
   margin-inline-end: 0;
@@ -1192,7 +1192,7 @@ span.pagination__item {
 }
 @media (min-width: 768px) {
   .email-form fieldset input[type=email],
-.email-form fieldset button[type=submit] {
+  .email-form fieldset button[type=submit] {
     margin-block-end: 0;
     width: auto;
   }

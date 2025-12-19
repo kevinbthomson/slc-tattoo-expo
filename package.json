@@ -16,7 +16,7 @@
   "author": "@kevinbthomson",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
     "esbuild": "^0.15.11",
