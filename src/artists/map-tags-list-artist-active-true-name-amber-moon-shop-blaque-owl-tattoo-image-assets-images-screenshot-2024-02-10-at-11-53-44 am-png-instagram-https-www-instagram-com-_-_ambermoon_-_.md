@@ -1,8 +1,8 @@
 ---
 name: Amber Moon
-instagram: https://www.instagram.com/_._ambermoon_._/
+instagram: https://www.instagram.com/ambermoontattoo/
 shop: Blaque Owl Tattoo
-image: /assets/images/screenshot-2024-02-10-at-11.53.44 am.png
+image: /assets/images/screenshot-2025-12-24-at-2.14.41 pm.png
 tags:
   - artist
 active: true
