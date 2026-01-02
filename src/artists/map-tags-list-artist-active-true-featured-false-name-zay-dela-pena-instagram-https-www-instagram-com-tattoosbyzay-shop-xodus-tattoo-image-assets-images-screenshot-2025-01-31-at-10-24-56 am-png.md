@@ -2,7 +2,7 @@
 name: Zay Dela Pena
 instagram: https://www.instagram.com/tattoosbyzay/
 shop: Xodus Tattoo
-image: /assets/images/screenshot-2025-01-31-at-10.24.56 am.png
+image: /assets/images/screenshot-2026-01-02-at-2.07.18 pm.png
 tags:
   - artist
 active: true
