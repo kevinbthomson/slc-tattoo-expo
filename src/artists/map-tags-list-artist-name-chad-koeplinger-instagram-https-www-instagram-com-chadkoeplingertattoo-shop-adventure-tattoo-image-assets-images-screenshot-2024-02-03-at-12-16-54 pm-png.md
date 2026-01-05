@@ -5,6 +5,6 @@ shop: Adventure Tattoo
 image: /assets/images/screenshot-2025-02-05-at-4.42.05 pm.png
 tags:
   - artist
-active: true
-featured: true
+active: false
+featured: false
 ---
