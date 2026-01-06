@@ -2,7 +2,7 @@
 name: Jacob Olinka
 instagram: https://www.instagram.com/kissyboyjake/
 shop: Tip Tip Tattoo
-image: /assets/images/screenshot-2024-02-11-at-3.13.05-pm.png
+image: /assets/images/screenshot-2026-01-06-at-11.20.58 am.png
 tags:
   - artist
 active: true
