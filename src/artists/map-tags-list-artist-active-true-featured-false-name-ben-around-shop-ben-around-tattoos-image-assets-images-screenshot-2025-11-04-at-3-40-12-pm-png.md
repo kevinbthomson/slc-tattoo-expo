@@ -1,5 +1,5 @@
 ---
-name: Ben Around
+name: Ben Miller
 instagram: https://www.instagram.com/benaroundtattoos/
 shop: Ben Around Tattoos
 image: /assets/images/screenshot-2025-12-09-at-7.53.12 pm.png
