@@ -5,6 +5,6 @@ shop: Loyalty Tattoos
 image: /assets/images/screenshot-2024-02-11-at-2.45.12 pm.png
 tags:
   - artist
-active: true
+active: false
 featured: false
 ---
