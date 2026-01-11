@@ -1,10 +1,10 @@
 ---
 name: Tim Reasons
 instagram: https://www.instagram.com/the_real_timreasons/
-shop: Lasting Dose Tattoo
+shop: Rose Gold Tattoo
 image: /assets/images/screenshot-2024-12-27-at-1.44.14-pm.png
 tags:
   - artist
-active: false
+active: true
 featured: false
 ---
