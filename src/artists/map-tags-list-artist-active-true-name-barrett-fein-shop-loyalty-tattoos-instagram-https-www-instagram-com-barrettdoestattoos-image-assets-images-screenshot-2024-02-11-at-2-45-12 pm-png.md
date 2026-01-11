@@ -2,7 +2,7 @@
 name: Barrett Fein
 instagram: https://www.instagram.com/barrettdoestattoos/
 shop: Loyalty Tattoos
-image: /assets/images/screenshot-2024-02-11-at-2.45.12 pm.png
+image: /assets/images/screenshot-2026-01-11-at-1.02.06 pm.png
 tags:
   - artist
 active: false
