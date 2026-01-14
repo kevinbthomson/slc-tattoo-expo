@@ -1,5 +1,5 @@
 ---
-name: Blake Meeds
+name: Blake Meeks
 instagram: https://www.instagram.com/everythingwentblake/
 shop: Hot Stuff Tattoo
 image: /assets/images/screenshot-2025-12-19-at-1.30.17 pm.png
