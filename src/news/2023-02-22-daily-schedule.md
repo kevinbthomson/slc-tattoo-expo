@@ -1,7 +1,7 @@
 ---
 title: DAILY SCHEDULE
 description: "Schedule & Tattoo Contests "
-date: 2024-11-01T20:37:40.163Z
+date: 2025-11-01T20:37:40.163Z
 ---
 **FRIDAY, MARCH 6TH**
 
