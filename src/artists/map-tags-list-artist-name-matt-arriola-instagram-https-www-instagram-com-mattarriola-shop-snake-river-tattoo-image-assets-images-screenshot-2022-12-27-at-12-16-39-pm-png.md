@@ -1,10 +1,10 @@
 ---
 name: Matt Arriola
-instagram: https://www.instagram.com/mattarriola/
+instagram: https://www.instagram.com/mattarriola_srt/
 shop: Snake River Tattoo
-image: /assets/images/screenshot-2022-12-27-at-12.16.39-pm.png
+image: /assets/images/screenshot-2026-01-31-at-11.56.35 am.png
 tags:
   - artist
 active: true
-featured: false
+featured: true
 ---
