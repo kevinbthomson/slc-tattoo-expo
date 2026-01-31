@@ -6,5 +6,5 @@ image: /assets/images/screenshot-2025-12-15-at-1.28.52 pm.png
 tags:
   - artist
 active: true
-featured: false
+featured: true
 ---
