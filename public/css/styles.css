@@ -144,7 +144,7 @@ main a:hover {
   }
 }
 
-.button, .email-form fieldset button[type=submit], .post__link {
+.button {
   background-color: var(--primary-color);
   border: none;
   border-radius: 0.25rem;
@@ -153,7 +153,7 @@ main a:hover {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
 }
-.button:hover, .email-form fieldset button[type=submit]:hover, .post__link:hover {
+.button:hover {
   cursor: pointer;
   background-color: var(--primary-color-light);
   text-decoration: none;
@@ -217,6 +217,77 @@ p {
   margin: 0;
   text-align: center;
   text-shadow: 1px 1px 0.25rem white;
+}
+
+button[data-toggle=main-nav] {
+  align-items: center;
+  appearance: none;
+  background-color: var(--gray-80);
+  border-radius: 50%;
+  border: none;
+  bottom: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 3rem;
+  justify-content: space-around;
+  left: 2rem;
+  position: fixed;
+  transform: scale(1);
+  transition: all 0.4s ease;
+  width: 3rem;
+  z-index: 1000;
+}
+button[data-toggle=main-nav] span, button[data-toggle=main-nav]::before, button[data-toggle=main-nav]::after {
+  transition: all 0.4s ease;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 3px;
+  width: 1.5rem;
+}
+button[data-toggle=main-nav] span {
+  text-indent: -100%;
+  overflow: hidden;
+}
+button[data-toggle=main-nav]::before {
+  content: "";
+  margin-top: 0.625rem;
+  transform-origin: center;
+}
+button[data-toggle=main-nav]::after {
+  content: "";
+  margin-bottom: 0.5rem;
+}
+button[data-toggle=main-nav]:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+button[data-toggle=main-nav]:hover span, button[data-toggle=main-nav]:hover::before, button[data-toggle=main-nav]:hover::after {
+  background-color: white;
+}
+button[data-toggle=main-nav]:active {
+  background-color: black;
+  transform: scale(1.125);
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true] {
+  background-color: var(--primary-color);
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true] span {
+  rotate: 45deg;
+  top: -14px;
+  position: relative;
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true]::before {
+  rotate: -45deg;
+  top: 5px;
+  position: relative;
+}
+button[data-toggle=main-nav][data-mobile-nav-open=true]::after {
+  display: none;
+}
+@media (min-width: 768px) {
+  button[data-toggle=main-nav] {
+    display: none;
+  }
 }
 
 header.site-header {
@@ -430,77 +501,6 @@ header.site-header nav[aria-label=Secondary] ul li.email, header.site-header nav
   }
 }
 
-button[data-toggle=main-nav] {
-  align-items: center;
-  appearance: none;
-  background-color: var(--gray-80);
-  border-radius: 50%;
-  border: none;
-  bottom: 2rem;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  height: 3rem;
-  justify-content: space-around;
-  left: 2rem;
-  position: fixed;
-  transform: scale(1);
-  transition: all 0.4s ease;
-  width: 3rem;
-  z-index: 1000;
-}
-button[data-toggle=main-nav] span, button[data-toggle=main-nav]::before, button[data-toggle=main-nav]::after {
-  transition: all 0.4s ease;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.75);
-  height: 3px;
-  width: 1.5rem;
-}
-button[data-toggle=main-nav] span {
-  text-indent: -100%;
-  overflow: hidden;
-}
-button[data-toggle=main-nav]::before {
-  content: "";
-  margin-top: 0.625rem;
-  transform-origin: center;
-}
-button[data-toggle=main-nav]::after {
-  content: "";
-  margin-bottom: 0.5rem;
-}
-button[data-toggle=main-nav]:hover {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-button[data-toggle=main-nav]:hover span, button[data-toggle=main-nav]:hover::before, button[data-toggle=main-nav]:hover::after {
-  background-color: white;
-}
-button[data-toggle=main-nav]:active {
-  background-color: black;
-  transform: scale(1.125);
-}
-button[data-toggle=main-nav][data-mobile-nav-open=true] {
-  background-color: var(--primary-color);
-}
-button[data-toggle=main-nav][data-mobile-nav-open=true] span {
-  rotate: 45deg;
-  top: -14px;
-  position: relative;
-}
-button[data-toggle=main-nav][data-mobile-nav-open=true]::before {
-  rotate: -45deg;
-  top: 5px;
-  position: relative;
-}
-button[data-toggle=main-nav][data-mobile-nav-open=true]::after {
-  display: none;
-}
-@media (min-width: 768px) {
-  button[data-toggle=main-nav] {
-    display: none;
-  }
-}
-
 a[title=Home] {
   display: flex;
   align-items: center;
@@ -694,7 +694,7 @@ footer nav[aria-label=Secondary] ul {
   background-image: linear-gradient(white, var(--gray-10));
   grid-area: gutter-posts-right;
 }
-.home-grid .background, .home-grid .section-tickets .background {
+.home-grid .background {
   background-image: url("../assets/images/hero-desktop.webp");
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -704,18 +704,18 @@ footer nav[aria-label=Secondary] ul {
   width: 100%;
 }
 @media (min-width: 768px) {
-  .home-grid .background, .home-grid .section-tickets .background {
+  .home-grid .background {
     background-size: 150%;
     text-align: left;
   }
 }
 @media (min-width: 992px) {
-  .home-grid .background, .home-grid .section-tickets .background {
+  .home-grid .background {
     background-size: 126%;
   }
 }
 @media (min-width: 1200px) {
-  .home-grid .background, .home-grid .section-tickets .background {
+  .home-grid .background {
     background-size: 100%;
   }
 }
@@ -886,9 +886,31 @@ footer nav[aria-label=Secondary] ul {
   background-color: var(--gray-20);
 }
 .home-grid .section-tickets .background {
-  background-image: url("../assets/images/home-about-bg-desktop.webp");
   background-blend-mode: overlay;
   background-color: var(--gray-20);
+  background-image: url("../assets/images/home-about-bg-desktop.webp");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .home-grid .section-tickets .background {
+    background-size: 150%;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .home-grid .section-tickets .background {
+    background-size: 126%;
+  }
+}
+@media (min-width: 1200px) {
+  .home-grid .section-tickets .background {
+    background-size: 100%;
+  }
 }
 @media (min-width: 1200px) {
   .home-grid .section-tickets {
@@ -944,14 +966,14 @@ footer nav[aria-label=Secondary] ul {
 }
 .home-grid .section-posts {
   grid-area: posts;
-  background-image: linear-gradient(white, var(--gray-10));
+  background-color: linear-gradient(white, var(--gray-20));
   padding-block: 1rem;
 }
 .home-grid .section-email {
   grid-area: email;
 }
 
-.artists-list, .featured-list,
+.artists-list,
 .vendors-list {
   list-style: none;
   padding: 0;
@@ -1042,6 +1064,12 @@ span.pagination__item {
 }
 
 .featured-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 340px));
+  gap: 1rem;
+  justify-content: center;
   margin-block-end: 4rem;
 }
 
@@ -1111,6 +1139,21 @@ span.pagination__item {
   padding: 0 1rem;
   background-image: linear-gradient(0.25turn, var(--white), var(--gray-10));
 }
+.post__link {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+.post__link:hover {
+  cursor: pointer;
+  background-color: var(--primary-color-light);
+  text-decoration: none;
+}
+
 .icon-link {
   width: 2rem;
   height: 2rem;
@@ -1185,6 +1228,20 @@ span.pagination__item {
   color: var(--white);
   margin-block-end: 1rem;
   padding: 0.5rem 1rem;
+}
+.email-form fieldset button[type=submit] {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+.email-form fieldset button[type=submit]:hover {
+  cursor: pointer;
+  background-color: var(--primary-color-light);
+  text-decoration: none;
 }
 .email-form fieldset input[type=email],
 .email-form fieldset button[type=submit] {

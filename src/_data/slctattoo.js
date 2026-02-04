@@ -1,6 +1,6 @@
 module.exports = {
   ticketLink: 'https://www.24tix.com/event/58398255072',
-  hotelLink: 'https://book.passkey.com/event/50915178/owner/1440/home',
+  hotelLink: 'https://book.passkey.com/event/51108115/owner/1440/home',
   facebookLink:
     'https://www.facebook.com/people/SLC-Tattoo-Expo/100083123352663/?mibextid=LQQJ4d',
   instagramLink: 'https://instagram.com/slctattooexpo',
