@@ -5,6 +5,6 @@ shop: Atomic Tattoos
 image: /assets/images/luis_gonzalez.jpg
 tags:
   - artist
-active: false
+active: true
 featured: false
 ---
