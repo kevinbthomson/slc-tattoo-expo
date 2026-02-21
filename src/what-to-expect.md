@@ -60,6 +60,10 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 ## 2﻿026 SCHEDULE
 
+**THURSDAY, MARCH 5TH**\
+**M﻿ANIC HISPANIC @ THE DEPOT! Doors Open at 7pm**\
+**T﻿ickets on sale at The Depot. [Buy Tickets HERE](https://www.ticketmaster.com/slc-tattoo-expo-presents-manic-hispanic-salt-lake-city-utah-03-05-2026/event/1E00643CDEF2A34E?_gl=1*1h052w0*_ga*MTg3MDY4NDExMi4xNzEyMTc4OTU4*_ga_C1T806G4DF*czE3NzE2OTg1OTAkbzE4JGcwJHQxNzcxNjk4NTkwJGo2MCRsMCRoMA..)**
+
 **FRIDAY, MARCH 6TH**
 
 **DOORS OPEN TO THE PUBLIC  3PM – 11PM**
