@@ -1,7 +1,7 @@
 ---
 name: Fibs
 instagram: https://www.instagram.com/fibs_/
-shop: Mecca Tattoo
+shop: Emaki Art Collective
 image: /assets/images/screenshot-2025-12-18-at-11.45.34 am.png
 tags:
   - artist
