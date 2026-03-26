@@ -966,7 +966,7 @@ footer nav[aria-label=Secondary] ul {
 }
 .home-grid .section-posts {
   grid-area: posts;
-  background-color: linear-gradient(white, var(--gray-20));
+  background-image: linear-gradient(white, var(--gray-10));
   padding-block: 1rem;
 }
 .home-grid .section-email {
