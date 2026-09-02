@@ -1,7 +1,7 @@
 ---
 title: LATEST NEWS
 description: SLC TATTOO EXPO RETURNS APRIL 23-25, 2027!
-date: 2026-09-02T21:12:43.231Z
+date: 2026-09-02T21:15:30.089Z
 ---
 The Salt Lake City Tattoo Expo returns April 23-25,  2027 at the Salt Palace Convention Center Hall E\
 Updates, Online ticketing and 2027 attending Artists will be available in the coming weeks.
