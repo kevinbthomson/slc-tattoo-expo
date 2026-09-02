@@ -1,15 +1,15 @@
 ---
 title: Location
-layout: 'layouts/page.njk'
+layout: layouts/page.njk
 ---
-
-## Salt Palace Convention center
+## Salt Palace Convention center\
+\*﻿\*NEW LOCATION\*\* HALL E
 
 #### <a href="https://www.visitsaltlake.com/salt-palace-convention-center/" title="visitsaltlake.com">visitsaltlake.com</a> | <a href="https://goo.gl/maps/fxMZsUBM1oNkbwZF6" target="_blank">View in maps</a>
 
-The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. **The Salt Lake City Tattoo Expo** is located on the west end of the center, and we recommend entering on the **300 West** entrance facing the Vivint Arena.
+The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. **The Salt Lake City Tattoo Expo** is located on the South East end of the convention center in **Hall E**, and we recommend entering on the 2**00 South** entrance facing the Holliday Inn Hotel
 
-The convetion center has two underground parking garages for your convenience.
+We recommend parking at the parking garage on the corner of 200 South and South Temple St.
 
 ## Radisson Hotel Salt Lake City Downtown
 
