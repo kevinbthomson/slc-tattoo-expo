@@ -6,7 +6,7 @@ layout: layouts/page.njk
 
 #### <a href="https://www.visitsaltlake.com/salt-palace-convention-center/" title="visitsaltlake.com">visitsaltlake.com</a> | <a href="https://goo.gl/maps/fxMZsUBM1oNkbwZF6" target="_blank">View in maps</a>
 
-The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. **The Salt Lake City Tattoo Expo** is located on the South East end of the convention center in **Hall E**, and we recommend entering on the 2**00 South** entrance facing the Holliday Inn Hotel
+The Salt Palace Convention Center facility takes up several square blocks, so there may be some walking involved before you reach your final destination. **The Salt Lake City Tattoo Expo** is located on the South East end of the convention center in **Hall E**, and we recommend entering on the 2**00 South** entrance next to the Hyatt
 
 We recommend parking at the parking garage on the corner of 200 South and South Temple St.
 
