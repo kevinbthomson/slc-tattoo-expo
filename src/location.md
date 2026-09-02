@@ -2,8 +2,7 @@
 title: Location
 layout: layouts/page.njk
 ---
-## Salt Palace Convention center\
-\*﻿\*NEW LOCATION\*\* HALL E
+## Salt Palace Convention Center **\*﻿\*NEW LOCATION\*\* HALL- E**
 
 #### <a href="https://www.visitsaltlake.com/salt-palace-convention-center/" title="visitsaltlake.com">visitsaltlake.com</a> | <a href="https://goo.gl/maps/fxMZsUBM1oNkbwZF6" target="_blank">View in maps</a>
 
