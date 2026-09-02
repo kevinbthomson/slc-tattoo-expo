@@ -1,9 +1,9 @@
 ---
 title: DAILY SCHEDULE
 description: "Schedule & Tattoo Contests "
-date: 2025-11-01T20:37:40.163Z
+date: 2026-09-02T21:14:27.328Z
 ---
-**FRIDAY, MARCH 6TH**
+**FRIDAY, APRIL 23RD**
 
 **DOORS OPEN TO THE PUBLIC  3PM – 11PM**
 
@@ -17,7 +17,7 @@ date: 2025-11-01T20:37:40.163Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SATURDAY, MARCH 7TH**
+**SATURDAY, APRIL 24TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 11PM**
 
@@ -35,7 +35,7 @@ date: 2025-11-01T20:37:40.163Z
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SUNDAY, MARCH 8TH**
+**SUNDAY, APRIL 25TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 8PM**
 
