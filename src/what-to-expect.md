@@ -12,14 +12,14 @@ If you are attending just to look, or are on the fence about getting a tattoo th
 
 #### 🗺️ Where is the Expo?
 
-S﻿alt Palace Convention Center Hall  5 (West Side)\
-A﻿cross 300 West facing The Delta Center Arena (This is the only Entry/Exit point)
+S﻿alt Palace Convention Center Hall  E (South East Side)\
+Entrance is located on 200 South next to the Hyatt
 
 #### ⏰ H﻿ours
 
-﻿Friday March 6th 3pm - 11pm\
-﻿Saturday March 7th 12pm - 11pm\
-﻿Sunday  March 8th 12pm - 8pm
+﻿Friday April 23rd 3pm - 11pm\
+﻿Saturday April 24th 12pm - 11pm\
+﻿Sunday  April 25th 12pm - 8pm
 
 #### 👶 Can I bring my kids?
 
@@ -54,17 +54,16 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 #### ?H﻿ow do I apply for a booth for my tattoo shop?
 
-### **T﻿he Salt Lake City Tattoo Expo is by invitation only. No open booths.**
+### **T﻿he Salt Lake City Tattoo Expo is INVITATION ONLY. (No open booths)**
 
 #### NO MOTORCYCLE CLUBS OR COLORS
 
-## 2﻿026 SCHEDULE
+## 2﻿027 SCHEDULE
 
-**THURSDAY, MARCH 5TH**\
-**M﻿ANIC HISPANIC @ THE DEPOT! Doors Open at 7pm**\
-**T﻿ickets on sale at The Depot. [Buy Tickets HERE](https://www.ticketmaster.com/slc-tattoo-expo-presents-manic-hispanic-salt-lake-city-utah-03-05-2026/event/1E00643CDEF2A34E?_gl=1*1h052w0*_ga*MTg3MDY4NDExMi4xNzEyMTc4OTU4*_ga_C1T806G4DF*czE3NzE2OTg1OTAkbzE4JGcwJHQxNzcxNjk4NTkwJGo2MCRsMCRoMA..)**
+**THURSDAY, APRIL 22ND**\
+**O﻿PENING PARTY - TBA**
 
-**FRIDAY, MARCH 6TH**
+**FRIDAY, APRIL 23RD**
 
 **DOORS OPEN TO THE PUBLIC  3PM – 11PM**
 
@@ -78,7 +77,7 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SATURDAY, MARCH 7TH**
+**SATURDAY, APRIL 24TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 11PM**
 
@@ -96,7 +95,7 @@ Y﻿ou will work out the price individually with your tattoo artist, however we 
 
 **TATTOO OF THE DAY CONTEST 10PM** *(No entry fee, contest registration all day. Must be started and completed on day of competition)*
 
-**SUNDAY, MARCH 8TH**
+**SUNDAY, APRIL 25TH**
 
 **DOORS OPEN TO THE PUBLIC NOON – 8PM**
 
