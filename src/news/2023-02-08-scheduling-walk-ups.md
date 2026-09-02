@@ -1,7 +1,7 @@
 ---
 title: Scheduling & Walk Ups
 description: How to get a tattoo at the Expo
-date: 2025-08-11T20:38:05.979Z
+date: 2026-09-02T21:18:31.827Z
 ---
 * Q: C﻿an I walk up to get a tattoo at the Expo or do I need to schedule and appointment? 
 
