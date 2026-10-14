@@ -218,6 +218,13 @@ p {
   text-align: center;
   text-shadow: 1px 1px 0.25rem white;
 }
+.hero-banner h3 {
+  color: var(--gray-80);
+  font-size: clamp(1rem, 5vw, 2rem);
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px 0.25rem white;
+}
 
 button[data-toggle=main-nav] {
   align-items: center;
@@ -346,7 +353,7 @@ header.site-header::before {
 header.site-header::after {
   display: none;
   right: 100px;
-  content: "2026";
+  content: "2027";
 }
 @media (min-width: 1200px) {
   header.site-header::after {

@@ -25,4 +25,12 @@
     text-align: center;
     text-shadow: 1px 1px 0.25rem white;
   }
+
+  h3 {
+    color: var(--gray-80);
+    font-size: clamp(1rem, 5vw, 2rem);
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 0.25rem white;
+  }
 }
